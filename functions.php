@@ -130,7 +130,7 @@ function enqueue_my_theme_styles(){
                 wp_enqueue_style( '/css/style.css' );
         }
 }
-add_action('enqueue_my_theme_styles' );
+//add_action('enqueue_my_theme_styles' );
 
 /**
  * Enqueue scripts and styles.
