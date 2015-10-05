@@ -112,8 +112,6 @@ add_action( 'widgets_init', 'uvalibrarystaff_widgets_init' );
 
 
 
-
-
 /**
  * Enqueue scripts and styles.
  */
