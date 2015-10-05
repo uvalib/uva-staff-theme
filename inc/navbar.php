@@ -18,10 +18,10 @@
 
 
                             <li><a href="<?php bloginfo(''); ?>/organizational-design/academic-engagement/"><h4>Academic Engagement</h4></a></li>
-                            <li><a href="<?php bloginfo('template_directory'); ?>/organizational-design/administration-planning/"><h4>Administration &amp; Planning</h4></a></li>
-                            <li><a href="<?php bloginfo('template_directory'); ?>/organizational-design/collections-access-discovery/"><h4>Collections, Access, and Discovery</h4></a></li>
-                            <li><a href="<?php bloginfo('template_directory'); ?>/organizational-design/content-stewardship/"><h4>Content Stewardship</h4></a></li>
-                            <li><a href="<?php bloginfo('template_directory'); ?>/organizational-design/library-experience/"><h4>Library Experience</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/organizational-design/administration-planning/"><h4>Administration &amp; Planning</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/organizational-design/collections-access-discovery/"><h4>Collections, Access, and Discovery</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/organizational-design/content-stewardship/"><h4>Content Stewardship</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/organizational-design/library-experience/"><h4>Library Experience</h4></a></li>
                         </ul>
                     </div>
 
