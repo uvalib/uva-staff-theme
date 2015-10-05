@@ -60,7 +60,7 @@
 
           <div class="col m12 l8" id="logo-container">
             <div class="section">
-                  <a href="#"><h1 class="brand-logo"><img src="wp-content/themes/uvalibrarystaff/images/UVaLibLogoHoriz.png" id="uvaLogo" /></a>
+                  <a href="#"><h1 class="brand-logo"><img src="<?php bloginfo('template_directory'); ?>/images/UVaLibLogoHoriz.png" id="uvaLogo" /></a>
             </div>
             <div class="divider"></div>
             <div class="section">
