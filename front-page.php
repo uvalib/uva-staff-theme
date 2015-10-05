@@ -18,7 +18,7 @@ get_header(); ?>
     <div class="slider">
     <ul class="slides">
       <li>
-        <img src="<?php bloginfo('template_directory'); ?>/images/staff-1.png"> <!-- random image -->
+        <img src="wp-content/themes/uvalibrarystaff/images/staff-1.png"> <!-- random image -->
         <div class="caption center-align" id="title1">
           <h3>Diversity &amp; Inclusion</h3>
           <h5 class="light grey-text text-lighten-3">Encouraging and celebrating our differences.</h5>
@@ -252,10 +252,6 @@ Read more »</li>
         </div>
 
 
-    </div><!--end row-->
-
-    </div>
-  </div>
 
 
   <div class="parallax-container valign-wrapper">

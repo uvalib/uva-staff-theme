@@ -21,7 +21,7 @@ get_header(); ?>
  <div class="container content">
 
 
-    <div class="section">
+ <div class="section">
  <div class="row">
 
       <div class="col s8"> 
@@ -42,13 +42,14 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 
-			</div>
-    </div><!--end row-->
-        </div><!--end section-->
+		</div>
+    </div>
+    			<?php get_sidebar(); ?>
   </div>
-
+  </div>
+</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
