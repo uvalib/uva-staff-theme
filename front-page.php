@@ -14,23 +14,51 @@ get_header(); ?>
 
 
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-       <!-- <h1 class="header center white-text text-lighten-2">Library Leadership Notes</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Read the latest announcements from SLT/ELT</h5>
-        </div>
-        <div class="row center">
-          <a href="http://leadership.library.virginia.edu" id="download-button" class="btn-large waves-effect waves-light orange darken-1">Read Now</a>
-        </div>
-        <br><br>-->
 
-      </div>
-    </div>
-    <div class="parallax"><img src="wp-content/themes/uvalibrarystaff/images/staff-1.png" alt="Unsplashed background img 2"></div>
-  </div>
+    <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="wp-content/themes/uvalibrarystaff/images/staff-1.png"> <!-- random image -->
+        <div class="caption center-align" id="title1">
+          <h3>Diversity &amp; Inclusion</h3>
+          <h5 class="light grey-text text-lighten-3">Encouraging and celebrating our differences.</h5>
+
+        </div>
+      </li>
+      <li>
+        <img src="wp-content/themes/uvalibrarystaff/images/staff-2.png"> <!-- random image -->
+        <div class="caption left-align" id="title2">
+          <h3>Integrity</h3>
+          <h5 class="light grey-text text-lighten-3">Being honest, open, fair, and trustworthy.</h5>
+
+      </li>
+      <li>
+        <img src="wp-content/themes/uvalibrarystaff/images/staff-3.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Respect</h3>
+          <h5 class="light grey-text text-lighten-3">Recognizing the dignity of everyone in the organization.</h5>
+
+        </div>
+      </li>
+      <li>
+        <img src="wp-content/themes/uvalibrarystaff/images/staff-4.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Collaboration</h3>
+          <h5 class="light grey-text text-lighten-3">Seeking out and appreciating all perspectives and contributions.</h5>
+
+        </div>
+      </li>
+        <li>
+        <img src="wp-content/themes/uvalibrarystaff/images/staff-5.png"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Innovation</h3>
+          <h5 class="light grey-text text-lighten-3">Challenging the status quo and rewarding responsible risk taking.</h5>
+        </div>
+      </li>
+    </ul>
+
+
+</div>
 
 
    <div class="container">
@@ -154,12 +182,6 @@ get_header(); ?>
 
 
 
-        <div class="col s4">
-       <div class="icon-block">
-           
-          </div>
-        </div>
-
 
       <div class="col s4">
        <div class="icon-block">
@@ -215,7 +237,7 @@ Read more »</li>
         </div>
 
 
- <div class="col s4">
+ <div class="col m12 l4">
        <div class="icon-block">
 
 
@@ -236,7 +258,6 @@ Read more »</li>
   </div>
 
 
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -245,9 +266,8 @@ Read more »</li>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="wp-content/themes/uvalibrarystaff/images/staff-3.jpeg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="wp-content/themes/uvalibrarystaff/images//staff-1.png" alt="Unsplashed background img 3"></div>
   </div>
-
 
 
 

@@ -1,5 +1,6 @@
 
 
+
   <nav class="orange darken-3" role="navigation">
     <div class="nav-wrapper container">
       <ul class="hide-on-med-and-down nav">
@@ -16,11 +17,11 @@
                         <ul>
 
 
-                            <li><a href="#"><h4>Academic Engagement</h4></a></li>
-                            <li><a href="#"><h4>Administration &amp; Planning</h4></a></li>
-                            <li><a href="#"><h4>Collections, Access, and Discovery</h4></a></li>
-                            <li><a href="#"><h4>Content Stewardship</h4></a></li>
-                            <li><a href="#"><h4>Library Experience</h4></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/organizational-design/academic-engagement/"><h4>Academic Engagement</h4></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/organizational-design/administration-planning/"><h4>Administration &amp; Planning</h4></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/organizational-design/collections-access-discovery/"><h4>Collections, Access, and Discovery</h4></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/organizational-design/content-stewardship/"><h4>Content Stewardship</h4></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/organizational-design/library-experience/"><h4>Library Experience</h4></a></li>
                         </ul>
                     </div>
 
@@ -29,8 +30,8 @@
 
                              <h3 class="noLinkHeader">General</h3>                   
                         <ul>
-                            <li><a href="#"><h4>Organizational Values</h4></a></li>
-                            <li><a href="#"><h4>Library Strategy</h4></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/organizational-design/organizational-values/"><h4>Organizational Values</h4></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/library_strategy/"><h4>Library Strategy</h4></a></li>
                               <li><a href="#"><h4>Town Meeting Notes</h3></a></li>
                             <li><a href="#"><h4>Library Leadership Notes</h3></a></li>
                         </ul>
@@ -206,29 +207,3 @@
     </div>
   </nav>
 
-
-
-
-
-<!--
-
- <nav class="white" role="navigation">
-
-
-
-
-<div id="menu" class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-      <?php wp_list_pages('title_li='); ?>
-    </ul>
-
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    </div>
-  </nav>
-
--->

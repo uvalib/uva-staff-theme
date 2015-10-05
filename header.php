@@ -18,10 +18,10 @@
   <!-- CSS  -->
   <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-<link href='http://fonts.googleapis.com/css?family=Limelight|Hind' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 
 
@@ -35,6 +35,11 @@
   <script src="/js/plugins/materialize.min.js"></script>
   <script src="/js/init.js"></script>
 
+
+
+  <script src="https://use.typekit.net/cwp8apd.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 <!--test comment-->
 <?php wp_head(); ?>
 </head>
@@ -47,29 +52,22 @@
 
 	<header id="masthead" class="site-header" role="banner">
 
-<div class="row lighten-4 topNav">
-  <div class="container" id="topNavLinks">
-        <div class="col s12">
-        <a href="http://www.virginia.edu"> U.Va. Home</a> | 
-        <a href="http://hr.virginia.edu"> U.Va. Human Resources</a> | 
-        <a href="http://library.virginia.edu"> U.Va. Library Home</a> | 
-        <a href="http://library.virginia.edu"> Staff Directory</a> | 
-        <a href="http://www.virginia.edu">SSTL</a> | 
-        <a href="http://www.virginia.edu">Benefits@U.Va.</a> | 
-        <a href="http://www.virginia.edu">Lead@U.Va.</a>
-        </div>
-  </div>
-</div>
 
 
 
   <div class="container" id="header">
-    <div class="row" id="logo">
+    <div class="row valign-wrapper">
 
-          <div class="col s8">
-                  <a id="logo-container" href="#" class="brand-logo left"><img src="/wp-content/uploads/2015/08/UVaLibLogo.png" id="uvaLogo" /></a><a href=""><h1 class="header left-align black-text">Staff</h1></a>
+          <div class="col m12 l8" id="logo-container">
+            <div class="section">
+                  <a href="#"><h1 class="brand-logo"><img src="wp-content/themes/uvalibrarystaff/images/UVaLibLogoHoriz.png" id="uvaLogo" /></a>
+            </div>
+            <div class="divider"></div>
+            <div class="section">
+                      <a href=""><h1>Staff</h1></a>
+            </div>
           </div>
-          <div class="col s4">
+          <div class="col m12 l4">
                   <form>
                     <div class="input-field">
                       <input id="search" type="search" required>
@@ -79,6 +77,7 @@
                   </form>
            </div>
     </div>
+  
 
   </div>
 

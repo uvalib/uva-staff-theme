@@ -114,24 +114,6 @@ add_action( 'widgets_init', 'uvalibrarystaff_widgets_init' );
 
 
 
-
-//Register the stylesheet first
-
-function register_my_theme_styles(){
-        if ( ! is_admin() ){
-                wp_register_style( '/css/style.css', get_stylesheet_uri(), array(), false, 'screen' );
-        }
-}
-add_action( 'init', 'register_my_theme_styles' );
-//Then enqueue it
-
-function enqueue_my_theme_styles(){
-        if ( ! is_admin() ){
-                wp_enqueue_style( '/css/style.css' );
-        }
-}
-//add_action('enqueue_my_theme_styles' );
-
 /**
  * Enqueue scripts and styles.
  */
@@ -141,6 +123,7 @@ function uvalibrarystaff_scripts() {
 
 	wp_enqueue_script( 'uvalibrarystaff-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
+	wp_enqueue_script( 'uvalibrarystaff-materialize', get_template_directory_uri() . '/js/plugins/materialize.min.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'uvalibrarystaff-init', get_template_directory_uri() . '/js/init.js', array(), '20120206', true );
 
