@@ -117,7 +117,7 @@ add_action( 'widgets_init', 'uvalibrarystaff_widgets_init' );
 
 //Register the stylesheet first
 
-function register_my_theme_styles(){
+/*function register_my_theme_styles(){
         if ( ! is_admin() ){
                 wp_register_style( '/css/style.css', get_stylesheet_uri(), array(), false, 'screen' );
         }
@@ -130,7 +130,7 @@ function enqueue_my_theme_styles(){
                 wp_enqueue_style( '/css/style.css' );
         }
 }
-//add_action('enqueue_my_theme_styles' );
+add_action('enqueue_my_theme_styles' );*/
 
 /**
  * Enqueue scripts and styles.
