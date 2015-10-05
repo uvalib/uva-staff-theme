@@ -18,7 +18,7 @@ get_header(); ?>
     <div class="slider">
     <ul class="slides">
       <li>
-        <img src="wp-content/themes/uvalibrarystaff/images/staff-1.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff-1.png"> <!-- random image -->
         <div class="caption center-align" id="title1">
           <h3>Diversity &amp; Inclusion</h3>
           <h5 class="light grey-text text-lighten-3">Encouraging and celebrating our differences.</h5>
@@ -26,14 +26,14 @@ get_header(); ?>
         </div>
       </li>
       <li>
-        <img src="wp-content/themes/uvalibrarystaff/images/staff-2.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff-2.png"> <!-- random image -->
         <div class="caption left-align" id="title2">
           <h3>Integrity</h3>
           <h5 class="light grey-text text-lighten-3">Being honest, open, fair, and trustworthy.</h5>
 
       </li>
       <li>
-        <img src="wp-content/themes/uvalibrarystaff/images/staff-3.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff-3.png"> <!-- random image -->
         <div class="caption center-align">
           <h3>Respect</h3>
           <h5 class="light grey-text text-lighten-3">Recognizing the dignity of everyone in the organization.</h5>
@@ -41,7 +41,7 @@ get_header(); ?>
         </div>
       </li>
       <li>
-        <img src="wp-content/themes/uvalibrarystaff/images/staff-4.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff-4.png"> <!-- random image -->
         <div class="caption center-align">
           <h3>Collaboration</h3>
           <h5 class="light grey-text text-lighten-3">Seeking out and appreciating all perspectives and contributions.</h5>
@@ -49,7 +49,7 @@ get_header(); ?>
         </div>
       </li>
         <li>
-        <img src="wp-content/themes/uvalibrarystaff/images/staff-5.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff-5.png"> <!-- random image -->
         <div class="caption left-align">
           <h3>Innovation</h3>
           <h5 class="light grey-text text-lighten-3">Challenging the status quo and rewarding responsible risk taking.</h5>
@@ -266,7 +266,7 @@ Read more »</li>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="wp-content/themes/uvalibrarystaff/images//staff-1.png" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="<?php bloginfo('template_directory'); ?>/images/staff-1.png" alt="Unsplashed background img 3"></div>
   </div>
 
 
