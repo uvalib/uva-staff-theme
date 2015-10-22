@@ -18,7 +18,7 @@ get_header(); ?>
     <div class="slider">
     <ul class="slides">
       <li>
-        <img src="wp-content/themes/uvalibrarystaff/images/staff-1.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff_1.png"> <!-- random image -->
         <div class="caption center-align" id="title1">
           <h3>Diversity &amp; Inclusion</h3>
           <h5 class="light grey-text text-lighten-3">Encouraging and celebrating our differences.</h5>
@@ -26,14 +26,14 @@ get_header(); ?>
         </div>
       </li>
       <li>
-        <img src="<?php bloginfo('template_directory'); ?>/images/staff-2.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff_2.png"> <!-- random image -->
         <div class="caption left-align" id="title2">
           <h3>Integrity</h3>
           <h5 class="light grey-text text-lighten-3">Being honest, open, fair, and trustworthy.</h5>
 
       </li>
       <li>
-        <img src="<?php bloginfo('template_directory'); ?>/images/staff-3.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff_3.png"> <!-- random image -->
         <div class="caption center-align">
           <h3>Respect</h3>
           <h5 class="light grey-text text-lighten-3">Recognizing the dignity of everyone in the organization.</h5>
@@ -41,7 +41,7 @@ get_header(); ?>
         </div>
       </li>
       <li>
-        <img src="<?php bloginfo('template_directory'); ?>/images/staff-4.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff_4.png"> <!-- random image -->
         <div class="caption center-align">
           <h3>Collaboration</h3>
           <h5 class="light grey-text text-lighten-3">Seeking out and appreciating all perspectives and contributions.</h5>
@@ -49,7 +49,7 @@ get_header(); ?>
         </div>
       </li>
         <li>
-        <img src="<?php bloginfo('template_directory'); ?>/images/staff-5.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff_5.png"> <!-- random image -->
         <div class="caption left-align">
           <h3>Innovation</h3>
           <h5 class="light grey-text text-lighten-3">Challenging the status quo and rewarding responsible risk taking.</h5>
@@ -186,26 +186,15 @@ get_header(); ?>
       <div class="col s4">
        <div class="icon-block">
             <h5 class="center">Learning Calendar and Staff Events</h5>
+<!--<?php $category_id = get_cat_id('Staff Events'); echo $category_id ?>-->
 
-           <ul>
-  <li><a href=""><h6>Learning Calendar Event One</h6></a>
-
-<p class="light truncate">Resources for Managers and Supervisors   Library Resources Library Management Training Series, 1 Module 1 – Managing Performance with the Lead@ System Module 2 – Job Descriptions, Role Changes, and Recruitment Module 3 – Employee Relations Module 4 – Off-boarding and Succession Training Professional Development Funding Policy (new) Rewards &amp; Recognition Policy (new) Supervisor’s Checklist […]</p>
-
-<a class="right-align" href="">Read more »</a></li>
-
-<li><a href=""><h6>Staff Event One</h6></a>
-
-<p class="light truncate">The Library User Survey data report and the Powerpoint slides from the Library-wide presentation are available. Please feel free to discuss the data results from the report with colleagues within the UVa community. Comments from the survey are presented for elucidation. In the interest of assuring confidentiality, we ask that you not share these comments external to […]</p>
-
-Read more »</li>
-
-
-
-<li><a href=""><h6>Learning Calendar Event Two</h6></a>
-
-<p class="light truncate">Rebecca Graham at ELT, June 9, 2015</p></li>
-</ul>
+                <ul>       <?php query_posts('cat=76,77&showposts=5'); ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+  <li><a href="<?php the_permalink() ?>"><h6><?php the_title(); ?></h6></a>
+    <p class="light truncate"><?php the_excerpt() ?></p>
+    <a class="right-align" href="">Read more »</a></li>
+  </li>
+<?php endwhile; endif; ?>
 
 <a class="btn-large waves-effect waves-light orange darken-1">View all Staff events</a>
 
@@ -218,15 +207,26 @@ Read more »</li>
       <div class="col s4">
        <div class="icon-block">
 
+        <?php
+     $today = current_time('mysql', 1);
+     $howMany = 5;
 
-          <h5 class="center">Recently Updated Pages</h5>
+     if ( $recentposts = $wpdb->get_results("SELECT ID, post_title FROM $wpdb->posts WHERE post_status = 'publish' AND post_modified_gmt < '$today' ORDER BY post_modified_gmt DESC LIMIT $howMany")):
+?>
+<h5 class="center"><?php _e("Recently Updated Pages</h5>"); ?></h5>
 <ul>
-<li><a href="">Jun 16th, 3:38 pm - Resources for Managers and Supervisors</a></li>
-<li><a href="">Jun 15th, 9:33 am - 2015 Library User Survey results and presentation documents are now available.</a></li>
-<li><a href="">Jun 12th, 9:53 am - Notes from Rebecca Graham at ELT, June 9 2015</a></li>
-<li><a href="">Jun 2nd, 1:22 pm - Learning and Development Calendar for June, July, and August, 2015</a></li>
-<li><a href="">May 8th, 1:43 pm - Notes from Friday Coffee, May 8, 2015</a></li>
+<?php
+foreach ($recentposts as $post) {
+     if ($post->post_title == '') $post->post_title = sprintf(__('Post #%s'), $post->ID);
+     echo "<li><a href='".get_permalink($post->ID)."'>";
+     the_title();
+     echo '</a></li>';
+}
+?>
 </ul>
+<?php endif; ?>
+
+
 
 
 

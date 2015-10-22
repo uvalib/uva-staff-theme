@@ -345,7 +345,7 @@ object {
 
 body{
 
-  background-image:url("/images/starburst_small.png");
+  background-image:url("images/starburst_small.png");
   background-repeat: repeat;
 }
 
@@ -385,12 +385,11 @@ z-index:9999;
   }
 
 .slides #title1 {
-background:url("/images/title_1.png") top left no-repeat;
+background:url("images/title_1.png") top left no-repeat;
 }
 
 .slides #title2 {
-background:url("/images/title_2.png") top left no-repeat;
-background-color: rgba(255, 255, 255, 0.5); 
+background:url("images/title_2.png") top left no-repeat;
 }
 
 
