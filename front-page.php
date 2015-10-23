@@ -254,7 +254,10 @@ foreach ($recentposts as $post) {
 
 
 
-  <div class="parallax-container valign-wrapper">
+    </main><!-- #main -->
+  </div><!-- #primary -->
+
+    <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -262,13 +265,9 @@ foreach ($recentposts as $post) {
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="<?php bloginfo('template_directory'); ?>/images/staff-1.png" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="<?php bloginfo('template_directory'); ?>/images/staff-1.png">" /></div>
   </div>
 
-
-
-    </main><!-- #main -->
-  </div><!-- #primary -->
 
 <?php get_footer(); ?>
   
