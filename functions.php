@@ -44,7 +44,7 @@ function uvalibrarystaff_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary Menu', 'uvalibrarystaff' ),
+		'primary' => __( 'Sidebar Navigation', 'uvalibrarystaff' ),
 	) );
 
 	/*
@@ -158,3 +158,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Register Custom Navigation Walker to implement the materialize style sidebar navigation.
+ */
+require_once(get_template_directory() . '/inc/sidebar_materialize_navwalker.php');
