@@ -6,7 +6,7 @@
       <ul class="hide-on-med-and-down nav">
 
 
- <li><a href="organizational-design.html">Our Organization</a>
+ <li><a href="<?php bloginfo(''); ?>/">Our Organization</a>
 
                   <div>
 
@@ -30,23 +30,24 @@
 
                              <h3 class="noLinkHeader">General</h3>                   
                         <ul>
-                            <li><a href="https://staffweb.lib.virginia.edu/organizational-design/organizational-values/"><h4>Organizational Values</h4></a></li>
-                            <li><a href="https://staffweb.lib.virginia.edu/library_strategy/"><h4>Library Strategy</h4></a></li>
-                              <li><a href="#"><h4>Town Meeting Notes</h3></a></li>
-                            <li><a href="#"><h4>Library Leadership Notes</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/organizational-design/organizational-values/"><h4>Organizational Values</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/organizational-design/staff-resources-for-organizational-change/"><h4>Staff Resources for Organizational Change</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/library_strategy/"><h4>Library Strategy</h4></a></li>
+                              <li><a href="<?php bloginfo(''); ?>/category/town-meeting-notes/"><h4>Town Meeting Notes</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/category/library-leadership-notes/"><h4>Library Leadership Notes</h3></a></li>
                         </ul>
                     </div>
 
                      <div class="nav-column">
                         <h3 class="noLinkHeader">Cross-Area Groups</h3>
                         <ul>
-                            <li><a href="#"><h4>Ergonomics Team</h4></a></li>
-                            <li><a href="#"><h4>Expert Testers Group</h4></a></li>
-                            <li><a href="#"><h4>Lib-EP Community</h4></a></li>
-                            <li><a href="#"><h4>GreenLib Community</h4></a></li>
-                            <li><a href="#"><h4>Professional development working group</h4></a></li>
-                            <li><a href="#"><h4>Professional Interests Committee (PIC)</h4></a></li>
-                            <li><a href="#"><h4>User Experience Community</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Ergonomics Team</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/groups/expert-testers/"><h4>Expert Testers Group</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Lib-EP Community</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>GreenLib Community</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Professional development working group</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/groups/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>User Experience Community</h4></a></li>
                         </ul>
                     </div>
 
@@ -56,7 +57,7 @@
 
         </li>
       
-        <li><a href="#">Employee Resources</a>
+        <li><a href="<?php bloginfo(''); ?>/">Employee Resources</a>
             <div>
 
 
@@ -65,59 +66,59 @@
                     <div class="nav-column">
                         <h3 class="noLinkHeader">Computing</h3>
                         <ul>
-                            <li><a href="#"><h4>Staff Computing &amp; Technology</h4></a></li>
-                            <li><a href="#"><h4>Logins</h4></a>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Staff Computing &amp; Technology</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Logins</h4></a>
                                 <ul>
-                                    <li><a href="#"><h5>Director's Station</h5></a></li>
-                                    <li><a href="#"><h5>Piwik</h5></a></li>
-                                    <li><a href="#"><h5>LibGuides (or LibApps)</h5></a></li>
+                                    <li><a href="<?php bloginfo(''); ?>/"><h5>Director's Station</h5></a></li>
+                                    <li><a href="<?php bloginfo(''); ?>/"><h5>Piwik</h5></a></li>
+                                    <li><a href="<?php bloginfo(''); ?>/"><h5>LibGuides (or LibApps)</h5></a></li>
                                 </ul>
 
 
 
                                     </li>
-                            <li><a href="#"><h4>Public Services Wiki</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Public Services Wiki</h4></a></li>
                         </ul>
                     </div>
                      
                     <div class="nav-column">
                         <h3 class="noLinkHeader">Library Human Resources</h3>
                         <ul>
-                            <li><a href="#"><h4>Tax Forms</h4></a></li>
-                            <li><a href="#"><h4>Open Positions</h4></a></li>
-                            <li><a href="#"><h4>Performance Review Information</h4></a></li>
-                            <li><a href="#"><h4>Faculty promotion guidelines &amp; review</h4></a></li>
-                            <li><a href="#"><h4>University Faculty Policies</h4></a></li>
-                            <li><a href="#"><h4>University Staff Policies</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Tax Forms</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Open Positions</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Performance Review Information</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Faculty promotion guidelines &amp; review</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>University Faculty Policies</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>University Staff Policies</h4></a></li>
                         </ul>
                     </div>
                      <div class="nav-column">
                         <h3 class="noLinkHeader">Professional Development</h3>
                         <ul>
-                            <li><a href="#"><h4>Learning Calendar</h4></a></li>
-                            <li><a href="#"><h4>Leadership programs for librarians</h4></a></li>
-                            <li><a href="#"><h4>Professional development Working Group</h4></a></li>
-                            <li><a href="#"><h4>Professional Development Funding Program</h4></a></li>
-                            <li><a href="#"><h4>Professional Interests Committee (PIC)</h4></a></li>
-                            <li><a href="#"><h4>Training and professional development opportunities</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Learning Calendar</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Leadership programs for librarians</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Professional development Working Group</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Professional Development Funding Program</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Professional Interests Committee (PIC)</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Training and professional development opportunities</h4></a></li>
                         </ul>
                     </div>
                     <div class="nav-column">
-                        <h4><a href="">Resources for Managers &amp; Supervisors</a></h4>
+                        <h4><a href="<?php bloginfo(''); ?>/">Resources for Managers &amp; Supervisors</a></h4>
                     </div>                   
                 </div>
         </li>
 
 
-<li><a href="#">Library Data &amp; Statistics</a>
+<li><a href="<?php bloginfo(''); ?>/">Library Data &amp; Statistics</a>
 
 <div>
 
                     <div class="nav-column">
 
                         <ul>
-                            <li><a href="#"><h4>User Survey</h3></a></li><br />
-                            <li><a href="#"><h4>Statistics</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>User Survey</h3></a></li><br />
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Statistics</h3></a></li>
                         </ul>
                     </div>
 
@@ -127,7 +128,7 @@
 
         </li>
        
-        <li><a href="#">Forms</a>
+        <li><a href="<?php bloginfo(''); ?>/">Forms</a>
 
 <div>
 
