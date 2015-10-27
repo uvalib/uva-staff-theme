@@ -186,9 +186,9 @@ get_header(); ?>
       <div class="col s4">
        <div class="icon-block">
             <h5 class="center">Learning Calendar and Staff Events</h5>
-<?php $category_id = get_cat_id('Staff Events'); echo $category_id ?>
+<!--<?php $category_id = get_cat_id('Staff Events'); echo $category_id ?>-->
 
-                <ul>       <?php query_posts('cat=140,77&showposts=5'); ?>
+                <ul>       <?php query_posts('cat=140,141&showposts=5'); ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <li><a href="<?php the_permalink() ?>"><h6><?php the_title(); ?></h6></a>
     <p class="light truncate"><?php the_excerpt() ?></p>
