@@ -196,7 +196,7 @@ get_header(); ?>
   </li>
 <?php endwhile; endif; ?>
 
-<a class="btn-large waves-effect waves-light orange darken-1">View all Staff events</a>
+<a class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
 
           </div>
         </div>
@@ -228,7 +228,7 @@ foreach ($recentposts as $post) {
 
 
 
-
+<a class="btn-large waves-effect waves-light orange darken-1">Login to the Wordpress Dashboard</a>
 
 
 

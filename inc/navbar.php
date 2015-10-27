@@ -66,18 +66,18 @@
                     <div class="nav-column">
                         <h3 class="noLinkHeader">Computing</h3>
                         <ul>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Staff Computing &amp; Technology</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/category/staff-computing-technology/"><h4>Staff Computing &amp; Technology</h4></a></li>
                             <li><a href="<?php bloginfo(''); ?>/"><h4>Logins</h4></a>
                                 <ul>
                                     <li><a href="<?php bloginfo(''); ?>/"><h5>Director's Station</h5></a></li>
-                                    <li><a href="<?php bloginfo(''); ?>/"><h5>Piwik</h5></a></li>
+                                    <li><a href="http://analytics.lib.virginia.edu"><h5>Piwik</h5></a></li>
                                     <li><a href="<?php bloginfo(''); ?>/"><h5>LibGuides (or LibApps)</h5></a></li>
                                 </ul>
 
 
 
                                     </li>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Public Services Wiki</h4></a></li>
+                            <li><a href="https://ref.lib.virginia.edu"><h4>Public Services Wiki</h4></a></li>
                         </ul>
                     </div>
                      
