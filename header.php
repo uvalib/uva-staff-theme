@@ -46,11 +46,11 @@
 
           <div class="col m12 l8" id="logo-container">
             <div class="section">
-                  <a href="<?php bloginfo(''); ?>/"><h1 class="brand-logo"><img src="<?php bloginfo('template_directory'); ?>/images/UVaLibLogoHoriz.png" id="uvaLogo" /></a>
+                  <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><h1 class="brand-logo"><img src="<?php bloginfo('template_directory'); ?>/images/UVaLibLogoHoriz.png" id="uvaLogo" /></a>
             </div>
             <div class="divider"></div>
             <div class="section">
-                      <a href="<?php bloginfo(''); ?>/"><h1>Staff</h1></a>
+                      <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><h1>Staff</h1></a>
             </div>
           </div>
           <div class="col m12 l4">
