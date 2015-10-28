@@ -6,7 +6,7 @@
       <ul class="hide-on-med-and-down nav">
 
 
- <li><a href="<?php bloginfo(''); ?>/">Our Organization</a>
+ <li><a href="<?php bloginfo(''); ?>/our-organization">Our Organization</a>
 
                   <div>
 
@@ -57,7 +57,7 @@
 
         </li>
       
-        <li><a href="<?php bloginfo(''); ?>/">Employee Resources</a>
+        <li><a href="<?php bloginfo(''); ?>/employee-resources">Employee Resources</a>
             <div>
 
 
@@ -167,7 +167,7 @@
 
 
 
-          <li><a href="<?php bloginfo(''); ?>/emergency">Emergency Preparedness</a>
+          <li><a href="<?php bloginfo(''); ?>/emergency-preparedness">Emergency Preparedness</a>
 
 
           <div>
@@ -204,8 +204,8 @@
       <ul id="nav-mobile" class="side-nav">
         <li><a href="<?php bloginfo(''); ?>/our-organization">Our Organization</a></li>
         <li><a href="<?php bloginfo(''); ?>/employee-resources">Employee Resources</a></li>
-        <li><a href="<?php bloginfo(''); ?>/library-data-statistics">Library Data &amp; Statistics</a></li>
-        <li><a href="<?php bloginfo(''); ?>/forms">Forms</a></li>
+        <li><a href="<?php bloginfo(''); ?>/data">Library Data &amp; Statistics</a></li>
+        <li><a href="<?php bloginfo(''); ?>/category/forms/">Forms</a></li>
         <li><a href="<?php bloginfo(''); ?>/emergency-preparedness">Emergency Preparedness</a></li>
           <li><a href="<?php bloginfo(''); ?>/about">About</a></li>
       </ul>
