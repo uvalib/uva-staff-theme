@@ -71,7 +71,7 @@
                                 <ul>
                                     <li><a href="<?php bloginfo(''); ?>/"><h5>Director's Station</h5></a></li>
                                     <li><a href="http://analytics.lib.virginia.edu"><h5>Piwik</h5></a></li>
-                                    <li><a href="<?php bloginfo(''); ?>/"><h5>LibGuides (or LibApps)</h5></a></li>
+                                    <li><a href="https://ref.lib.virginia.edu"><h5>LibGuides (or LibApps)</h5></a></li>
                                 </ul>
 
 
@@ -85,40 +85,42 @@
                         <h3 class="noLinkHeader">Library Human Resources</h3>
                         <ul>
                             <li><a href="<?php bloginfo(''); ?>/"><h4>Tax Forms</h4></a></li>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Open Positions</h4></a></li>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Performance Review Information</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/category/open-positions-selections/"><h4>Open Positions</h4></a></li>
+                            <li><a href="http://www.hr.virginia.edu/hr-for-you/managers/performance-management/performance-process/"><h4>Performance Review Information</h4></a></li>
                             <li><a href="<?php bloginfo(''); ?>/"><h4>Faculty promotion guidelines &amp; review</h4></a></li>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>University Faculty Policies</h4></a></li>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>University Staff Policies</h4></a></li>
+                            <li><a href="http://provost.virginia.edu/faculty-resources/policies"><h4>University Faculty Policies</h4></a></li>
+                            <li><a href="http://www.hr.virginia.edu/hr-for-you/classified-staff/classified-staff-policies-procedures/"><h4>Classified Staff Policies</h4></a></li>
+                            <li><a href="<http://www.hr.virginia.edu/hr-for-you/university-staff/university-staff-policies-and-procedures/"><h4>University Staff Policies</h4></a></li>
                         </ul>
                     </div>
                      <div class="nav-column">
                         <h3 class="noLinkHeader">Professional Development</h3>
                         <ul>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Learning Calendar</h4></a></li>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Leadership programs for librarians</h4></a></li>
+                            <li><a href="http://staff.lib.virginia.edu/HR/training/calendar.html"><h4>Learning Calendar</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/hr-budget-grants/leadership-programs-for-academic-librarians/"><h4>Leadership programs for librarians</h4></a></li>
                             <li><a href="<?php bloginfo(''); ?>/"><h4>Professional development Working Group</h4></a></li>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Professional Development Funding Program</h4></a></li>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Professional Interests Committee (PIC)</h4></a></li>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Training and professional development opportunities</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/policies/professional-development-funding-program/"><h4>Professional Development Funding Program</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/hr-budget-grants/training-professional-development/"><h4>Training and professional development opportunities</h4></a></li>
                         </ul>
                     </div>
                     <div class="nav-column">
-                        <h4><a href="<?php bloginfo(''); ?>/">Resources for Managers &amp; Supervisors</a></h4>
+                        <h4><a href="<?php bloginfo(''); ?>/hr-budget-grants/resources-for-managers-and-supervisors/">Resources for Managers &amp; Supervisors</a></h4>
                     </div>                   
                 </div>
         </li>
 
 
-<li><a href="<?php bloginfo(''); ?>/">Library Data &amp; Statistics</a>
+<li><a href="<?php bloginfo(''); ?>/data/">Library Data &amp; Statistics</a>
 
 <div>
 
                     <div class="nav-column">
 
                         <ul>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>User Survey</h3></a></li><br />
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Statistics</h3></a></li>
+                            <li><a href="http://assessment.library.virginia.edu/surveys-and-reports/"><h4>User Survey</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/web-analytics-dashboard/"><h4>Web Analytics Dashboard</h3></a></li>
+                            <li><a href="http://assessment.library.virginia.edu/statistics/"><h4>Statistics</h3></a></li>
                         </ul>
                     </div>
 
@@ -128,7 +130,7 @@
 
         </li>
        
-        <li><a href="<?php bloginfo(''); ?>/">Forms</a>
+        <li><a href="<?php bloginfo(''); ?>/category/forms/">Forms</a>
 
 <div>
 
@@ -136,12 +138,14 @@
 
                         
                         <ul>
-                            <li><a href="#"><h4>LTS Help Ticket</h3></a></li>
-                            <li><a href="#"><h4>PCS Help Ticket</h3></a></li>
-                            <li><a href="#"><h4>Student Permission Form </h3></a></li>
-                            <li><a href="#"><h4>Reward &amp; Recognition Form </h3></a></li>
-                            <li><a href="#"><h4>UX Community Suggestion Form</h3></a></li>
+                            <li><a href="http://staff.lib.virginia.edu/systems/libsys/help-request.php"><h4>LTS Help Ticket</h3></a></li>
+                            <li><a href="http://www.virginia.edu/uvaprint/pcshelp/"><h4>PCS Help Ticket</h3></a></li>
+                            <li><a href="http://staff.lib.virginia.edu/systems/facilities/facilities-help-request.php"><h4>Student Permission Form </h3></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/forms/reward-recognition-award-form/"><h4>Reward &amp; Recognition Form </h3></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/presformpage1/"><h4>Preservation Assessment Form</h3></a></li>
                             <li><a href="#"><h4>User Education Instruction Statistics Collection Form</h3></a></li>
+                            <li><a href="http://www.vsp.state.va.us/downloads/SP167.pdf"><h4>Student Background Check Form</h3></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/forms/student-personnel-action/"><h4>Student Personnel Action Form</h3></a></li>
                         </ul>
                     </div>
 
@@ -163,7 +167,7 @@
 
 
 
-          <li><a href="#">Emergency Preparedness</a>
+          <li><a href="<?php bloginfo(''); ?>/emergency">Emergency Preparedness</a>
 
 
           <div>
@@ -172,14 +176,14 @@
 
                         
                         <ul>
-                            <li><a href="#"><h4>Emergency Plans</h3></a></li>
-                            <li><a href="#"><h4>Policies</h3></a></li>
-                            <li><a href="#"><h4>Incident Reporting Form</h3></a></li>
-                            <li><a href="#"><h4>Agency Closing Manual Instructions</h3></a></li>
-                            <li><a href="#"><h4>CPR Certified Employees</h3></a></li>
-                            <li><a href="#"><h4>Critical Incident Plan</h3></a></li>
-                            <li><a href="#"><h4>Inclement Weather Policy</h3></a></li>
-                            <li><a href="#"><h4>Library Building &amp; Space Emergencies</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/emergency/"><h4>Emergency Plans</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Policies</h3></a></li>
+                            <li><a href="https://www.library.virginia.edu/report-library-incident/"><h4>Incident Reporting Form</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/wp-content/uploads/2013/03/Agency_Closing-Manual-Instructions.pdf"><h4>Agency Closing Manual Instructions</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/wp-content/uploads/2012/08/2011cpraed1staid_certs.pdf"><h4>CPR Certified Employees</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/wp-content/uploads/2012/08/CIP_2012.pdf"><h4>Critical Incident Plan</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/inclement-weather-policy-draft/"><h4>Inclement Weather Policy</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/library-building-space-emergencies"><h4>Library Building &amp; Space Emergencies</h3></a></li>
                         </ul>
                     </div>
 
@@ -193,16 +197,17 @@
 
           </li>
 
-          <li><a href="#">About</a>
+          <li><a href="<?php bloginfo(''); ?>/about">About</a>
 
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Announcements</a></li>
-        <li><a href="#">Employee Services</a></li>
-        <li><a href="#">Organizational Design</a></li>
-        <li><a href="#">Forms</a></li>
-          <li><a href="#">In an Emergency</a></li>
+        <li><a href="<?php bloginfo(''); ?>/our-organization">Our Organization</a></li>
+        <li><a href="<?php bloginfo(''); ?>/employee-resources">Employee Resources</a></li>
+        <li><a href="<?php bloginfo(''); ?>/library-data-statistics">Library Data &amp; Statistics</a></li>
+        <li><a href="<?php bloginfo(''); ?>/forms">Forms</a></li>
+        <li><a href="<?php bloginfo(''); ?>/emergency-preparedness">Emergency Preparedness</a></li>
+          <li><a href="<?php bloginfo(''); ?>/about">About</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
