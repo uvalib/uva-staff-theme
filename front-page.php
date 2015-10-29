@@ -243,10 +243,15 @@ foreach ($recentposts as $post) {
 
           <h5 class="center">Library Social Media Feeds</h5>
 
+<?php include_once(ABSPATH.WPINC.'/rss.php');
+$feed = fetch_rss('http://static.lib.virginia.edu/feeds/staffSocial.xml');
+$items = array_slice($feed->items, 0, 10);
 
-
-
-
+foreach ($items as $item):
+?>
+<h6><a href="<?php echo $item['link']; ?>"><?php echo $item['title']; ?></a></h6>
+<p><?php echo $item['description']; ?></p>
+<?php endforeach; ?>
 
           </div>
         </div>
