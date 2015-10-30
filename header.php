@@ -22,12 +22,12 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+	<?php wp_head(); ?>
 
   <script src="https://use.typekit.net/cwp8apd.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <!--test comment-->
-<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -46,11 +46,11 @@
 
           <div class="col m12 l8" id="logo-container">
             <div class="section">
-                  <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><h1 class="brand-logo"><img src="<?php bloginfo('template_directory'); ?>/images/UVaLibLogoHoriz.png" id="uvaLogo" /></a>
+                  <a href="#"><h1 class="brand-logo"><img src="<?php bloginfo('template_directory'); ?>/images/UVaLibLogoHoriz.png" id="uvaLogo" /></a>
             </div>
             <div class="divider"></div>
             <div class="section">
-                      <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><h1>Staff</h1></a>
+                      <a href=""><h1>Staff</h1></a>
             </div>
           </div>
           <div class="col m12 l4">
