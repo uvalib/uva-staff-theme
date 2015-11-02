@@ -117,10 +117,9 @@ add_action( 'widgets_init', 'uvalibrarystaff_widgets_init' );
  */
 function uvalibrarystaff_scripts() {
   if (!is_admin()) {
-		wp_enqueue_style( 'uvalibrarystaff-style', get_stylesheet_uri() );
   	// Jquery needs to load in the header to support forms on the site.
     wp_deregister_script('jquery');
-    wp_register_script('jquery', get_template_directory_uri() . "/js/plugins/jquery-2.1.1.js");
+    wp_register_script('jquery', get_template_directory_uri() . '/js/plugins/jquery-2.1.1.js');
     wp_enqueue_script('jquery');
 		wp_enqueue_script( 'uvalibrarystaff-materialize', get_template_directory_uri() . '/js/plugins/materialize.min.js', array(), '20120206', true );
 		wp_enqueue_script( 'uvalibrarystaff-init', get_template_directory_uri() . '/js/init.js', array(), '20120206', true );
@@ -129,6 +128,7 @@ function uvalibrarystaff_scripts() {
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );
 		}
+		wp_enqueue_style( 'uvalibrarystaff-style', get_stylesheet_uri() );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'uvalibrarystaff_scripts' );
