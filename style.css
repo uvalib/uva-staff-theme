@@ -322,6 +322,24 @@ object {
 
  }
 
+ #recentUpdates{
+  border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+ }
+
+  #recentUpdates h5{
+     color: #444;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    font-style: bold;
+  }
+
 
 .newsColumns li, .learningCalendar li{
   padding-top:2em;

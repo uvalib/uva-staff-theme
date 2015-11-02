@@ -205,7 +205,7 @@ get_header(); ?>
 
 
       <div class="col s4">
-       <div class="icon-block">
+       <div class="icon-block" id="recentUpdates">
 
         <?php
      $today = current_time('mysql', 1);
@@ -213,13 +213,17 @@ get_header(); ?>
 
      if ( $recentposts = $wpdb->get_results("SELECT ID, post_title FROM $wpdb->posts WHERE post_status = 'publish' AND post_modified_gmt < '$today' ORDER BY post_modified_gmt DESC LIMIT $howMany")):
 ?>
-<h5 class="center"><?php _e("Recently Updated Pages</h5>"); ?></h5>
+<h5 class="center"><?php _e("Activity</h5>"); ?></h5>
+<h6><?php _e("Recently Updated Pages</h5>"); ?></h6>
 <ul>
 <?php
 foreach ($recentposts as $post) {
      if ($post->post_title == '') $post->post_title = sprintf(__('Post #%s'), $post->ID);
      echo "<li><a href='".get_permalink($post->ID)."'>";
      the_title();
+     echo '</a></li>';
+          echo "<li><a href='".get_permalink($post->ID)."'>";
+        the_author();
      echo '</a></li>';
 }
 ?>
