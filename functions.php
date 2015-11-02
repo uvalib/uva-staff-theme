@@ -128,6 +128,7 @@ function uvalibrarystaff_scripts() {
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );
 		}
+		wp_enqueue_style( 'gf-forms', plugins_url() . '/gravityforms/css/forms.css' );
 		wp_enqueue_style( 'uvalibrarystaff-style', get_stylesheet_uri() );
 	}
 }
