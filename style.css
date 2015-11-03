@@ -749,9 +749,10 @@ footer.page-footer {
 
 /*Side navigation styling */
 
-.collapsible-body li, .collapsible-body li .collapsible-body li{
-margin-left: 1em;
+#menu-sidebar-navigation li{
+  margin-left: 1em;
 }
+
 
 #sideNav, .collapsible-header{
   background-color: #666666;
