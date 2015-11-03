@@ -63,25 +63,14 @@ get_header(); ?>
 		<?php endif; ?>
 
 
-
-
+		</div>
+    </div>
+    			<?php get_sidebar(); ?>
+  </div>
+  </div>
+</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-			        </div>
 
-
-
-    </div><!--end row-->
-
-
-
-
-        </div><!--end section-->
-
-
-  </div>
-
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
