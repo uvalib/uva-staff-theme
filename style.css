@@ -665,6 +665,15 @@ font-family: "franklin-gothic-urw-cond",sans-serif;
     color: #fff;
 }
 
+.collapsible-body li{
+  margin-left: 3em;
+}
+
+.collapsible li a{
+  margin:1em;
+
+}
+
 .parallax-container h1{
       font-style: bold !important;
     }
