@@ -41,7 +41,24 @@ get_header(); ?>
 		<?php endif; ?>
 
 		</main><!-- #main -->
+
 	</section><!-- #primary -->
+	</div><!-- #primary -->
+
+			        </div>
+
+
+
+    </div><!--end row-->
+
+
+
+
+        </div><!--end section-->
+
+
+  </div><!--end container content-->
+
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
