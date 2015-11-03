@@ -57,7 +57,7 @@ get_header(); ?>
         </div><!--end section-->
 
 
-  </div><!--end container content-->
+  </div><!--end container content classes-->
 
 
 <?php get_sidebar(); ?>
