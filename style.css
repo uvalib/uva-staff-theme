@@ -507,6 +507,13 @@ margin-bottom: 1em;
     margin-bottom: 2em;
 }
 
+.alignright{
+  float: right;
+    margin-top: 2em;
+    margin-right: 3em;
+    margin-bottom: 2em;
+}
+
 
 .icon-block h5{
     text-align: left;
