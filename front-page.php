@@ -76,7 +76,7 @@ get_header(); ?>
           <ul>
             <li>
               <h6>Search the Directory</a>
-              <input placeholder="Name" id="first_name" type="text" class="validate">
+              <input placeholder="Name" id="first_name" name="search" type="text" class="validate">
             </li>
 
           </ul>
