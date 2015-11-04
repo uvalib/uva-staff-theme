@@ -154,7 +154,7 @@ get_header(); ?>
 
 </div>
 
-<a class="btn-large waves-effect waves-light orange darken-1 right">Read all news &amp; updates</a>
+<a class="btn-large waves-effect waves-light orange darken-1 right" href="<?php echo esc_url( home_url( '/' ) ); ?>news">Read all news &amp; updates</a>
 
 
           </div>
@@ -196,7 +196,7 @@ get_header(); ?>
   </li>
 <?php endwhile; endif; ?>
 
-<a class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
 
           </div>
         </div>
@@ -232,7 +232,7 @@ foreach ($recentposts as $post) {
 
 
 
-<a class="btn-large waves-effect waves-light orange darken-1">Login to the Wordpress Dashboard</a>
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>wp-admin" class="btn-large waves-effect waves-light orange darken-1">Login to the Wordpress Dashboard</a>
 
 
 
