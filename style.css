@@ -440,9 +440,9 @@ text-decoration: none
 }
 
 .newsColumns{
-    /*-webkit-column-count: 2;  Chrome, Safari, Opera 
+    -webkit-column-count: 2;  Chrome, Safari, Opera 
     -moz-column-count: 2; Firefox
-    column-count: 2;*/
+    column-count: 2;
 }
 
 
