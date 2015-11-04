@@ -69,14 +69,14 @@ get_header(); ?>
 
         <div class="col s4"> 
 
-
           <div class="card  grey lighten-2">
+<form method="get" action="http://www.library.virginia.edu/staff/">
             <div class="card-content black-text">
               <span class="card-title activator black-text">Staff Directory<i class="material-icons right">more_vert</i></span></span>
-<ul>
+          <ul>
             <li>
-                <h6>Search the Directory</a>
-          <input placeholder="Name" id="first_name" type="text" class="validate">
+              <h6>Search the Directory</a>
+              <input placeholder="Name" id="first_name" type="text" class="validate">
             </li>
 
           </ul>
@@ -85,7 +85,7 @@ get_header(); ?>
             <button class="btn-large waves-effect waves-light orange darken-1" type="submit" name="action">Search</button>
 
             </div>
-
+</form>
                 <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Staff by Area<i class="material-icons right">close</i></span>
       <ul>
