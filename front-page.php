@@ -231,13 +231,8 @@ foreach ($recentposts as $post) {
 <?php endif; ?>
 
 
-
-<a href="<?php echo esc_url( home_url( '/' ) ); ?>wp-admin" class="btn-large waves-effect waves-light orange darken-1">Login to the Wordpress Dashboard</a>
-
-
-
-
           </div>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>wp-admin" class="btn-large waves-effect waves-light orange darken-1">Login to the Wordpress Dashboard</a>
         </div>
 
 

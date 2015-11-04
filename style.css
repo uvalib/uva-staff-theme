@@ -500,6 +500,13 @@ margin-bottom: 1em;
 
 }
 
+.align-left{
+  float: left;
+    margin-top: 2em;
+    margin-right: 3em;
+    margin-bottom: 2em;
+}
+
 
 .icon-block h5{
     text-align: left;
