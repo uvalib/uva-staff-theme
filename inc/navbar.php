@@ -115,9 +115,9 @@
                     <div class="nav-column">
 
                         <ul>
+                            <li><a href="http://assessment.library.virginia.edu/statistics/"><h4>Statistics</h3></a></li>
                             <li><a href="http://assessment.library.virginia.edu/surveys-and-reports/"><h4>User Survey</h3></a></li>
                             <li><a href="<?php bloginfo(''); ?>/web-analytics-dashboard/"><h4>Web Analytics Dashboard</h3></a></li>
-                            <li><a href="http://assessment.library.virginia.edu/statistics/"><h4>Statistics</h3></a></li>
                         </ul>
                     </div>
 
@@ -137,12 +137,12 @@
                         <ul>
                             <li><a href="http://staff.lib.virginia.edu/systems/libsys/help-request.php"><h4>LTS Help Ticket</h3></a></li>
                             <li><a href="http://www.virginia.edu/uvaprint/pcshelp/"><h4>PCS Help Ticket</h3></a></li>
-                            <li><a href="http://staff.lib.virginia.edu/systems/facilities/facilities-help-request.php"><h4>Student Permission Form </h3></a></li>
-                            <li><a href="https://staffweb.lib.virginia.edu/forms/reward-recognition-award-form/"><h4>Reward &amp; Recognition Form </h3></a></li>
                             <li><a href="https://staffweb.lib.virginia.edu/presformpage1/"><h4>Preservation Assessment Form</h3></a></li>
-                            <li><a href="#"><h4>User Education Instruction Statistics Collection Form</h3></a></li>
+                            <li><a href="https://staffweb.lib.virginia.edu/forms/reward-recognition-award-form/"><h4>Reward &amp; Recognition Form </h3></a></li>
                             <li><a href="http://www.vsp.state.va.us/downloads/SP167.pdf"><h4>Student Background Check Form</h3></a></li>
+                            <li><a href="http://staff.lib.virginia.edu/systems/facilities/facilities-help-request.php"><h4>Student Permission Form </h3></a></li>
                             <li><a href="https://staffweb.lib.virginia.edu/forms/student-personnel-action/"><h4>Student Personnel Action Form</h3></a></li>
+                            <li><a href="#"><h4>User Education Instruction Statistics Collection Form</h3></a></li>
                         </ul>
                     </div>
 
@@ -150,8 +150,8 @@
 
                         
                         <ul>
-                            <li><a href="#"><h4>Preservation Assessment Form</h3></a></li>
                             <li><a href="#"><h4>Metadata Management Services Assessment Form </h3></a></li>
+                            <li><a href="#"><h4>Preservation Assessment Form</h3></a></li>
                             <li><a href="#"><h4>Student Background Check Form</h3></a></li>
                             <li><a href="#"><h4>Student Personnel Action Form</h3></a></li>
                         </ul>
