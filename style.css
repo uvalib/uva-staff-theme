@@ -466,6 +466,11 @@ http://designmodo.com/create-css3-mega-menu/
   height:52px;
 }
 
+#mega-menu ul li a:hover{
+
+  color:#002359;
+}
+
 
 .posts-navigation{
   height:164px;
