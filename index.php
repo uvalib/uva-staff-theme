@@ -75,6 +75,10 @@ get_header(); ?>
 
     </div><!--end col s8 -->
 		    			<?php get_sidebar(); ?>
+		    			<?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?> 
+		    			<?php the_widget( 'WP_Widget_Tag_Cloud', $instance, $args ); ?> 
+		    			<?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?> 
+		    			
   </div>
   </div>
 </div>
