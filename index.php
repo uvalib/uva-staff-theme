@@ -68,9 +68,9 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-		</div>
+		</div><!--end empty div (is this even needed?)-->
 
-    </div>
+    </div><!--end col s8 -->
 		    			<?php get_sidebar(); ?>
   </div>
   </div>
