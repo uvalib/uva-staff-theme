@@ -55,22 +55,27 @@ get_header(); ?>
 			<?php endwhile; ?>
 
 			<?php the_posts_navigation(); ?>
+						<?php next_posts_link('Older Posts'); ?>
+<?php previous_posts_link('Newer Posts'); ?>
 
 		<?php else : ?>
 
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
+
+
 		<?php endif; ?>
 
-
+		</main><!-- #main -->
+	</div><!-- #primary -->
 		</div>
+
     </div>
-    			<?php get_sidebar(); ?>
+		    			<?php get_sidebar(); ?>
   </div>
   </div>
 </div>
-		</main><!-- #main -->
-	</div><!-- #primary -->
+
 
 
 <?php get_footer(); ?>

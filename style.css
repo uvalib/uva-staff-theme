@@ -367,6 +367,10 @@ body{
   background-repeat: repeat;
 }
 
+.indicators{
+      z-index: 9999;
+}
+
 
 a{
   text-decoration: underline;
