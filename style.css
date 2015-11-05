@@ -469,6 +469,7 @@ http://designmodo.com/create-css3-mega-menu/
 
 .posts-navigation{
   height:164px;
+  background-color: #fb8c00;
 }
 
 .nav,
@@ -583,6 +584,11 @@ background-color: #F1F1EF;
 .nav-previous, .nav-next{
 
   background-color: #fb8c00 !important;
+}
+
+.nav-previous{
+  float:left;
+  margin-right:2em;
 }
 
 .nav > li > div {
