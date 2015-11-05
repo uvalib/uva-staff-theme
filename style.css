@@ -545,8 +545,8 @@ margin-bottom: 1em;
     -ms-transition: all .3s ease;
     transition: all .3s ease;
 }
-
-#main .page-title, #main .entry-title{
+,
+#main .page-title, #main .entry-title .widgettitle{
   font-size: 2em;
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
