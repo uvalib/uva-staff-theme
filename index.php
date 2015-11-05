@@ -56,7 +56,10 @@ get_header(); ?>
 
 			<?php the_posts_navigation(); ?>
 			<a href="?php query_posts('category=category-slug-name'); ?>">CLick here to show the events</a>
-						<?php next_posts_link('Older Posts'); ?>
+				
+
+
+<?php next_posts_link('Older Posts'); ?>
 <?php previous_posts_link('Newer Posts'); ?>
 
 		<?php else : ?>
