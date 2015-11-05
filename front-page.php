@@ -196,7 +196,7 @@ get_header(); ?>
   </li>
 <?php endwhile; endif; ?>
 
-<a href="<?php echo esc_url( home_url( '/' ) ); ?>events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
+<a href="<?php echo esc_url( home_url( '/' ) ); ?>/blog/category/staff-events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
 
           </div>
         </div>
