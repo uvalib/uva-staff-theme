@@ -461,9 +461,14 @@ http://designmodo.com/create-css3-mega-menu/
 
 */
 
-nav{
+#mega-menu{
 
   height:52px;
+}
+
+
+.posts-navigation{
+  height:164px;
 }
 
 .nav,
@@ -540,6 +545,16 @@ margin-bottom: 1em;
     transition: all .3s ease;
 }
 
+#main .page-title, #main .entry-title{
+  font-size: 2em;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#main h2{
+  font-size: 1.5em;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
 
 .nav > li:hover > a { background: #F1F1EF; }
  
@@ -562,6 +577,12 @@ background-color: #F1F1EF;
 .activityFeed{
 
 
+}
+
+
+.nav-previous, .nav-next{
+
+  background-color: #fb8c00 !important;
 }
 
 .nav > li > div {
@@ -708,7 +729,7 @@ font-family: "franklin-gothic-urw-cond",sans-serif;
   color:#fff;
 }
 
-nav, h1, h2, h3, h4, h5, .parallax-container h5{
+#mega-menu, h1, h2, h3, h4, h5, .parallax-container h5{
 font-family: "franklin-gothic-urw-cond",sans-serif;
 
 }
@@ -718,8 +739,8 @@ body{
 
 }
 
-nav ul a,
-nav .brand-logo {
+#mega-menu ul a,
+#mega-menu .brand-logo {
   color: #fff;
 }
 
