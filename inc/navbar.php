@@ -85,6 +85,7 @@
                             <li><a href="<?php bloginfo(''); ?>/"><h4>Faculty promotion guidelines &amp; review</h4></a></li>
                             <li><a href="<?php bloginfo(''); ?>/category/open-positions-selections/"><h4>Open Positions</h4></a></li>
                             <li><a href="http://www.hr.virginia.edu/hr-for-you/managers/performance-management/performance-process/"><h4>Performance Review Information</h4></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/hr-budget-grants/resources-for-managers-and-supervisors/"><h4>Resources for Managers &amp; Supervisors</h4></a></li>
                             <li><a href="<?php bloginfo(''); ?>/"><h4>Tax Forms</h4></a></li>
                             <li><a href="http://provost.virginia.edu/faculty-resources/policies"><h4>University Faculty Policies</h4></a></li>
                             <li><a href="<http://www.hr.virginia.edu/hr-for-you/university-staff/university-staff-policies-and-procedures/"><h4>University Staff Policies</h4></a></li>
@@ -101,9 +102,7 @@
                             <li><a href="<?php bloginfo(''); ?>/hr-budget-grants/training-professional-development/"><h4>Training and professional development opportunities</h4></a></li>
                         </ul>
                     </div>
-                    <div class="nav-column">
-                        <h4><a href="<?php bloginfo(''); ?>/hr-budget-grants/resources-for-managers-and-supervisors/">Resources for Managers &amp; Supervisors</a></h4>
-                    </div>                   
+                 
                 </div>
         </li>
 
@@ -169,14 +168,23 @@
 
                         
                         <ul>
-                            <li><a href="<?php bloginfo(''); ?>/emergency/"><h4>Emergency Plans</h3></a></li>
-                            <li><a href="<?php bloginfo(''); ?>/"><h4>Policies</h3></a></li>
-                            <li><a href="https://www.library.virginia.edu/report-library-incident/"><h4>Incident Reporting Form</h3></a></li>
                             <li><a href="<?php bloginfo(''); ?>/wp-content/uploads/2013/03/Agency_Closing-Manual-Instructions.pdf"><h4>Agency Closing Manual Instructions</h3></a></li>
-                            <li><a href="<?php bloginfo(''); ?>/wp-content/uploads/2012/08/2011cpraed1staid_certs.pdf"><h4>CPR Certified Employees</h3></a></li>
                             <li><a href="<?php bloginfo(''); ?>/wp-content/uploads/2012/08/CIP_2012.pdf"><h4>Critical Incident Plan</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/wp-content/uploads/2012/08/2011cpraed1staid_certs.pdf"><h4>CPR Certified Employees</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/emergency/"><h4>Emergency Plans</h3></a></li>
+
+                        </ul>
+                    </div>
+
+
+                        <div class="nav-column">
+
+                        
+                        <ul>
+                            <li><a href="https://www.library.virginia.edu/report-library-incident/"><h4>Incident Reporting Form</h3></a></li>
                             <li><a href="<?php bloginfo(''); ?>/inclement-weather-policy-draft/"><h4>Inclement Weather Policy</h3></a></li>
                             <li><a href="<?php bloginfo(''); ?>/library-building-space-emergencies"><h4>Library Building &amp; Space Emergencies</h3></a></li>
+                            <li><a href="<?php bloginfo(''); ?>/"><h4>Policies</h3></a></li>
                         </ul>
                     </div>
 
