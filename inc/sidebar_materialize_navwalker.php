@@ -43,21 +43,26 @@ class sidebar_materialize_navwalker extends Walker_Nav_Menu {
 	 */
 	public function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
 		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
+		$activate = ($item->ID == $id) || in_array($item->ID, get_post_ancestors( $id ));
 
-		if ( strcasecmp($item->attr_title, 'menu-header' ) == 0 ) {
-			$output .= $indent . '<li class="bold"><a class="collapsible-header waves-effect waves-teal">' . esc_attr( $item->title ) . '</a>';
-			$output .= "\n$indent\t<ul class=\"collapsible-body\">\n";
+		if ( strcasecmp( $item->attr_title, 'menu-header' ) == 0 ) {
+			$output .= $indent . '<li class="bold';
+			$output .= $activate ? ' active' : '';
+			$output .= '"><a class="collapsible-header waves-effect waves-teal';
+			$output .= $activate ? ' active' : '';
+			$output .= '">' . esc_attr( $item->title ) . '</a>';
+			$output .= "\n$indent\t<ul class=\"collapsible-body\" style=\"";
+			$output .= $activate ? 'display: block;' : 'display: none;';
+			$output .= "\">\n";
 		} else {
-
 			$class_names = $value = '';
-
 			$classes = empty( $item->classes ) ? array() : (array) $item->classes;
 			$classes[] = 'menu-item-' . $item->ID;
 
 			$class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
 
 			if ( $args->has_children )
-				$class_names .= ' dropdown';
+				$class_names .= '';
 
 			if ( in_array( 'current-menu-item', $classes ) )
 				$class_names .= ' active';
@@ -77,8 +82,6 @@ class sidebar_materialize_navwalker extends Walker_Nav_Menu {
 			// If item has_children add atts to a.
 			if ( $args->has_children && $depth === 0 ) {
 				$atts['href']   		= '#';
-//				$atts['data-toggle']	= 'dropdown';
-//				$atts['class']			= 'dropdown-toggle';
 			} else {
 				$atts['href'] = ! empty( $item->url ) ? $item->url : '';
 			}
@@ -94,19 +97,7 @@ class sidebar_materialize_navwalker extends Walker_Nav_Menu {
 			}
 
 			$item_output = $args->before;
-
-			/*
-			 * Glyphicons
-			 * ===========
-			 * Since the the menu item is NOT a Divider or Header we check the see
-			 * if there is a value in the attr_title property. If the attr_title
-			 * property is NOT null we apply it as the class name for the glyphicon.
-			 */
-			if ( ! empty( $item->attr_title ) )
-				$item_output .= '<a'. $attributes .'><span class="glyphicon ' . esc_attr( $item->attr_title ) . '"></span>&nbsp;';
-			else
-				$item_output .= '<a'. $attributes .'>';
-
+			$item_output .= '<a'. $attributes .'>';
 			$item_output .= $args->link_before . apply_filters( 'the_title', $item->title, $item->ID ) . $args->link_after;
 			$item_output .= ( $args->has_children && 0 === $depth ) ? ' <span class="caret"></span></a>' : '</a>';
 			$item_output .= $args->after;
@@ -140,7 +131,7 @@ class sidebar_materialize_navwalker extends Walker_Nav_Menu {
 	 *
 	 * Display one element if the element doesn't have any children otherwise,
 	 * display the element and its children. Will only traverse up to the max
-	 * depth and no ignore elements under that depth.
+	 * depth and not ignore elements under that depth.
 	 *
 	 * This method shouldn't be called directly, use the walk() method instead.
 	 *
@@ -156,17 +147,18 @@ class sidebar_materialize_navwalker extends Walker_Nav_Menu {
 	 * @return null Null on failure with no changes to parameters.
 	 */
 	public function display_element( $element, &$children_elements, $max_depth, $depth, $args, &$output ) {
-        if ( ! $element )
-            return;
 
-        $id_field = $this->db_fields['id'];
+		if ( ! $element )
+				return;
 
-        // Display this element.
-        if ( is_object( $args[0] ) )
-           $args[0]->has_children = ! empty( $children_elements[ $element->$id_field ] );
+		$id_field = $this->db_fields['id'];
 
-        parent::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
-    }
+		// Display this element.
+		if ( is_object( $args[0] ) )
+			 $args[0]->has_children = ! empty( $children_elements[ $element->$id_field ] );
+
+		parent::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
+  }
 
 	/**
 	 * Menu Fallback
