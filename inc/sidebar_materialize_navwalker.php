@@ -43,7 +43,7 @@ class sidebar_materialize_navwalker extends Walker_Nav_Menu {
 	 */
 	public function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
 		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
-		$activate = ($item->ID == $id) || in_array($item->ID, get_post_ancestors( $id ));
+		$activate = ($item->object_id == $id) || in_array($item->object_id, get_post_ancestors( $id ));
 
 		if ( strcasecmp( $item->attr_title, 'menu-header' ) == 0 ) {
 			$output .= $indent . '<li class="bold';
