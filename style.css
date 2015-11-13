@@ -371,6 +371,10 @@ body{
       z-index: 9999;
 }
 
+select{
+  display:block;
+}
+
 
 a{
   text-decoration: underline;
@@ -530,9 +534,7 @@ margin-bottom: 1em;
 }
 
 
-.gform_wrapper .gfield_checkbox li label, .gform_wrapper .gfield_radio li label {
-position:static;
-}
+
 
 
 .icon-block h5{
