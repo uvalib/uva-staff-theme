@@ -29,25 +29,26 @@
         <div class="col l3 s12">
           <h5 class="white-text">Sitemap</h5>
           <ul>
-        <li><a class="white-text" href="#">Home</a></li>
-        <li><a class="white-text" href="#">Announcements</a></li>
-        <li><a class="white-text" href="#">Employee Services</a></li>
-        <li><a class="white-text" href="#">Organizational Design</a></li>
-        <li><a class="white-text" href="#">Announcements</a></li>
-        <li><a class="white-text" href="#">Forms</a></li>
-        <li><a class="white-text" href="#">In an Emergency</a></li>
+        <li><a class="white-text" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+        <li><a class="white-text" href="<?php bloginfo(''); ?>/our-organization">Our Organization</a></li>
+        <li><a class="white-text" href="<?php bloginfo(''); ?>/employee-resources">Employee Resources</a></li>
+        <li><a class="white-text" href="<?php bloginfo(''); ?>/data/">Library Data &amp; Statistics</a></li>
+        <li><a class="white-text" ref="<?php bloginfo(''); ?>/category/forms/">Forms</a></li>
+        <li><a class="white-text" href="<?php bloginfo(''); ?>/emergency-preparedness">Emergency Preparedness</a></li>
+        <li><a class="white-text" href="<?php bloginfo(''); ?>/about">About</a></li>
+
           </ul>
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Helpful Links</h5>
           <ul>
-            <li><a class="white-text" href="#!">U.Va. Home</a></li>
-            <li><a class="white-text" href="#!">U.Va. Human Resources</a></li>
-            <li><a class="white-text" href="#!">U.Va. Library Home</a></li>
-            <li><a class="white-text" href="#!">Staff Directory</a></li>
-            <li><a class="white-text" href="#!">SSTL</a></li>
-            <li><a class="white-text" href="#!">Benefits@U.Va.</a></li>
-            <li><a class="white-text" href="#!">Lead@U.Va.</a></li>
+            <li><a class="white-text" href="http://www.virginia.edu">U.Va. Home</a></li>
+            <li><a class="white-text" href="http://hr.virginia.edu">U.Va. Human Resources</a></li>
+            <li><a class="white-text" href="http://library.virginia.edu">U.Va. Library Home</a></li>
+            <li><a class="white-text" href="http://www.library.virginia.edu/staff/">Staff Directory</a></li>
+            <li><a class="white-text" href="https://e1prdw2.admin.virginia.edu:8090/OA_HTML/AppsLocalLogin.jsp">SSTL</a></li>
+            <li><a class="white-text" href="https://benefits.sites.virginia.edu/Home">Benefits@U.Va.</a></li>
+            <li><a class="white-text" href="https://portal3.sumtotalsystems.com/sites/100090/">Lead@U.Va.</a></li>
           </ul>
         </div>
       </div>

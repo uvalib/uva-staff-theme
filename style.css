@@ -669,6 +669,10 @@ font-family: "chaparral-pro",sans-serif;
   color:#002359;
   }
  
+
+ .slider, .slider .slides {
+  height: 474px;
+ }
  
 .nav .nav-column li a, .nav .nav-column h5{
     display: block;
