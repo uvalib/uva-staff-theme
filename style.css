@@ -868,6 +868,42 @@ margin:0;
  }
 
 
+ 
+/*---------This is the code that was in the Library Experience page ------------*/
+
+.secondary-img {
+border-radius: 50%;
+max-width: 118px;
+}
+.members {
+display:none;
+}
+
+@media screen and (max-width: 1078px) {
+.eightcol.last {
+width:46.4%;
+}
+}
+@media screen and (max-width: 865px) {
+.eightcol.last {
+width:38%;
+}
+}
+@media screen and (max-width: 767px) {
+.eightcol.last {
+width:90%;
+}
+}
+#main h2.secondary {
+margin:0;
+}
+
+
+
+
+
+
+
 
 
 
