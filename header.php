@@ -14,13 +14,11 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-  <!-- CSS  -->
-  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Fonts  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 	<?php wp_head(); ?>
 
@@ -57,11 +55,11 @@
                   <?php get_search_form(); ?>
            </div>
     </div>
-  
+
 
   </div>
 
-  
+
   <!-- end menu -->
 
 
@@ -70,6 +68,3 @@
 	</header><!-- #masthead -->
 
 <?php include("inc/navbar.php"); ?>
-
-
-
