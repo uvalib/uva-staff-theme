@@ -1,6 +1,6 @@
 
-
 (function($){
+
   $(function(){
 
     $('.button-collapse').sideNav();
@@ -16,11 +16,6 @@
 		}
   }); // end of document ready
 
-
-  function toggleDiv(divId) {
-$(‘.members’).fadeOut(‘fast’);
-$(“#”+divId).slideToggle(‘slow’);
-}
 
   
 })(jQuery); // end of jQuery name space
