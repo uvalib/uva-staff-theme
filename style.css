@@ -530,6 +530,11 @@ margin-bottom: 1em;
 }
 
 
+.gform_wrapper .gfield_checkbox li label, .gform_wrapper .gfield_radio li label {
+position:static;
+}
+
+
 .icon-block h5{
   font-family: "chaparral-pro",sans-serif;
     text-align: left;

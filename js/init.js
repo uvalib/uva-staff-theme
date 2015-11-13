@@ -13,8 +13,7 @@
   }); // end of document ready
 
 
-
-function toggleDiv(divId) {
+  function toggleDiv(divId) {
 $(‘.members’).fadeOut(‘fast’);
 $(“#”+divId).slideToggle(‘slow’);
 }
