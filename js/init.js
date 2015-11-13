@@ -3,7 +3,8 @@
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav({closeOnClick: false});
+    $('.button-collapse').sideNav();
+//    $('.collapsible').collapsible();
     $('.parallax').parallax();
 
 

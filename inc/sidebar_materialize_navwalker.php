@@ -46,7 +46,7 @@ class sidebar_materialize_navwalker extends Walker_Nav_Menu {
 		$activate = ($item->object_id == $id) || in_array($item->object_id, get_post_ancestors( $id ));
 
 		if ( strcasecmp( $item->attr_title, 'menu-header' ) == 0 ) {
-			$output .= $indent . '<li class="bold';
+			$output .= $indent . '<li class="bold' . $item->ID.' '.$item->object_id.' ';
 			$output .= $activate ? ' active' : '';
 			$output .= '"><a class="collapsible-header waves-effect waves-teal';
 			$output .= $activate ? ' active' : '';
