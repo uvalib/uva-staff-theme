@@ -18,7 +18,7 @@ get_header(); ?>
     <div class="slider">
     <ul class="slides">
       <li>
-        <img src="<?php bloginfo('template_directory'); ?>/images/staff_10.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff_15.png"> <!-- random image -->
         <div class="caption center-align" id="title1">
           <h3>Diversity &amp; Inclusion</h3>
           <h5 class="light grey-text text-lighten-3">Encouraging and celebrating our differences.</h5>
@@ -26,7 +26,7 @@ get_header(); ?>
         </div>
       </li>
       <li>
-        <img src="<?php bloginfo('template_directory'); ?>/images/staff_2.png"> <!-- random image -->
+        <img src="<?php bloginfo('template_directory'); ?>/images/staff_16.png"> <!-- random image -->
         <div class="caption left-align" id="title2">
           <h3>Integrity</h3>
           <h5 class="light grey-text text-lighten-3">Being honest, open, fair, and trustworthy.</h5>

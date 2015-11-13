@@ -334,7 +334,7 @@ object {
 
   #recentUpdates h5{
      color: #444;
-    font-family: "Open Sans",sans-serif;
+font-family: "chaparral-pro",sans-serif;
     font-size: 14px;
     border-bottom: 1px solid #eee;
     font-style: bold;
@@ -399,7 +399,7 @@ clear:right;
 
 .slides .caption {
 
-width:635px; height:198px;
+width:703px; height:236px;
 text-indent: 100%;
 white-space: nowrap;
 overflow: hidden; 
@@ -531,6 +531,7 @@ margin-bottom: 1em;
 
 
 .icon-block h5{
+  font-family: "chaparral-pro",sans-serif;
     text-align: left;
     font-size: 2em;
 }
@@ -573,7 +574,7 @@ margin-bottom: 1em;
 .activityFeed h4, .activityFeed h5, .activityFeed{
   color:#23282d;
   font-size: 14px;
-  font-family: "franklin-gothic-urw-cond",sans-serif;
+  font-family: "franklin-gothic-urw",sans-serif;
 }
 
 .card{
@@ -651,12 +652,20 @@ background-color: #F1F1EF;
 }
 
 .page-footer h5{
+font-family: "chaparral-pro",sans-serif;
+
 }
 
 
 .nav .nav-column h5, .nav .nav-column h4, .nav .nav-column a {
         margin-left:1em;
-font-family: "franklin-gothic-urw-cond",sans-serif;
+font-family: "chaparral-pro",sans-serif;
+  color:#002359;
+  }
+
+.nav .nav-column h5 {
+        margin-left:1em;
+
   color:#002359;
   }
  
@@ -678,7 +687,7 @@ font-family: "franklin-gothic-urw-cond",sans-serif;
 
 .noLinkHeader, .card-title{
 
-font-family: "franklin-gothic-urw-cond",sans-serif;
+font-family: "franklin-gothic-urw",sans-serif;
 }
 
 
@@ -703,11 +712,11 @@ a{
 }
 
 body{  
-font-family: "franklin-gothic-urw-cond",sans-serif;
+font-family: "franklin-gothic-urw",sans-serif;
 }
 
 .header, .parallax-container h1{
-font-family: "franklin-gothic-urw-cond",sans-serif;
+font-family: "franklin-gothic-urw",sans-serif;
       font-style: bold !important;
 
 }
@@ -742,7 +751,7 @@ font-family: "franklin-gothic-urw-cond",sans-serif;
 }
 
 #mega-menu, h1, h2, h3, h4, h5, .parallax-container h5{
-font-family: "franklin-gothic-urw-cond",sans-serif;
+font-family: "franklin-gothic-urw",sans-serif;
 
 }
 
@@ -840,7 +849,7 @@ footer.page-footer {
 .collapsible li a{
   color:#fff;
   text-decoration: none;
-  font-family: "franklin-gothic-urw-cond",sans-serif;
+  font-family: "franklin-gothic-urw",sans-serif;
 }
  
  .collapsible .collapsible .collapsible-header{
@@ -851,7 +860,7 @@ margin:0;
 
  .card .card-title{
   font-size: 2em;
-  font-family: "franklin-gothic-urw-cond",sans-serif;
+  font-family: "franklin-gothic-urw",sans-serif;
  }
 
 
