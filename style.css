@@ -391,6 +391,11 @@ display:none;
 
 }
 
+
+.gform_wrapper .gfield_checkbox li label, .gform_wrapper .gfield_radio li label {
+padding-left: 2em;
+  }
+
 .topNav{
 height: 50px;
  background-color: #666666;
