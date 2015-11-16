@@ -58,13 +58,9 @@ class sidebar_materialize_navwalker extends Walker_Nav_Menu {
 		
 		if ( strcasecmp( $item->attr_title, 'menu-header' ) == 0 ) {
 			$class_names .= ' bold';
-			if ( strcasecmp( $class_names, 'current-menu-item' ) == 0 ) 
-				$class_names .= ' active';
 			$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
 			$output .= $indent . '<li' . $id . $value . $class_names .'>';
-			$output .= '<a class="collapsible-header waves-effect waves-teal';
-			$output .= ( strcasecmp( $class_names, 'current-menu-item' ) == 0 ) ? ' active' : '';
-			$output .= '">' . esc_attr( $item->title ) . '</a>';
+			$output .= '<a title="' . esc_attr( $item->attr_title ) . '" class="collapsible-header waves-effect waves-teal">' . esc_attr( $item->title ) . '</a>';
 			$output .= "\n$indent\t<ul class=\"collapsible-body\" style=\"\">\n";
 		} else {
 			$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
