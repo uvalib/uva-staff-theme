@@ -43,35 +43,29 @@ class sidebar_materialize_navwalker extends Walker_Nav_Menu {
 	 */
 	public function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
 		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
-		//$activate = ($item->object_id == $id) || in_array($item->object_id, get_post_ancestors( $id ));
 
+		// assign default WP nav menu classes
+		$class_names = $value = '';
+		$classes = empty( $item->classes ) ? array() : (array) $item->classes;
+		$classes[] = 'menu-item-' . $item->ID;
+		$class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
+		if ( $args->has_children )
+			$class_names .= '';
+		if ( in_array( 'current-menu-item', $classes ) )
+			$class_names .= ' active';
+
+		// define ID for menu item
+		$id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item->ID, $item, $args );
+		$id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
+		
 		if ( strcasecmp( $item->attr_title, 'menu-header' ) == 0 ) {
-			$output .= $indent . '<li class="bold';
-			//$output .= $activate ? ' active' : '';
-			$output .= '"><a class="collapsible-header waves-effect waves-teal';
-			//$output .= $activate ? ' active' : '';
-			$output .= '">' . esc_attr( $item->title ) . '</a>';
-			$output .= "\n$indent\t<ul class=\"collapsible-body\" style=\"";
-			//$output .= $activate ? 'display: block;' : 'display: none;';
-			$output .= "\">\n";
-		} else {
-			$class_names = $value = '';
-			$classes = empty( $item->classes ) ? array() : (array) $item->classes;
-			$classes[] = 'menu-item-' . $item->ID;
-
-			$class_names = join( ' ', apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args ) );
-
-			if ( $args->has_children )
-				$class_names .= '';
-
-			if ( in_array( 'current-menu-item', $classes ) )
-				$class_names .= ' active';
-
+			$class_names .= ' bold';
 			$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
-
-			$id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item->ID, $item, $args );
-			$id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
-
+			$output .= $indent . '<li' . $id . $value . $class_names .'>';
+			$output .= '<a class="collapsible-header waves-effect waves-teal">' . esc_attr( $item->title ) . '</a>';
+			$output .= "\n$indent\t<ul class=\"collapsible-body\" style=\"\">\n";
+		} else {
+			$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . '"' : '';
 			$output .= $indent . '<li' . $id . $value . $class_names .'>';
 
 			$atts = array();
