@@ -314,6 +314,11 @@ object {
  * Made By MaterializeCSS.com
  */
 
+
+
+/* Typography */
+
+
  .newsColumns.  .newsColumns ul,  .newsColumns li{
 
        -webkit-column-break-inside:avoid;
@@ -491,6 +496,7 @@ http://designmodo.com/create-css3-mega-menu/
   background-color: #fb8c00;
 }
 
+
 .nav,
 .nav a,
 .nav ul,
@@ -544,14 +550,14 @@ margin-bottom: 1em;
 }
 
 
-
-
-
-.icon-block h5{
-  font-family: "chaparral-pro",sans-serif;
-    text-align: left;
-    font-size: 2em;
+.nav > li:hover > a { background: #F1F1EF; }
+ 
+.nav > li:first-child > a {
+    border-radius: 3px 0 0 3px;
+    border-left: none;
 }
+
+
 
 .nav > li > a, .nav > li > li > a {
     font-size: 1.3em;
@@ -570,50 +576,6 @@ margin-bottom: 1em;
 }
 
 
-#main .page-title, #main .entry-title, .widgettitle, #main h1{
-  font-size: 2em;
-  font-family: Georgia, Times, 'Times New Roman', serif;
-}
-
-
-#main h2{
-  font-size: 1.5em;
-  font-family: Georgia, Times, 'Times New Roman', serif;
-}
-
-.nav > li:hover > a { background: #F1F1EF; }
- 
-.nav > li:first-child > a {
-    border-radius: 3px 0 0 3px;
-    border-left: none;
-}
-
-.activityFeed h4, .activityFeed h5, .activityFeed{
-  color:#23282d;
-  font-size: 14px;
-  font-family: "franklin-gothic-urw",sans-serif;
-}
-
-.card{
-padding-bottom: 2em;
-background-color: #F1F1EF;
-}
-
-.activityFeed{
-
-
-}
-
-
-.nav-previous, .nav-next{
-
-  background-color: #fb8c00 !important;
-}
-
-.nav-previous{
-  float:left;
-  margin-right:2em;
-}
 
 .nav > li > div {
     position: absolute;
@@ -668,6 +630,65 @@ background-color: #F1F1EF;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+#main .page-title, #main .entry-title, .widgettitle, #main h1{
+  font-size: 2em;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+.icon-block h5{
+  font-family: "chaparral-pro",sans-serif;
+    text-align: left;
+    font-size: 2em;
+}
+
+
+#main h2{
+  font-size: 1.5em;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.activityFeed h4, .activityFeed h5, .activityFeed{
+  color:#23282d;
+  font-size: 14px;
+  font-family: "franklin-gothic-urw",sans-serif;
+}
+
+.card{
+padding-bottom: 2em;
+background-color: #F1F1EF;
+}
+
+.activityFeed{
+
+
+}
+
+
+.nav-previous, .nav-next{
+
+  background-color: #fb8c00 !important;
+}
+
+.nav-previous{
+  float:left;
+  margin-right:2em;
+}
+
+
 .page-footer h5{
 font-family: "chaparral-pro",sans-serif;
 
@@ -676,21 +697,18 @@ font-family: "chaparral-pro",sans-serif;
 
 .nav .nav-column h5, .nav .nav-column h4, .nav .nav-column a {
         margin-left:1em;
-font-family: "chaparral-pro",sans-serif;
+
   color:#002359;
   }
 
 .nav .nav-column h5 {
-        margin-left:1em;
-
-  color:#002359;
+    margin-left:1em;
+    font-family: "chaparral-pro",sans-serif;
+    color:#002359;
   }
  
 
- .slider, .slider .slides {
-  height: 474px;
- }
- 
+
 .nav .nav-column li a, .nav .nav-column h5{
     display: block;
     line-height: 18px;
@@ -705,6 +723,26 @@ font-family: "chaparral-pro",sans-serif;
  
 .nav .nav-column li a:hover { color: #666666; }
 
+
+
+#mega-menu, h1, h2, h3, h4, h5, .parallax-container h5{
+font-family: "franklin-gothic-urw",sans-serif;
+
+}
+
+#mega-menu ul a,
+#mega-menu .brand-logo {
+  color: #fff;
+}
+
+
+/* END MEga mENU */
+
+
+ .slider, .slider .slides {
+  height: 474px;
+ }
+ 
 
 .noLinkHeader, .card-title{
 
@@ -771,20 +809,8 @@ font-family: "franklin-gothic-urw",sans-serif;
   color:#fff;
 }
 
-#mega-menu, h1, h2, h3, h4, h5, .parallax-container h5{
-font-family: "franklin-gothic-urw",sans-serif;
-
-}
-
-body{
 
 
-}
-
-#mega-menu ul a,
-#mega-menu .brand-logo {
-  color: #fff;
-}
 
 p {
   line-height: 2rem;
@@ -804,21 +830,6 @@ p {
     width: 100%;
   }
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
 
 
 .icon-block {
@@ -879,6 +890,9 @@ margin:0;
 
  }
 
+
+ /* End side navigation styling */
+
  .card .card-title{
   font-size: 2em;
   font-family: "franklin-gothic-urw",sans-serif;
@@ -925,6 +939,24 @@ margin:0;
 
 
 /*MEDIA QUERIES*/
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
 
 @media (max-width: 600px) {
 
