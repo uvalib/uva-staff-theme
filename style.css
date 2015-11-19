@@ -722,12 +722,22 @@ font-family: "chaparral-pro",sans-serif;
  color:#000;
 }
 
- 
 .nav .nav-column li a:hover { color: #666666; }
 
 
+ 
+.nav > li a { 
+ font-family: "chaparral-pro",sans-serif;
+  color: #666666; 
+}
 
-#mega-menu, h1, h2, h3, h4, h5, .parallax-container h5{
+.nav .nav-column h3{
+   font-family: "chaparral-pro",sans-serif;
+}
+
+
+
+h1, h2, h3, h4, h5, .parallax-container h5{
 font-family: "franklin-gothic-urw",sans-serif;
 
 }

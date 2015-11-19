@@ -70,9 +70,12 @@ get_header(); ?>
         <div class="col s4"> 
 
           <div class="card  grey lighten-2">
+              <div class="card-image">
+              <img src="<?php bloginfo('template_directory'); ?>/images/staff_3.png">
+              <span class="card-title activator black-text">Staff Directory<i class="material-icons right">more_vert</i></span>
+            </div>
 <form method="get" action="http://www.library.virginia.edu/staff/">
             <div class="card-content black-text">
-              <span class="card-title activator black-text">Staff Directory<i class="material-icons right">more_vert</i></span></span>
           <ul>
             <li>
               <h6>Search the Directory</a>
