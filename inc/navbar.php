@@ -8,7 +8,7 @@
 
  <li><a href="<?php bloginfo(''); ?>/our-organization">Our Organization</a>
 
-                  <div>
+                  <div class="dropdown">
 
 
                      <div class="nav-column">
@@ -58,7 +58,7 @@
         </li>
       
         <li><a href="<?php bloginfo(''); ?>/employee-resources">Employee Resources</a>
-            <div>
+            <div class="dropdown">
 
 
         
@@ -109,7 +109,7 @@
 
 <li><a href="<?php bloginfo(''); ?>/data/">Library Data &amp; Statistics</a>
 
-<div>
+<div class="dropdown">
 
                     <div class="nav-column">
 
@@ -128,7 +128,7 @@
        
         <li><a href="<?php bloginfo(''); ?>/category/forms/">Forms</a>
 
-<div>
+<div class="dropdown">
 
                     <div class="nav-column">
 
@@ -162,7 +162,7 @@
           <li><a href="<?php bloginfo(''); ?>/emergency-preparedness">Emergency Preparedness</a>
 
 
-          <div>
+          <div class="dropdown">
 
                     <div class="nav-column">
 
