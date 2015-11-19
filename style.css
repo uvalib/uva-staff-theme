@@ -335,6 +335,7 @@ object {
     color: #444;
     font-family: "Open Sans",sans-serif;
     font-size: 13px;
+    margin-bottom: 1em;
  }
 
   #recentUpdates h5{
@@ -649,8 +650,9 @@ margin-bottom: 1em;
 
 
 
-.icon-block h5{
+.icon-block h5, .card .card-content .card-title{
   font-family: "chaparral-pro",sans-serif;
+    color:#002359;
     text-align: left;
     font-size: 2em;
 }
