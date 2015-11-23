@@ -161,6 +161,11 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 /**
+ * Load form adjustments using the GravityForms API.
+ */
+require get_template_directory() . '/inc/forms.php';
+
+/**
  * Register Custom Navigation Walker to implement the materialize style sidebar navigation.
  */
 require_once(get_template_directory() . '/inc/sidebar_materialize_navwalker.php');
