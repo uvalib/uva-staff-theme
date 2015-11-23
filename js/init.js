@@ -24,7 +24,7 @@
 		}
 		
 		// Standard staff information form fields can be prepopulated via LDAP using the computing ID
-		$('.ff-staff-computing-id input').live('change', function() {
+		$('.ff-staff-computing-id input').on('change', function() {
 			uvaComputingIdChanged('.ff-staff-computing-id input', '.ff-staff-name input', '.ff-staff-email input', 
 					'.ff-staff-phone input', '.ff-staff-affiliation select', '.ff-staff-department select', '.ff-staff-other-department input');
 		});
