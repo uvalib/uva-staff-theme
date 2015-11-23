@@ -121,7 +121,7 @@ function uvalibrarystaff_scripts() {
     wp_deregister_script('jquery');
     wp_register_script('jquery', get_template_directory_uri() . '/js/plugins/jquery-2.1.1.js');
     wp_enqueue_script('jquery');
-		wp_enqueue_script('uvalibrarystaff-forms', get_template_directory_uri() . 'js/forms.js');
+		wp_enqueue_script('uvalibrarystaff-forms', get_template_directory_uri() . '/js/forms.js');
 		wp_enqueue_script( 'uvalibrarystaff-materialize', get_template_directory_uri() . '/js/plugins/materialize.min.js', array(), '20120206', true );
 		wp_enqueue_script( 'uvalibrarystaff-init', get_template_directory_uri() . '/js/init.js', array(), '20120206', true );
 		wp_enqueue_script( 'uvalibrarystaff-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
