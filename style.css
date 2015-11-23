@@ -477,9 +477,9 @@ text-decoration: none
 
 .dropdown, #mega-menu{ 
 
--webkit-box-shadow: 16px 16px 31px -15px rgba(163,150,163,1);
--moz-box-shadow: 16px 16px 31px -15px rgba(163,150,163,1);
-box-shadow: 16px 16px 31px -15px rgba(163,150,163,1);
+-webkit-box-shadow: 16px 16px 31px -15px rgba(13,30,45,1);
+-moz-box-shadow: 16px 16px 31px -15px rgba(13,30,45,1);
+box-shadow: 16px 16px 31px -15px rgba(13,30,45,1);
 }
 
 
@@ -489,7 +489,8 @@ http://designmodo.com/create-css3-mega-menu/
 */
 
 #mega-menu{
-
+  position:relative;
+  z-index:9999;
   height:52px;
 }
 
@@ -568,7 +569,7 @@ margin-bottom: 1em;
 
 
 .nav > li > a, .nav > li > li > a {
-    font-size: 1.3em;
+    font-size: 1.15em;
     position: relative;
     display: block;
     z-index: 510;
@@ -734,7 +735,7 @@ font-family: "chaparral-pro",sans-serif;
 
  
 .nav > li a { 
- font-family: "chaparral-pro",sans-serif;
+  font-family: "franklin-gothic-urw",sans-serif;
   color: #666666; 
 }
 
@@ -923,6 +924,13 @@ margin:0;
   background-color: #E57200;
 }
 
+
+.icon-block h5{
+    -webkit-border-image: url(images/dotted_border.png) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url("images/dotted_border.png") 30 round; /* Opera 11-12.1 */
+    border-image: url("images/dotted_border.png") 30 round;
+
+    }
 
 
  
