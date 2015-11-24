@@ -24,9 +24,8 @@ add_filter('gform_notification_25', 'gf_change_purchase_request_notification_ema
 function gf_change_purchase_request_notification_email($notification, $form, $entry){
 	// Check to see if this purchase is rush or not to adjust the subject line.
 	if (isset($_POST['input_60']) and ($_POST['input_60'] == 'Yes')) {
-		$notification['subject'] = 'Rush Staff Purchase Request ';
-	} else {
-		$notification['subject'] = 'Staff Purchase Request ';
+		$subject = $notification['subject'];
+		$notification['subject'] = 'Rush ' . $subject;
 	}
 /*	if ($notification['name'] == 'Admin Notification') {
 		// Check to see if this purchase is to be put on course reserves or not.
