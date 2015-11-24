@@ -3,6 +3,28 @@
  * Functions that apply Gravity Forms API features to support our needs. 
  */
 
+// Make sure date/time functions work properly by having the time zone set correctly.
+date_default_timezone_set('America/New_York');
+
+// this function is called by filters and returns the requested user meta of the current user
+//for all versions of WP
+function populate_usermeta($meta_key){
+	global $current_user;
+	if (floatval(get_bloginfo('version','raw')) >= 3.3) {
+		return $current_user->__get($meta_key);
+	} else {
+		//for older WP versions
+		if (function_exists('get_currentuserinfo')) {
+			get_currentuserinfo();
+			foreach($current_user as $key => $value){
+				if($key == $meta_key)
+					return $value;
+			}
+		}
+		return '';
+	}
+}
+
 // if users are autocreated after netbadge authentication then the username will contain the uva computing id
 // populate the field with "uva_computing_id" as the population parameter with the "login" of the current user
 add_filter('gform_field_value_uva_computing_id', 
