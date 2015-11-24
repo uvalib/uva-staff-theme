@@ -902,6 +902,18 @@ footer.page-footer {
 }
 
 
+.entry-content table h3{
+
+font-size: 1.5rem;
+
+}
+
+
+.orange.darken-3{
+
+background-color: #E57200 !important;
+}
+
 
 .page-template-default .entry-title, .blog .page-title{
 color:#E57200;
