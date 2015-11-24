@@ -336,6 +336,11 @@ object {
     font-family: "Open Sans",sans-serif;
     font-size: 13px;
     margin-bottom: 1em;
+    margin-top: 2.5em;
+ }
+
+ .card{
+      margin-top: 2.5em;
  }
 
   #recentUpdates h5{
