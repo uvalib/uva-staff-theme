@@ -880,7 +880,7 @@ footer.page-footer {
 }
 
 
-#sideNav, .collapsible-header{
+#sideNav, .collapsible-header, #sideNav #nav-mobile{
   background-color: #666666;
   border-bottom: none;
 }
