@@ -489,6 +489,12 @@ text-decoration: none
     }
 
 
+
+    .collapsible .collapsible-accordion{
+      margin-left:2em;
+    }
+
+
 .newsColumns{
   margin-top: 2em;
 }
@@ -905,6 +911,10 @@ footer.page-footer {
 
 #sideNav{
       margin-top: 2.7em;
+}
+
+#sideNav #nav-mobile{
+  width:300px !important;
 }
 
 
