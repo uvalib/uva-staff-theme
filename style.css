@@ -449,6 +449,7 @@ background:url("images/title_2.png") top left no-repeat;
 }
 
 #header{
+      padding-top: 1.5em;
 height:10em;
 position:relative;
 background-color: #fff;
@@ -651,7 +652,7 @@ margin-bottom: 1em;
 
 
 #main .page-title, #main .entry-title, .widgettitle, #main h1{
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -897,6 +898,11 @@ footer.page-footer {
 }
 
 
+
+.page-template-default .entry-title, .blog .page-title{
+color:#E57200;
+
+}
 
 .collapsible{
   border:none;
