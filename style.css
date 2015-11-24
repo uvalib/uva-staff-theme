@@ -489,6 +489,11 @@ text-decoration: none
     }
 
 
+.newsColumns{
+  margin-top: 2em;
+}
+
+
 .dropdown, #mega-menu{ 
 
 -webkit-box-shadow: 16px 16px 31px -15px rgba(13,30,45,1);
