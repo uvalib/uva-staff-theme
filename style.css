@@ -328,8 +328,7 @@ object {
  }
 
  #recentUpdates{
-  /*border: 1px solid #e5e5e5;*/
-    border-image: url(images/border.png) 10% 0 10% 0 / 5px 0 5px 0 repeat;
+  border: 1px solid #e5e5e5;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
     box-shadow: 0 1px 1px rgba(0,0,0,.04);
     background: #fff;
@@ -343,8 +342,10 @@ object {
      color: #444;
   font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 14px;
+        border: none;
     border-bottom: 1px solid #eee;
     font-style: bold;
+
   }
 
 
