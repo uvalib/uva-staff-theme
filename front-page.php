@@ -224,8 +224,7 @@ foreach ($recentposts as $post) {
      if ($post->post_title == '') $post->post_title = sprintf(__('Post #%s'), $post->ID);
      echo "<li><a href='".get_permalink($post->ID)."'>";
      the_title();
-     echo '</a></li>';
-          echo "<li><a href='".get_permalink($post->ID)."'>";
+          echo " - <a href='".get_permalink($post->ID)."'>";
         the_author();
      echo '</a></li>';
 }
