@@ -703,7 +703,9 @@ background-color: #F1F1EF;
 
 
 .page-footer h5{
-  font-family: Georgia, Times, 'Times New Roman', serif;
+font-family: "bodoni-urw",sans-serif;
+font-style: italic;
+font-weight: 700;
 
 }
 
