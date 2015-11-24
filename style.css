@@ -902,7 +902,7 @@ footer.page-footer {
 }
 
 
-.entry-content table h3{
+.entry-content table h3, #respond h3{
 
 font-size: 1.5rem;
 
