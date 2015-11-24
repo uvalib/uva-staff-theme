@@ -3,6 +3,39 @@
  * Functions that apply Gravity Forms API features to support our needs. 
  */
 
+// if users are autocreated after netbadge authentication then the username will contain the uva computing id
+// populate the field with "uva_computing_id" as the population parameter with the "login" of the current user
+add_filter('gform_field_value_uva_computing_id', 
+    create_function('', 
+        '$value = (isset($_SERVER["REDIRECT_REMOTE_USER"])) ? $_SERVER["REDIRECT_REMOTE_USER"] : populate_usermeta(\'user_login\'); 
+        return $value;' 
+    )
+);
+
+// populate the field with "name" as the population parameter with the first and last name of the current user
+add_filter('gform_field_value_user_name', 
+    create_function('', 
+        '$value = populate_usermeta(\'first_name\') . \' \' . populate_usermeta(\'last_name\'); 
+        return $value;' 
+    )
+);
+
+// populate the field with "email address" as the population parameter with the email of the current user
+add_filter('gform_field_value_email_address', 
+    create_function('', 
+        '$value = populate_usermeta(\'user_email\'); 
+        return $value;' 
+    )
+);
+
+// populate a time field with the current time
+add_filter('gform_field_value_current_time', 
+    create_function('', 
+        '$value = date(\'g:i a\'); 
+        return $value;' 
+    )
+);
+
 // Staff Purchase Request form: determine if this is a desiderata request so that its admin field 
 // can be set.
 // Test server form ID=25
