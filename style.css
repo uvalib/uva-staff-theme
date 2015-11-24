@@ -902,7 +902,7 @@ footer.page-footer {
 }
 
 
-.entry-content table h3, #respond h3{
+.entry-content table h3, #respond #reply-title, .single h3{
 
 font-size: 1.5rem;
 
@@ -915,7 +915,7 @@ background-color: #E57200 !important;
 }
 
 
-.page-template-default .entry-title, .blog .page-title{
+.page-template-default .entry-title, .blog .page-title, .single .entry-title{
 color:#E57200;
 
 }
