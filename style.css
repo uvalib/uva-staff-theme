@@ -924,7 +924,7 @@ footer.page-footer {
     padding:3em;
 }
 
-strong {
+.entry-content strong {
     font-weight: 1000 !important;
 }
 
