@@ -924,7 +924,9 @@ footer.page-footer {
     padding:3em;
 }
 
-
+strong {
+    font-weight: 1000;
+}
 
 
 #sideNav, .collapsible-header::before { 
