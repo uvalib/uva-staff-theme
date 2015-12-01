@@ -582,6 +582,12 @@ margin-bottom: 1em;
   margin-bottom:2em;
 }
 
+.menu-sidebar-navigation-container li .menu-item{
+margin-bottom:1em;
+}
+
+
+
 .alignleft{
   float: left;
     margin-top: 2em;
@@ -928,6 +934,7 @@ footer.page-footer {
 #sideNav #nav-mobile{
     background-color: #666666;
     padding:3em;
+    padding-left:1em;
 }
 
 .entry-content strong {
