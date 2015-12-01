@@ -967,6 +967,12 @@ color:#E57200;
   font-family: "franklin-gothic-urw",sans-serif;
 }
  
+
+ .collapsible-header{
+  background-color:#666;
+ }
+
+ 
  .collapsible .collapsible .collapsible-header{
 padding:0;
 margin:0;
