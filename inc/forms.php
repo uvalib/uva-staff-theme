@@ -62,13 +62,20 @@ add_filter('gform_field_value_current_time',
 // can be set.
 // Test server form ID=25
 // Prod server form ID=
-add_filter('gform_pre_submission_filter_25', 'gf_set_purchase_request_admin_fields', 10, 1);
-function gf_set_purchase_request_admin_fields($form){
-	// For reserve purchases, only assign a fund code if it is a book or dissertation/thesis or music recording
-	if (isset($_POST['input_61']) and ($_POST['input_61'] == 'Add to desiderata list')) {
-			$_POST['input_63'] = 'Approved';
+add_filter('gform_save_field_value', 'gf_set_purchase_request_admin_fields', 10, 1);
+function gf_set_purchase_request_admin_fields($value, $lead, $field, $form){
+	// Check to make sure we are working with the purchase request form
+	// Note: The form and field filter functionality is only available for this filter starting with version 1.9.13.6
+	if (absint($form->id) == 25) {
+		// For desiderata requests mark the admin approval field as approved automatically so that those
+		// types of requests can be visible in a directory listing.
+		if ($field->id == 63) {
+			if (rgar($entry, 61) == 'Add to desiderata list') {
+					$value = 'Approved';
+			}
+		}
 	}
-	return $form;
+	return $value;
 }
 
 
