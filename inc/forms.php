@@ -58,27 +58,6 @@ add_filter('gform_field_value_current_time',
     )
 );
 
-// Staff Purchase Request form: determine if this is a desiderata request so that its admin field 
-// can be set.
-// Test server form ID=25
-// Prod server form ID=
-add_filter('gform_save_field_value', 'gf_set_purchase_request_admin_fields', 10, 1);
-function gf_set_purchase_request_admin_fields($value, $lead, $field, $form){
-	// Check to make sure we are working with the purchase request form
-	// Note: The form and field filter functionality is only available for this filter starting with version 1.9.13.6
-	if (absint($form->id) == 25) {
-		// For desiderata requests mark the admin approval field as approved automatically so that those
-		// types of requests can be visible in a directory listing.
-		if ($field->id == 63) {
-			if (rgar($entry, 61) == 'Add to desiderata list') {
-					$value = 'Approved';
-			}
-		}
-	}
-	return $value;
-}
-
-
 // Staff Purchase Request form: adjust the notification based on rush or not
 // Test server form ID=25
 // Prod server form ID=
