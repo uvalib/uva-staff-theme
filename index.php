@@ -74,10 +74,14 @@ get_header(); ?>
 		</div><!--end empty div (is this even needed?)-->
 
     </div><!--end col s8 -->
+
+  <div class="col s4" id="sideNav">
 		    			<?php get_sidebar(); ?>
 		    			<?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?> 
 		    			<?php the_widget( 'WP_Widget_Tag_Cloud', $instance, $args ); ?> 
 		    			<?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?> 
+
+		    		</div>
 		    			
   </div>
   </div>
