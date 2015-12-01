@@ -1,5 +1,5 @@
-  <div class="col s4" id="sideNav">
-    <ul id="nav-mobile" class="" style="width: 240px;">
+
+    <ul id="nav-mobile">
       <li class="no-padding">
           <?php
           /**
@@ -23,4 +23,3 @@
           ?>
       </li>
     </ul>
-  </div>
