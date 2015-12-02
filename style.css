@@ -950,7 +950,17 @@ footer.page-footer {
 
 #sideNav, .collapsible-header::before { 
    font-family: FontAwesome;
-   content: "\f0da";
+   content: "\f152";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+}
+
+
+
+#sideNav, .collapsible-header.active::before { 
+   font-family: FontAwesome;
+   content: "\f150";
    display: inline-block;
    padding-right: 3px;
    vertical-align: middle;
