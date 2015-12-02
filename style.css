@@ -422,6 +422,12 @@ height: 50px;
 
 }
 
+
+.collapsible-header.active, .collapsible-accordion .menu-item.active{
+  background-color: #919189;
+}
+
+
 #topNavLinks{
 padding-top:.9em;
 }
