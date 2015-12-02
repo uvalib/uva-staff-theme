@@ -957,6 +957,11 @@ footer.page-footer {
 }
 
 
+.entry-content img{
+      max-width: 500px;
+    height: auto;
+}
+
 
 #sideNav, .collapsible-header.active::before { 
    font-family: FontAwesome;
