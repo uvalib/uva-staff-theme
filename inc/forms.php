@@ -66,7 +66,7 @@ function gf_change_purchase_request_notification_email($notification, $form, $en
 	// Check to see if this purchase is rush or not to adjust the subject line.
 	if (isset($_POST['input_60']) and ($_POST['input_60'] == 'Yes')) {
 		$subject = $notification['subject'];
-		$notification['subject'] = 'Rush ' . $subject;
+		$notification['subject'] = 'Rush: ' . $subject;
 	}
 /*	if ($notification['name'] == 'Admin Notification') {
 		// Check to see if this purchase is to be put on course reserves or not.
