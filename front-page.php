@@ -251,8 +251,10 @@ $items = array_slice($feed->items, 0, 10);
 
 foreach ($items as $item):
 ?>
+<div id="<?php echo $item['guid']; ?>" class="<?php echo $item['source']; ?>">
 <h6><a href="<?php echo $item['link']; ?>"><?php echo $item['title']; ?></a></h6>
 <p><?php echo $item['description']; ?></p>
+</div>
 <?php endforeach; ?>
 
           </div>
