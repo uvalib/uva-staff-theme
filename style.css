@@ -665,7 +665,7 @@ margin-bottom:1em;
 
 .nav .nav-column {
     float: left;
-    width: 25%;
+    width: 33.3%;
     padding: 2.5%;
 }
 
@@ -760,9 +760,7 @@ font-weight: 700;
 
 
 .nav .nav-column h5, .nav .nav-column h4, .nav .nav-column a {
-        margin-left:1em;
-
-  color:#002359;
+color:#002359;
   }
 
 .nav .nav-column h5 {
@@ -955,6 +953,22 @@ footer.page-footer {
    padding-right: 3px;
    vertical-align: middle;
 }
+
+
+.externalLink::after { 
+   font-family: FontAwesome;
+   content: "\f08e";
+   display: inline-block;
+   padding-top:20px;
+   padding-left:4px;
+   vertical-align: middle;
+   color:#002359;
+}
+
+.externalLink h4{
+  float:left;
+}
+
 
 
 .entry-content img{
