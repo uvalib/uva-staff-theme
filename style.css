@@ -583,6 +583,11 @@ margin-bottom: 1em;
 }
 
 
+#search{
+  border: 1px solid #002359;
+}
+
+
 .menu-sidebar-navigation-container li{
 
   margin-bottom:2em;
