@@ -971,6 +971,12 @@ footer.page-footer {
 
 
 
+.screen-reader-text{
+  background-color: #fff;
+}
+
+
+
 .entry-content img{
       max-width: 500px;
     height: auto;
