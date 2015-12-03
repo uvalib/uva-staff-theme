@@ -214,8 +214,8 @@ get_header(); ?>
      $today = current_time('mysql', 1);
      $howMany = 5;
 
-//     if ( $recentposts = $wpdb->get_results("SELECT ID, post_title FROM $wpdb->posts WHERE post_status = 'publish' AND post_modified_gmt < '$today' ORDER BY post_modified_gmt DESC LIMIT $howMany")):
-     if ( $recentposts = $wpdb->get_results("SELECT ID, post_title FROM $wpdb->posts WHERE post_status = 'publish' AND date < '$today' ORDER BY date DESC LIMIT $howMany")):
+     if ( $recentposts = $wpdb->get_results("SELECT ID, post_title FROM $wpdb->posts WHERE post_status = 'publish' AND post_modified_gmt < '$today' ORDER BY post_modified_gmt DESC LIMIT $howMany")):
+//     if ( $recentposts = $wpdb->get_results("SELECT ID, post_title FROM $wpdb->posts WHERE post_status = 'publish' AND date < '$today' ORDER BY date DESC LIMIT $howMany")):
 ?>
 <h5 class="center"><?php _e("Activity</h5>"); ?></h5>
 <h6><?php _e("Recently Published Pages</h5>"); ?></h6>
