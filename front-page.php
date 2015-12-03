@@ -246,13 +246,16 @@ foreach ($recentposts as $post) {
           <h5 class="center">Library Social Media Feeds</h5>
 
 <?php include_once(ABSPATH.WPINC.'/rss.php');
+define('MAGPIE_CACHE_ON', false);
 $feed = fetch_rss('http://static.lib.virginia.edu/feeds/staffSocial.xml');
 $items = array_slice($feed->items, 0, 10);
 
 foreach ($items as $item):
 ?>
+<div id="<?php echo $item['guid']; ?>" class="<?php echo $item['source']; ?>">
 <h6><a href="<?php echo $item['link']; ?>"><?php echo $item['title']; ?></a></h6>
 <p><?php echo $item['description']; ?></p>
+</div>
 <?php endforeach; ?>
 
           </div>
