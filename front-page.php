@@ -140,7 +140,7 @@ get_header(); ?>
               <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
               <li><a href="<?php the_permalink() ?>"><h6><?php the_title(); ?></h6></a>
                 <p class="light truncate"><?php the_excerpt() ?></p>
-                <a class="right-align" href="">Read more »</a>
+                <a class="right-align" href="<?php the_permalink() ?>">Read more »</a>
               </li>
               <?php endwhile; endif; ?>
               <a href="<?php echo esc_url(home_url('/')); ?>/blog/category/staff-events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>

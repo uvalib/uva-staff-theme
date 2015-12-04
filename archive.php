@@ -47,5 +47,7 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+      <div class="col s4" id="sideNav">
+    			<?php get_sidebar(); ?>
+    	</div>
 <?php get_footer(); ?>

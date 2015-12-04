@@ -57,7 +57,9 @@ get_header(); ?>
 
 		</div>
     </div>
+      <div class="col s4" id="sideNav">
     			<?php get_sidebar(); ?>
+    	</div>
   </div>
   </div>
 </div>
