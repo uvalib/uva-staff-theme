@@ -147,31 +147,24 @@ get_header(); ?>
             </ul>
           </div>
         </div>
+
         <div class="col s4">
           <div class="icon-block" id="recentUpdates">
-            <?php
-            $today = current_time('mysql', 1);
-            $howMany = 5;
-            if ($recentposts = $wpdb->get_results("SELECT ID, post_title FROM $wpdb->posts WHERE post_status = 'publish' AND post_modified_gmt < '$today' ORDER BY post_modified_gmt DESC LIMIT $howMany")):
-              //if ( $recentposts = $wpdb->get_results("SELECT ID, post_title FROM $wpdb->posts WHERE post_status = 'publish' AND date < '$today' ORDER BY date DESC LIMIT $howMany")):
-            ?>
-            <h5 class="center"><?php _e('Activity</h5>'); ?></h5>
+            <h5 class="center"><?php _e('Activity Feed</h5>'); ?></h5>
             <h6><?php _e('Recently Published Pages</h5>'); ?></h6>
-            <ul>
             <?php
-            foreach ($recentposts as $post) {
-                if ($post->post_title == '') {
-                    $post->post_title = sprintf(__('Post #%s'), $post->ID);
-                }
-                echo "<li><a href='".get_permalink($post->ID)."'>";
-                the_title();
-                echo " - <a href='".get_permalink($post->ID)."'>";
-                the_author();
-                echo '</a></li>';
+            $args=array(
+               'posts_per_page'=>6,
+               'post_type' => 'page',
+            );
+            $my_query = new WP_Query($args);
+            if( $my_query->have_posts() ) {
+              while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                <p><small><?php the_time('d.m.y') ?></small> <a href="<?php the_permalink() ?>" rel="bookmark" title="Odkaz na <?php the_title_attribute(); ?>"><?php the_title(); ?></a></p>
+                <?php
+              endwhile;
             }
             ?>
-            </ul>
-            <?php endif; ?>
           </div>
           <a href="<?php echo esc_url(home_url('/')); ?>wp-admin" class="btn-large waves-effect waves-light orange darken-1">Login to the Wordpress Dashboard</a>
         </div>
