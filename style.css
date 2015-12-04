@@ -479,6 +479,12 @@ text-decoration: none
 
 }
 
+
+
+ul li {
+    list-style-type: square;
+}
+
 #header .row{
   margin-bottom:0px;
 }
@@ -946,7 +952,7 @@ footer.page-footer {
     padding-left:1em;
 }
 
-.entry-content strong {
+strong {
     font-weight: 1000 !important;
 }
 
