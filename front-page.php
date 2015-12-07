@@ -84,46 +84,29 @@ get_header(); ?>
                 </div>
               </div>
             </div>
-            <div class="col s8">
+
+            <div class="col s5">
               <div class="icon-block">
                 <h5 class="center">Library News &amp; Updates</h5>
-                <div class="newsColumns">
-                  <table class="bordered striped hoverable">
-                    <tbody>
-                      <tr>
-                        <td><a href="http://leadership.library.virginia.edu/2015/06/02/slt-meeting-notes-june-2-2015/" title="Posted 2 June 2015 | 3:35 pm">SLT Meeting Notes–June 2, 2015</a></td>
-                      </tr>
-                      <tr>
-                        <td><a href="http://leadership.library.virginia.edu/2015/06/02/slt-meeting-notes-june-2-2015/" title="Posted 2 June 2015 | 3:35 pm">
-                        SLT Meeting Notes–June 2, 2015              </a></td>
-                      </tr>
-                      <tr>
-                        <td><a href="http://leadership.library.virginia.edu/2015/06/01/alderman-renewal-update/" title="Posted 1 June 2015 | 9:55 am">
-                        Alderman renewal update            </a></td>
-                      </tr>
-                      <tr>
-                        <td><h6><a href="http://leadership.library.virginia.edu/2015/05/26/slt-meeting-notes-may-19-2015/" title="Posted 26 May 2015 | 5:15 pm">
-                        SLT Meeting Notes – May 19, 2015                </a></h6> </td>
-                      </tr>
-                      <tr>
-                        <td><h6><a href="http://leadership.library.virginia.edu/2015/05/26/slt-meeting-notes-may-12-2015/" title="Posted 26 May 2015 | 4:46 pm">
-                        SLT Meeting Notes – May 12, 2015                </a></h6> </td>
-                      </tr>
-                      <tr>
-                        <td><a href=""><h6>Resources for Managers and Supervisors</h6></a></td>
-                      </tr>
-                      <tr>
-                        <td><a href=""><h6>2015 Library User Survey results and presentation documents are now available.</h6></a></td>
-                      </tr>
-                      <tr>
-                        <td><a href=""><h6>Notes from Rebecca Graham at ELT, June 9 2015</h6></a>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <a class="btn-large waves-effect waves-light orange darken-1 right" href="<?php echo esc_url(home_url('/')); ?>news">Read all news &amp; updates</a>
               </div>
+              <ul class="collection">
+                <?php
+                $args=array(
+                   'posts_per_page'=>5,
+                   'post_type' => 'post',
+                );
+                $my_query = new WP_Query($args);
+                if( $my_query->have_posts() ) {
+                  while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                  <a href="<?php the_permalink() ?>" class="collection-item"><?php the_title(); ?> <?php the_time('d.m.y') ?></a>
+                  <?php
+                endwhile;
+                }
+                ?>
+              </ul>
+              <a class="btn-large waves-effect waves-light orange darken-1 right" href="<?php echo esc_url(home_url('/')); ?>news">Read all news &amp; updates</a>
             </div>
+
           </div><!--end row-->
         </div><!--end section-->
       </div>
