@@ -107,6 +107,24 @@ get_header(); ?>
               <a class="btn-large waves-effect waves-light orange darken-1 right" href="<?php echo esc_url(home_url('/')); ?>news">Read all news &amp; updates</a>
             </div>
 
+            <div class="col s3">
+              <div class="icon-block">
+                <h5 class="center">Leadership Blog</h5>
+              </div>
+              <ul class="collection">
+                <?php
+                wprss_display_feed_items( $args = array(
+                    'links_before' => '<ul class="collection">',
+                    'links_after' => '</ul>',
+                    'link_before' => '<li class="collection-item">',
+                    'link_after' => '</li>',
+                    'limit' => '6',
+                    'source' => '5,9'
+                    ));
+                ?>
+              </ul>
+            </div>
+
           </div><!--end row-->
         </div><!--end section-->
       </div>
