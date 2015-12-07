@@ -82,7 +82,8 @@ get_header(); ?>
 
 <!-- Here is the code to pull in the Library Leadership Notes items on the current Staff website home page - Starrie -->
 
- <h5 >Leadership Blog</h5>
+<div class="widget widget_categories">
+ <h2 class="widgettitle">Leadership Blog</h2>
                 <?php
                 wprss_display_feed_items( $args = array(
                     'links_before' => '<ul class="collection">',
@@ -93,6 +94,8 @@ get_header(); ?>
                     'source' => '8170'
                     ));
                 ?>
+
+            </div>
 
 
 
