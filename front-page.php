@@ -118,8 +118,8 @@ get_header(); ?>
                     'links_after' => '</ul>',
                     'link_before' => '<li class="collection-item">',
                     'link_after' => '</li>',
-                    'limit' => '6',
-                    'source' => '5,9'
+                    'limit' => '5',
+                    'source' => '8170'
                     ));
                 ?>
               </ul>
