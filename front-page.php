@@ -111,7 +111,6 @@ get_header(); ?>
               <div class="icon-block">
                 <h5 class="center">Leadership Blog</h5>
               </div>
-              <ul class="collection">
                 <?php
                 wprss_display_feed_items( $args = array(
                     'links_before' => '<ul class="collection">',
@@ -122,7 +121,6 @@ get_header(); ?>
                     'source' => '8170'
                     ));
                 ?>
-              </ul>
             </div>
 
           </div><!--end row-->
