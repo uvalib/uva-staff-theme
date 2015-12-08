@@ -87,7 +87,7 @@ get_header(); ?>
 
             <div class="col s4">
               <div class="icon-block">
-                <h5 class="center">Library News &amp; Updates</h5>
+                <h5><a href="<?php echo esc_url(home_url('/')); ?>news"">Library News &amp; Updates</a></h5>
               
               <ul class="collection">
                 <?php
@@ -110,7 +110,7 @@ get_header(); ?>
 
             <div class="col s4">
               <div class="icon-block">
-                <h5>Library Leadership Blog</h5>
+                <h5><a href="http://leadership.library.virginia.edu">Library Leadership Blog</a></h5>
               
                 <?php
                 wprss_display_feed_items( $args = array(
