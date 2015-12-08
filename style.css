@@ -1045,15 +1045,19 @@ strong {
    display: inline-block;
    float:left;
    margin-right: 1em;
+   width:50%;
+   height:50%;
    vertical-align: middle;
 }
 
 .icon-block .twitter::before { 
 
-   content: url(images/.png);
+   content: url(images/twitter.png);
    display: inline-block;
    float:left;
    margin-right: 1em;
+   width:50%;
+   height:50%;
    vertical-align: middle;
 }
 
