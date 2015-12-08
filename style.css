@@ -736,7 +736,7 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
 
 
 
-.icon-block h5, .card .card-content .card-title{
+.icon-block h5, .card .card-content .card-title, .widget h2{
 font-family: "bodoni-urw",sans-serif;
 font-style: italic;
 font-weight: 700;
