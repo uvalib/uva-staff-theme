@@ -769,13 +769,19 @@ background-color: #F1F1EF;
 
 
 .nav-previous, .nav-next{
-
+height:54px;
   background-color: #fb8c00 !important;
 }
 
 .nav-previous{
   float:left;
   margin-right:2em;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+
+.home .icon-block .nav-links .widget_leadershipBlog .nav-links{
+  display:none;
 }
 
 
