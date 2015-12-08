@@ -1043,15 +1043,17 @@ strong {
 
    content: url(images/facebook.png);
    display: inline-block;
-   padding-right: 3px;
+   float:left;
+   margin-right: 1em;
    vertical-align: middle;
 }
 
 .icon-block .twitter::before { 
 
-   content: url(images/twitter.png);
+   content: url(images/.png);
    display: inline-block;
-   padding-right: 3px;
+   float:left;
+   margin-right: 1em;
    vertical-align: middle;
 }
 
