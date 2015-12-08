@@ -780,7 +780,7 @@ height:54px;
 }
 
 
-.home .icon-block .nav-links .widget_leadershipBlog .nav-links{
+.home .icon-block .nav-links .nav-previous, .widget_leadershipBlog .nav-links .nav-previous{
   display:none;
 }
 
