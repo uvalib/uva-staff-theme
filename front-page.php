@@ -85,10 +85,10 @@ get_header(); ?>
               </div>
             </div>
 
-            <div class="col s5">
+            <div class="col s4">
               <div class="icon-block">
                 <h5 class="center">Library News &amp; Updates</h5>
-              </div>
+              
               <ul class="collection">
                 <?php
                 $args=array(
@@ -106,11 +106,12 @@ get_header(); ?>
               </ul>
               <a class="btn-large waves-effect waves-light orange darken-1 right" href="<?php echo esc_url(home_url('/')); ?>news">Read all news &amp; updates</a>
             </div>
+            </div>
 
-            <div class="col s3">
+            <div class="col s4">
               <div class="icon-block">
                 <h5 class="center">Leadership Blog</h5>
-              </div>
+              
                 <?php
                 wprss_display_feed_items( $args = array(
                     'links_before' => '<ul class="collection">',
@@ -121,6 +122,7 @@ get_header(); ?>
                     'source' => '8170'
                     ));
                 ?>
+            </div>
             </div>
 
           </div><!--end row-->
