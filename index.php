@@ -96,7 +96,8 @@ get_header(); ?>
                 ?>
 
 
-      <div class="nav-links">    <div class="nav-previous alignleft"><a href="https://finch.lib.virginia.edu/news/page/2/">Older posts</a></div>    <div class="nav-next alignright"></div></div>
+              <a class="btn-large waves-effect waves-light orange darken-1 right" href="http://leadership.library.virginia.edu">Read More</a>
+
 
             </div>
 
