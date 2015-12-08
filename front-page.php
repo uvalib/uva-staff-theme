@@ -110,7 +110,7 @@ get_header(); ?>
 
             <div class="col s4">
               <div class="icon-block">
-                <h5 class="center">Leadership Blog</h5>
+                <h5>Library Leadership Blog</h5>
               
                 <?php
                 wprss_display_feed_items( $args = array(
@@ -122,6 +122,8 @@ get_header(); ?>
                     'source' => '8170'
                     ));
                 ?>
+              <a class="btn-large waves-effect waves-light orange darken-1 right" href="<?php echo esc_url(home_url('/')); ?>news">View more</a>
+
             </div>
             </div>
 
