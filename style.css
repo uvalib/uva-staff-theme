@@ -1037,6 +1037,20 @@ strong {
 }
 
 
+
+
+.icon-block .facebook::before { 
+
+   content: url(images/border.png);
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+}
+
+
+
+
+
 .entry-content table h3, #respond #reply-title, .single h3{
 
 font-size: 1.5rem;
