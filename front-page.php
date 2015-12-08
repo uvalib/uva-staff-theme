@@ -122,7 +122,7 @@ get_header(); ?>
                     'source' => '8170'
                     ));
                 ?>
-              <a class="btn-large waves-effect waves-light orange darken-1 right" href="<?php echo esc_url(home_url('/')); ?>news">View more</a>
+              <a class="btn-large waves-effect waves-light orange darken-1 right" href="http://leadership.library.virginia.edu">Read More</a>
 
             </div>
             </div>
