@@ -96,7 +96,7 @@ get_header(); ?>
                 ?>
 
 
-              <a class="btn-large waves-effect waves-light orange darken-1 right" href="http://leadership.library.virginia.edu">Read More</a>
+              <a class="btn-large waves-effect waves-light orange darken-1" href="http://leadership.library.virginia.edu">Read More</a>
 
 
             </div>
