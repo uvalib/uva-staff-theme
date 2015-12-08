@@ -1041,13 +1041,19 @@ strong {
 
 .icon-block .facebook::before { 
 
-   content: url(images/border.png);
+   content: url(images/facebook.png);
    display: inline-block;
    padding-right: 3px;
    vertical-align: middle;
 }
 
+.icon-block .twitter::before { 
 
+   content: url(images/twitter.png);
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+}
 
 
 
