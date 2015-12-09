@@ -341,6 +341,9 @@ object {
     font-size: 13px;
     margin-bottom: 1em;
     margin-top: 2.5em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
  }
 
  .card{
@@ -354,13 +357,18 @@ object {
         border: none;
     border-bottom: 1px solid #eee;
     font-style: bold;
-
+text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
   }
 
 
   .btn-large{
     text-transform: none;
   font-family: "franklin-gothic-urw",sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
   }
 
 
@@ -734,6 +742,9 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
 #main .page-title, .widgettitle, #main h1{
   font-size: 2.5em;
   font-family: Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 
@@ -753,18 +764,27 @@ font-weight: 700;
     color:#002359;
     text-align: left;
     font-size: 2em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 
 #main h2{
   font-size: 1.5em;
   font-family: Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 .activityFeed h4, .activityFeed h5, .activityFeed{
   color:#23282d;
   font-size: 14px;
   font-family: "franklin-gothic-urw",sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 .card{
@@ -810,7 +830,9 @@ height:54px;
 font-family: "bodoni-urw",sans-serif;
 font-style: italic;
 font-weight: 700;
-
+text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 
@@ -822,6 +844,9 @@ color:#002359;
     margin-left:1em;
   font-family: Georgia, Times, 'Times New Roman', serif;
     color:#002359;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
   }
  
 
@@ -844,17 +869,25 @@ color:#002359;
 .nav > li a { 
   font-family: "franklin-gothic-urw",sans-serif;
   color: #666666; 
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 .nav .nav-column h3{
   font-family: Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 
 
 h1, h2, h3, h4, h5, .parallax-container h5{
 font-family: "franklin-gothic-urw",sans-serif;
-
+text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 #mega-menu ul a,
@@ -874,6 +907,9 @@ font-family: "franklin-gothic-urw",sans-serif;
 .noLinkHeader, .card-title{
 
 font-family: "franklin-gothic-urw",sans-serif;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
 
 
@@ -904,6 +940,9 @@ font-family: "franklin-gothic-urw",sans-serif;
 .header, .parallax-container h1{
 font-family: "franklin-gothic-urw",sans-serif;
       font-style: bold !important;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 
 }
 
@@ -1096,6 +1135,9 @@ color:#E57200;
   color:#fff;
   text-decoration: none;
   font-family: "franklin-gothic-urw",sans-serif;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
 }
  
 
@@ -1116,6 +1158,9 @@ margin:0;
  .card .card-title{
   font-size: 2em;
   font-family: "franklin-gothic-urw",sans-serif;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+text-rendering: optimizeLegibility !important;
+-webkit-font-smoothing: antialiased !important;
  }
 
 
