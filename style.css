@@ -750,7 +750,7 @@ text-rendering: optimizeLegibility !important;
 
 #main .entry-title{
   font-size: 1.55em;
-
+    padding-right: 76px;
 }
 
 
@@ -1123,7 +1123,6 @@ background-color: #E57200 !important;
 
 .page-template-default .entry-title, .blog .page-title, .single .entry-title{
 color:#E57200;
-
 }
 
 .collapsible{
