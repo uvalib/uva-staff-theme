@@ -198,7 +198,11 @@ a
 }
 
 .hentry {
-	margin: 0 0 1.5em;
+
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 1.625em;
+    padding: 0 0 1.625em;
+    position: relative;
 }
 
 .byline,
