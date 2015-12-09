@@ -809,7 +809,7 @@ background-color: #F1F1EF;
 }
 
 
-.nav-previous, .nav-next{
+.posts-navigation .nav-previous a, .posts-navigation .nav-next a{
 color:#002359;
 text-decoration: underline;
 }
