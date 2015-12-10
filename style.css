@@ -470,6 +470,16 @@ height:320px;
 background:url("images/title_3.png") top left no-repeat;
 }
 
+.slides #title4 {
+background:url("images/title_4.png") top left no-repeat;
+}
+
+.slides #title5 {
+background:url("images/title_5.png") top left no-repeat;
+}
+
+
+
 
 .widget_leadershipBlog{
   margin-bottom:6em;
@@ -779,7 +789,7 @@ text-rendering: optimizeLegibility !important;
 }
 
 .icon-block h5 a{
-text-decoration: underline;
+text-decoration: none;
 }
 
 

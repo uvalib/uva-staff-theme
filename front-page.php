@@ -34,14 +34,14 @@ get_header(); ?>
         </li>
         <li>
           <img src="<?php bloginfo('template_directory'); ?>/images/staff_4.png"> <!-- random image -->
-          <div class="caption center-align">
+          <div class="caption center-align" id="title4">
             <h3>Collaboration</h3>
             <h5 class="light grey-text text-lighten-3">Seeking out and appreciating all perspectives and contributions.</h5>
           </div>
         </li>
         <li>
           <img src="<?php bloginfo('template_directory'); ?>/images/staff_5.png"> <!-- random image -->
-          <div class="caption left-align">
+          <div class="caption left-align" id="title4">
             <h3>Respect</h3>
             <h5 class="light grey-text text-lighten-3">Recognizing the dignity of everyone in the organization.</h5>
 
