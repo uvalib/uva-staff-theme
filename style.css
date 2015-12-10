@@ -465,7 +465,7 @@ background:url("images/title_1.png") top left no-repeat;
 background:url("images/title_2.png") top left no-repeat;
 }
 
-.slides #title2 {
+.slides #title3 {
 background:url("images/title_3.png") top left no-repeat;
 }
 
@@ -474,6 +474,10 @@ background:url("images/title_3.png") top left no-repeat;
   margin-bottom:6em;
 }
 
+
+.truncate {
+    overflow: inherit;
+  }
 
 
 
