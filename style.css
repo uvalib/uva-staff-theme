@@ -807,13 +807,9 @@ background-color: #F1F1EF;
 }
 
 
-.collection a.collection-item, .collection .collection-item a  {
+.collection a.collection-item {
     display: block;
-    -webkit-transition: 0.25s;
-    -moz-transition: 0.25s;
-    -o-transition: 0.25s;
-    -ms-transition: 0.25s;
-    transition: 0.25s;
+
     color: #002359;
 }
 
