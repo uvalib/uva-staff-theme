@@ -27,7 +27,7 @@ get_header(); ?>
         </li>
         <li>
           <img src="<?php bloginfo('template_directory'); ?>/images/staff_3.png"> <!-- random image -->
-          <div class="caption left-align" id="title2">
+          <div class="caption left-align" id="title3">
               <h3>Integrity</h3>
             <h5 class="light grey-text text-lighten-3">Being honest, open, fair, and trustworthy.</h5>
           </div>
