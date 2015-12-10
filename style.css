@@ -463,6 +463,7 @@ background:url("images/title_1.png") top left no-repeat;
 
 .slides #title2 {
 background:url("images/title_2.png") top left no-repeat;
+height:320px;
 }
 
 .slides #title3 {
