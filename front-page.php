@@ -21,15 +21,15 @@ get_header(); ?>
         <li>
           <img src="<?php bloginfo('template_directory'); ?>/images/staff_16.png"> <!-- random image -->
           <div class="caption left-align" id="title2">
-            <h3>Integrity</h3>
-            <h5 class="light grey-text text-lighten-3">Being honest, open, fair, and trustworthy.</h5>
+            <h3>Innovation</h3>
+            <h5 class="light grey-text text-lighten-3">Challenging the status quo and rewarding responsible risk taking.</h5>
           </div>
         </li>
         <li>
           <img src="<?php bloginfo('template_directory'); ?>/images/staff_3.png"> <!-- random image -->
-          <div class="caption center-align">
-            <h3>Respect</h3>
-            <h5 class="light grey-text text-lighten-3">Recognizing the dignity of everyone in the organization.</h5>
+          <div class="caption left-align" id="title2">
+              <h3>Integrity</h3>
+            <h5 class="light grey-text text-lighten-3">Being honest, open, fair, and trustworthy.</h5>
           </div>
         </li>
         <li>
@@ -42,8 +42,9 @@ get_header(); ?>
         <li>
           <img src="<?php bloginfo('template_directory'); ?>/images/staff_5.png"> <!-- random image -->
           <div class="caption left-align">
-            <h3>Innovation</h3>
-            <h5 class="light grey-text text-lighten-3">Challenging the status quo and rewarding responsible risk taking.</h5>
+            <h3>Respect</h3>
+            <h5 class="light grey-text text-lighten-3">Recognizing the dignity of everyone in the organization.</h5>
+
           </div>
         </li>
       </ul>
