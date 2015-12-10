@@ -192,6 +192,7 @@ get_header(); ?>
     </main><!-- #main -->
   </div><!-- #primary -->
 
+<!-- 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -201,6 +202,6 @@ get_header(); ?>
       </div>
     </div>
     <div class="parallax"><img src="<?php bloginfo('template_directory'); ?>/images/staff-1.png">" /></div>
-  </div>
+  </div> -->
 
   <?php get_footer(); ?>
