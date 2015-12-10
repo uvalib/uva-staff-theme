@@ -26,7 +26,7 @@ get_header(); ?>
           </div>
         </li>
         <li>
-          <img src="<?php bloginfo('template_directory'); ?>/images/staff_3.png"> <!-- random image -->
+          <img src="<?php bloginfo('template_directory'); ?>/images/staff-2.png"> <!-- random image -->
           <div class="caption left-align" id="title3">
               <h3>Integrity</h3>
             <h5 class="light grey-text text-lighten-3">Being honest, open, fair, and trustworthy.</h5>
@@ -139,7 +139,7 @@ get_header(); ?>
           <div class="icon-block">
             <h5 class="center">Learning Calendar and Staff Events</h5>
             <!--<?php $category_id = get_cat_id('Staff Events'); echo $category_id ?>-->
-            <ul>
+            <ul class="collection">
               <?php query_posts('cat=140,141&showposts=5'); ?>
               <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
               <li><a href="<?php the_permalink() ?>"><h6><?php the_title(); ?></h6></a>
