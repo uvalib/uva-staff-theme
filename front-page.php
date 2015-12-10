@@ -40,8 +40,8 @@ get_header(); ?>
           </div>
         </li>
         <li>
-          <img src="<?php bloginfo('template_directory'); ?>/images/staff_4.png"> <!-- random image -->
-          <div class="caption left-align" id="title4">
+          <img src="<?php bloginfo('template_directory'); ?>/images/staff_starburst.png"> <!-- random image -->
+          <div class="caption left-align" id="title5">
             <h3>Respect</h3>
             <h5 class="light grey-text text-lighten-3">Recognizing the dignity of everyone in the organization.</h5>
 
