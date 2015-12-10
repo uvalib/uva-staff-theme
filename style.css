@@ -790,7 +790,7 @@ text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
 }
 
-.icon-block h5 a, .widgettitle h2 a{
+.icon-block h5 a, .widgettitle a{
 text-decoration: none;
 }
 
