@@ -147,8 +147,9 @@ get_header(); ?>
                 <a class="right-align" href="<?php the_permalink() ?>">Read more »</a>
               </li>
               <?php endwhile; endif; ?>
-              <a href="<?php echo esc_url(home_url('/')); ?>/blog/category/staff-events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
             </ul>
+                          <a href="<?php echo esc_url(home_url('/')); ?>/blog/category/staff-events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
+                                        <a href="<?php echo esc_url(home_url('/')); ?>/blog/category/learning-calendar/" class="btn-large waves-effect waves-light orange darken-1">View the Learning Calendar</a>
           </div>
         </div>
 
