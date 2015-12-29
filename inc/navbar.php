@@ -52,8 +52,7 @@
                     </div>
 
                         <div class="nav-column">
-
-                        <a href=""><h3>See all...</h3></a>
+                        <a href=<?php bloginfo(''); ?>/our-organization" class="btn-large waves-effect waves-light orange darken-1">See all...</a>
                     </div>
 
 
@@ -110,7 +109,7 @@
 
                         <div class="nav-column">
 
-                        <a href=""><h3>See all...</h3></a>
+                        <a class="btn-large waves-effect waves-light orange darken-1" href="<?php bloginfo(''); ?>/employee-resources">See all...</a>
                     </div>
                                     </div>
 
