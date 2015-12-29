@@ -21,7 +21,7 @@
         <div class="col l6 s12">
           <h5 class="white-text">Edit this website</h5>
           <p class="grey-text text-lighten-4">This website is run by Library Faculty &amp; Staff. If you need to post an announcement, add a page or edit content log in to the Wordpress Administration dashboard.</p>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>wp-admin" class="btn-large waves-effect waves-light orange darken-1"><i class="material-icons left"></i>Edit this website</a>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>wp-admin" class="btn-large waves-effect waves-light  blue darken-4"><i class="material-icons left"></i>Edit this website</a>
           <p class="grey-text text-lighten-4">Here is a list of handy Wordpress FAQs to help you if you get stuck. Otherwise, please <a class="white-text" href="">contact the UX Team</a> if you need help.</p>
 
 

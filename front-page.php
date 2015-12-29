@@ -69,7 +69,7 @@ get_header(); ?>
                     </ul>
                   </div>
                   <div class="card-action">
-                    <button class="btn-large waves-effect waves-light orange darken-1" type="submit" name="action">Search</button>
+                    <button class="btn-large waves-effect waves-light  blue darken-4" type="submit" name="action">Search</button>
                   </div>
                 </form>
                 <div class="card-reveal">
@@ -105,7 +105,7 @@ get_header(); ?>
                 }
                 ?>
               </ul>
-              <a class="btn-large waves-effect waves-light orange darken-1" href="<?php echo esc_url(home_url('/')); ?>news">Read all news &amp; updates</a>
+              <a class="btn-large waves-effect waves-light  blue darken-4" href="<?php echo esc_url(home_url('/')); ?>news">Read all news &amp; updates</a>
             </div>
             </div>
 
@@ -123,7 +123,7 @@ get_header(); ?>
                     'source' => '8170'
                     ));
                 ?>
-              <a class="btn-large waves-effect waves-light orange darken-1" href="http://leadership.library.virginia.edu">Read More</a>
+              <a class="btn-large waves-effect waves-light blue darken-4" href="http://leadership.library.virginia.edu">Read More</a>
 
             </div>
             </div>
@@ -137,7 +137,7 @@ get_header(); ?>
       <div class="row">
 
 
-        
+
         <div class="col s4">
           <div class="icon-block" id="recentUpdates">
             <h5 class="center"><?php _e('Activity Feed</h5>'); ?></h5>
@@ -175,7 +175,7 @@ get_header(); ?>
               <?php endwhile; endif; ?>
             </ul>
                           <a href="<?php echo esc_url(home_url('/')); ?>/all/staff-events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
-                                        <a href="<?php echo esc_url(home_url('/')); ?>/all/learning-calendar/" class="btn-large waves-effect waves-light orange darken-1">View the Learning Calendar</a>
+                                        <a href="<?php echo esc_url(home_url('/')); ?>/all/learning-calendar/" class="btn-large waves-effect waves-light  blue darken-4">View the Learning Calendar</a>
           </div>
         </div>
 
