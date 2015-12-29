@@ -704,7 +704,7 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
     top: 50px;
     left: 0;
     opacity: 0;
-    /*visibility: hidden;*/
+    visibility: visible;
     overflow: hidden;
  
     background: #F1F1EF;
