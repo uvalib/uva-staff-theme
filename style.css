@@ -726,7 +726,7 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
 
 .nav .nav-column {
     float: left;
-    width: 33.3%;
+    width: 25%;
     padding: 2.5%;
 }
 
