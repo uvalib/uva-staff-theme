@@ -148,8 +148,8 @@ get_header(); ?>
               </li>
               <?php endwhile; endif; ?>
             </ul>
-                          <a href="<?php echo esc_url(home_url('/')); ?>/blog/category/staff-events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
-                                        <a href="<?php echo esc_url(home_url('/')); ?>/blog/category/learning-calendar/" class="btn-large waves-effect waves-light orange darken-1">View the Learning Calendar</a>
+                          <a href="<?php echo esc_url(home_url('/')); ?>/all/staff-events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
+                                        <a href="<?php echo esc_url(home_url('/')); ?>/all/learning-calendar/" class="btn-large waves-effect waves-light orange darken-1">View the Learning Calendar</a>
           </div>
         </div>
 
