@@ -823,7 +823,7 @@ background-color: #F1F1EF;
 }
 
 
-.collection a.collection-item {
+.collection a.collection-item, .collection li  {
     display: block;
     -webkit-transition: 0.25s;
     -moz-transition: 0.25s;
