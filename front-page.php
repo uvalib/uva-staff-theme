@@ -156,7 +156,7 @@ get_header(); ?>
             }
             ?>
           </div>
-          <a href="<?php echo esc_url(home_url('/')); ?>wp-admin" class="btn-large waves-effect waves-light orange darken-1">Login to the Wordpress Dashboard</a>
+          <a href="<?php echo esc_url(home_url('/')); ?>wp-admin" class="btn-large waves-effect waves-light  blue darken-4">Login to the Wordpress Dashboard</a>
         </div>
 
 
@@ -174,8 +174,8 @@ get_header(); ?>
               </li>
               <?php endwhile; endif; ?>
             </ul>
-                          <a href="<?php echo esc_url(home_url('/')); ?>/all/staff-events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
-                                        <a href="<?php echo esc_url(home_url('/')); ?>/all/learning-calendar/" class="btn-large waves-effect waves-light  blue darken-4">View the Learning Calendar</a>
+                          <a href="<?php echo esc_url(home_url('/')); ?>/all/staff-events&learning-calendar/" class="btn-large waves-effect waves-light  blue darken-4">View more Staff events</a>
+
           </div>
         </div>
 
