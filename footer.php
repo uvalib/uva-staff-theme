@@ -30,12 +30,12 @@
           <h5 class="white-text">Sitemap</h5>
           <ul>
         <li><a class="white-text" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-        <li><a class="white-text" href="<?php bloginfo(''); ?>/our-organization">Our Organization</a></li>
-        <li><a class="white-text" href="<?php bloginfo(''); ?>/employee-resources">Employee Resources</a></li>
-        <li><a class="white-text" href="<?php bloginfo(''); ?>/data/">Library Data &amp; Statistics</a></li>
-        <li><a class="white-text" ref="<?php bloginfo(''); ?>/category/forms/">Forms</a></li>
-        <li><a class="white-text" href="<?php bloginfo(''); ?>/emergency-preparedness">Emergency Preparedness</a></li>
-        <li><a class="white-text" href="<?php bloginfo(''); ?>/about">About</a></li>
+        <li><a class="white-text" href="<?php bloginfo('url'); ?>/our-organization">Our Organization</a></li>
+        <li><a class="white-text" href="<?php bloginfo('url'); ?>/employee-resources">Employee Resources</a></li>
+        <li><a class="white-text" href="<?php bloginfo('url'); ?>/data/">Library Data &amp; Statistics</a></li>
+        <li><a class="white-text" ref="<?php bloginfo('url'); ?>/category/forms/">Forms</a></li>
+        <li><a class="white-text" href="<?php bloginfo('url'); ?>/emergency-preparedness">Emergency Preparedness</a></li>
+        <li><a class="white-text" href="<?php bloginfo('url'); ?>/about">About</a></li>
 
           </ul>
         </div>
