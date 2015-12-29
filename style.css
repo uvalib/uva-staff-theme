@@ -840,6 +840,15 @@ background-color: #F1F1EF;
 
 }
 
+.post-navigation{
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.post-navigation .nav-links a{
+  color:#002359;
+
+  }
 
 
 
