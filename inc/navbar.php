@@ -49,11 +49,11 @@
                             <li><a href="<?php bloginfo(''); ?>/groups/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
                             <li><a href="<?php bloginfo(''); ?>/"><h4>User Experience Community</h4></a></li>
                         </ul>
+                    </div>
 
                         <div class="nav-column">
 
                         <a href=""><h3>See all...</h3></a>
-                    </div>
                     </div>
 
 
@@ -106,14 +106,14 @@
                             <li><a href="<?php bloginfo(''); ?>/hr-budget-grants/training-professional-development/"><h4>Training and professional development opportunities</h4></a></li>
                         </ul>
                     </div>
-                 
-                </div>
-
+                
 
                         <div class="nav-column">
 
                         <a href=""><h3>See all...</h3></a>
                     </div>
+                                    </div>
+
         </li>
 
 
