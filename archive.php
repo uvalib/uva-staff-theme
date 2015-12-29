@@ -9,6 +9,16 @@
 
 get_header(); ?>
 
+ <div class="container content">
+
+
+    <div class="section">
+ <div class="row">
+
+      <div class="col s8"> 
+        <div>
+
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -44,10 +54,52 @@ get_header(); ?>
 
 		<?php endif; ?>
 
-		</main><!-- #main -->
+</main><!-- #main -->
 	</div><!-- #primary -->
+		</div><!--end empty div (is this even needed?)-->
 
-      <div class="col s4" id="sideNav">
-    			<?php get_sidebar(); ?>
-    	</div>
+    </div><!--end col s8 -->
+
+  <div class="col s4" id="sideNav">
+		    			<?php get_sidebar(); ?>
+
+
+
+<!-- Here is the code to pull in the Library Leadership Notes items on the current Staff website home page - Starrie -->
+
+<div class="widget widget_leadershipBlog">
+ <h2 class="widgettitle"><a href="http://leadership.library.virginia.edu">Library Leadership Blog</a></h2>
+                <?php
+                wprss_display_feed_items( $args = array(
+                    'links_before' => '<ul class="collection">',
+                    'links_after' => '</ul>',
+                    'link_before' => '<li class="collection-item">',
+                    'link_after' => '</li>',
+                    'limit' => '3',
+                    'source' => '8170'
+                    ));
+                ?>
+
+
+              <a class="btn-large waves-effect waves-light orange darken-1" href="http://leadership.library.virginia.edu">Read More</a>
+
+
+            </div>
+
+
+
+
+
+		    			<?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?> 
+		    			<?php the_widget( 'WP_Widget_Tag_Cloud', $instance, $args ); ?> 
+		    			<?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?> 
+
+		    		</div>
+		    			
+  </div>
+  </div>
+</div>
+
+
+
 <?php get_footer(); ?>
