@@ -6,7 +6,7 @@
       <ul class="hide-on-med-and-down nav">
 
 
- <li><a href="<?php bloginfo(''); ?>/our-organization">Our Organization</a>
+ <li><a href="<?php bloginfo('url'); ?>/our-organization">Our Organization</a>
 
                   <div class="dropdown">
 
@@ -52,7 +52,7 @@
                     </div>
 
                         <div class="nav-column">
-                        <a href=<?php bloginfo(''); ?>/our-organization" class="btn-large waves-effect waves-light orange darken-1">See all...</a>
+                        <a href=<?php bloginfo('url'); ?>/our-organization" class="btn-large waves-effect waves-light orange darken-1">See all...</a>
                     </div>
 
 
@@ -61,7 +61,7 @@
 
         </li>
       
-        <li><a href="<?php bloginfo(''); ?>/employee-resources">Employee Resources</a>
+        <li><a href="<?php bloginfo('url'); ?>/employee-resources">Employee Resources</a>
             <div class="dropdown">
 
 
@@ -116,7 +116,7 @@
         </li>
 
 
-<li><a href="<?php bloginfo(''); ?>/data/">Library Data &amp; Statistics</a>
+<li><a href="<?php bloginfo('url'); ?>/data/">Library Data &amp; Statistics</a>
 
 <div class="dropdown">
 
@@ -135,7 +135,7 @@
 
         </li>
        
-        <li><a href="<?php bloginfo(''); ?>/category/forms/">Forms</a>
+        <li><a href="<?php bloginfo('url'); ?>/category/forms/">Forms</a>
 
 <div class="dropdown">
 
@@ -168,7 +168,7 @@
 
 
 
-          <li><a href="<?php bloginfo(''); ?>/emergency-preparedness">Emergency Preparedness</a>
+          <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness">Emergency Preparedness</a>
 
 
           <div class="dropdown">
@@ -207,7 +207,7 @@
 
           </li>
 
-          <li><a href="<?php bloginfo(''); ?>/about">About</a>
+          <li><a href="<?php bloginfo('url'); ?>/about">About</a>
 
       </ul>
 
