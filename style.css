@@ -764,13 +764,13 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
   font-size: 2.5em;
   font-family: Georgia, Times, 'Times New Roman', serif;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-text-rendering: optimizeLegibility !important;
--webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 
-#main .entry-title{
-  font-size: 1.55em;
+#main h2.entry-title{
+    font-size: 2.55em;
     padding-right: 76px;
 }
 
