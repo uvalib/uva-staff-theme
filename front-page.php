@@ -135,24 +135,9 @@ get_header(); ?>
   <div class="container">
     <div class="section">
       <div class="row">
-        <div class="col s4">
-          <div class="icon-block">
-            <h5 class="center">Learning Calendar and Staff Events</h5>
-            <!--<?php $category_id = get_cat_id('Staff Events'); echo $category_id ?>-->
-            <ul class="collection">
-              <?php query_posts('cat=140,141&showposts=5'); ?>
-              <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-              <li><a href="<?php the_permalink() ?>"><h6><?php the_title(); ?></h6></a>
-                <p class="light truncate"><?php the_excerpt() ?></p>
-                <a class="right-align" href="<?php the_permalink() ?>">Read more »</a>
-              </li>
-              <?php endwhile; endif; ?>
-            </ul>
-                          <a href="<?php echo esc_url(home_url('/')); ?>/all/staff-events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
-                                        <a href="<?php echo esc_url(home_url('/')); ?>/all/learning-calendar/" class="btn-large waves-effect waves-light orange darken-1">View the Learning Calendar</a>
-          </div>
-        </div>
 
+
+        
         <div class="col s4">
           <div class="icon-block" id="recentUpdates">
             <h5 class="center"><?php _e('Activity Feed</h5>'); ?></h5>
@@ -173,6 +158,29 @@ get_header(); ?>
           </div>
           <a href="<?php echo esc_url(home_url('/')); ?>wp-admin" class="btn-large waves-effect waves-light orange darken-1">Login to the Wordpress Dashboard</a>
         </div>
+
+
+
+        <div class="col s4">
+          <div class="icon-block">
+            <h5 class="center">Learning Calendar and Staff Events</h5>
+            <!--<?php $category_id = get_cat_id('Staff Events'); echo $category_id ?>-->
+            <ul class="collection">
+              <?php query_posts('cat=140,141&showposts=5'); ?>
+              <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+              <li><a href="<?php the_permalink() ?>"><h6><?php the_title(); ?></h6></a>
+                <p class="light truncate"><?php the_excerpt() ?></p>
+                <a class="right-align" href="<?php the_permalink() ?>">Read more »</a>
+              </li>
+              <?php endwhile; endif; ?>
+            </ul>
+                          <a href="<?php echo esc_url(home_url('/')); ?>/all/staff-events/" class="btn-large waves-effect waves-light orange darken-1">View more Staff events</a>
+                                        <a href="<?php echo esc_url(home_url('/')); ?>/all/learning-calendar/" class="btn-large waves-effect waves-light orange darken-1">View the Learning Calendar</a>
+          </div>
+        </div>
+
+
+
 
         <div class="col m12 l4">
           <div class="icon-block">
