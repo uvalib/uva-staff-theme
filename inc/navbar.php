@@ -39,7 +39,7 @@
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/cross-area-groups/"><h4>All Cross-Area Groups</h4></a></li>
                         </ul>
-                                      <a class="btn-large waves-effect waves-light blue darken-4" href="?php bloginfo('url'); ?>/our-organization">See all...</a>
+                                      <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/our-organization">See all...</a>
                      </div>
                 </div>
 
@@ -83,6 +83,9 @@
                             <li><a href="<?php bloginfo('url'); ?>/employee-resources/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/employee-resources/training-professional-development/"><h4>Training and professional development opportunities</h4></a></li>
                         </ul>
+
+
+                        <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/employee-resources">See all...</a>
                     </div>
                  
                 </div>
@@ -99,6 +102,7 @@
                             <li><a href="http://assessment.library.virginia.edu/statistics/" class="externalLink"><h4>Statistics</h3></a></li>
                             <li><a href="http://assessment.library.virginia.edu/surveys-and-reports/" class="externalLink"><h4>User Survey</h3></a></li>
                         </ul>
+<a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/data">See all...</a>
                     </div>
 
     </div>
@@ -130,6 +134,7 @@
                             <li><a href="http://staff.lib.virginia.edu/systems/facilities/facilities-help-request.php"><h4>Student Permission Form </h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/forms/student-personnel-action/"><h4>Student Personnel Action Form</h3></a></li>
                         </ul>
+                        <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/category/forms/">See all...</a>
                     </div>
     </div>
 
@@ -166,6 +171,7 @@
                             <li><a href=<?php bloginfo('url'); ?>/"emergency-preparedness/library-building-space-emergencies/"><h4>Library Building &amp; Space Emergencies</h3></a></li>
                             <li><a href=""><h4>Policies</h3></a></li>
                         </ul>
+                            <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/emergency-preparedness">See all...</a>
                     </div>
 
             </div>
