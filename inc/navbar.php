@@ -39,6 +39,7 @@
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/cross-area-groups/"><h4>All Cross-Area Groups</h4></a></li>
                         </ul>
+                                      <a class="btn-large waves-effect waves-light blue darken-4" href="?php bloginfo('url'); ?>/our-organization">See all...</a>
                      </div>
                 </div>
 
