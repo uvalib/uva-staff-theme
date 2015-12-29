@@ -53,7 +53,7 @@ get_header(); ?>
     <div class="container">
       <div class="section">
         <div class="row">
-            <div class="col s4">
+            <div class="col m12 l4">
               <div class="card  grey lighten-2">
                 <div class="card-image">
                   <img src="<?php bloginfo('template_directory'); ?>/images/staff_3.png">
@@ -86,7 +86,7 @@ get_header(); ?>
               </div>
             </div>
 
-            <div class="col s4">
+            <div class="col m12 l4">
               <div class="icon-block">
                 <h5><a href="<?php echo esc_url(home_url('/')); ?>news"">Library News &amp; Updates</a></h5>
               
@@ -109,7 +109,7 @@ get_header(); ?>
             </div>
             </div>
 
-            <div class="col s4">
+            <div class="col m12 l4">
               <div class="icon-block">
                 <h5><a href="http://leadership.library.virginia.edu">Library Leadership Blog</a></h5>
               
@@ -138,7 +138,7 @@ get_header(); ?>
 
 
 
-        <div class="col s4">
+        <div class="col m12 l4">
           <div class="icon-block" id="recentUpdates">
             <h5 class="center"><?php _e('Activity Feed</h5>'); ?></h5>
             <h6><?php _e('Recently Published Pages</h5>'); ?></h6>
@@ -161,7 +161,7 @@ get_header(); ?>
 
 
 
-        <div class="col s4">
+        <div class="col m12 l4">
           <div class="icon-block">
             <h5 class="center">Learning Calendar and Staff Events</h5>
             <!--<?php $category_id = get_cat_id('Staff Events'); echo $category_id ?>-->
