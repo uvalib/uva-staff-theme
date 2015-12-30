@@ -25,7 +25,9 @@ get_header(); ?>
 			<section>
 				<?php the_title( '<h1 class="section-title">', '</h1>' ); ?>
 				
+				<div class="page-content">
 				<?php the_content(); ?>
+				</div><!-- .page-content -->
 				
 				<?php 
 					/* Lets see if we have a category to display */
