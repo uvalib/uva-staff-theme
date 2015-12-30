@@ -20,7 +20,7 @@ get_header(); ?>
     <div class="section">
  <div class="row">
 
-      <div class="col s8"> 
+      <div class="col l8 m12"> 
         <div>
 
 
@@ -48,7 +48,7 @@ get_header(); ?>
 
     </div><!--end col s8 -->
 
-  <div class="col s4" id="sideNav">
+  <div class="col s12 m4" id="sideNav">
 		    			<?php get_sidebar(); ?>
 
 
