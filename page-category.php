@@ -28,6 +28,7 @@ get_header(); ?>
 				
 				<div class="page-content">
 					<?php the_content(); ?>
+					<?php echo get_post_meta($post->ID, 'categories', true); ?>
 				</div><!-- .page-content -->
 				
 				<?php 
