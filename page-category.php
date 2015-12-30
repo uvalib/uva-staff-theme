@@ -24,9 +24,9 @@ get_header(); ?>
 
 
 				
-				<?php the_post(); ?>
+				<?php /*the_post();*/ ?>
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+				<?php /*get_template_part( 'template-parts/content', 'page' );*/ ?>
 				
 				<?php 
 					/* Lets see if we have a category to display */
