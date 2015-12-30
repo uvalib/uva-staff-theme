@@ -45,7 +45,7 @@ get_header(); ?>
 					// Do not rely on what the admin entered 
 					$order = $asc ? 'ASC' : 'DESC';
 					if( $meta_cats ) {
-						$categories = explode(',', $meta_cats);
+						$categories = array('Staff Events', 'Learning Calendar'); //explode(',', $meta_cats);
 						foreach ($categories as $meta_cat) {
 							// If we have a meta value is it numeric or a slug, return an id
 							$catids[] = is_numeric( $meta_cat ) ? $meta_cat : get_cat_ID($meta_cat);
