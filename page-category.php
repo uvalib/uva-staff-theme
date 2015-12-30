@@ -41,11 +41,7 @@ get_header(); ?>
 					// Do we have categories set on the custom fields
 					$meta_cats = get_post_meta($post->ID, 'categories', true);
 					
-					// Do we have an order set on the custom fields
-					$asc = get_post_meta($post->ID, 'asc', true);
-										
 					// Do not rely on what the admin entered 
-					$order = $asc ? 'ASC' : 'DESC';
 					if( $meta_cats ) {
 						$categories = explode(',', $meta_cats);
 						foreach ($categories as $meta_cat) {
@@ -65,15 +61,15 @@ get_header(); ?>
 						$do_not_show_stickies = 1; // 0 to show stickies
 						$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 						$args = array( 
-							'cat' => array(140, 141),
+							'cat' => implode(',', $catids),
 							'post_type' => array('post'),
-							'order' => $order,
+							'order' => 'DESC',
+							'paged' => $paged,
 							'ignore_sticky_posts' => $do_not_show_stickies
 						);
 						
-						$wp_query= null;
+						$wp_query = null;
 						$wp_query = new WP_Query( $args );
-//						$wp_query->query( $args );
 							
 						// Output our Query
 						if ( $wp_query->have_posts() ) {
@@ -83,6 +79,7 @@ get_header(); ?>
 							}
 						}
 					}	
+					wp_reset_postdata();
 				?>
 				
 				<?php 
