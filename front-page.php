@@ -69,7 +69,7 @@ get_header(); ?>
                     </ul>
                   </div>
                   <div class="card-action">
-                    <button class="btn-large waves-effect waves-light  blue darken-4" type="submit" name="action">Search</button>
+                    <button class="btn-large waves-effect waves-light center-align blue darken-4" type="submit" name="action">Search</button>
                   </div>
                 </form>
                 <div class="card-reveal">
@@ -105,7 +105,7 @@ get_header(); ?>
                 }
                 ?>
               </ul>
-              <a class="btn-large waves-effect waves-light  blue darken-4" href="<?php echo esc_url(home_url('/')); ?>news">Read all news &amp; updates</a>
+              <a class="btn-large waves-effect waves-light center-align blue darken-4" href="<?php echo esc_url(home_url('/')); ?>news">Read all news &amp; updates</a>
             </div>
             </div>
 
@@ -123,7 +123,7 @@ get_header(); ?>
                     'source' => '8170'
                     ));
                 ?>
-              <a class="btn-large waves-effect waves-light blue darken-4" href="http://leadership.library.virginia.edu">Read More</a>
+              <a class="btn-large waves-effect waves-light center-align blue darken-4" href="http://leadership.library.virginia.edu">Read More</a>
 
             </div>
             </div>
