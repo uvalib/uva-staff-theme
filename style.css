@@ -1275,12 +1275,12 @@ margin:0;
 
 
 
-
-
-
-
-
 /*MEDIA QUERIES*/
+
+
+
+
+
 
 
 @media only screen and (max-width : 992px) {
@@ -1291,6 +1291,11 @@ margin:0;
   #index-banner .section {
     top: 10%;
   }
+#sideNav{
+  visibility: hidden;
+}
+
+
 }
 
 @media only screen and (max-width : 600px) {
