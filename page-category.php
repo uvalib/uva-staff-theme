@@ -24,7 +24,9 @@ get_header(); ?>
 
 			<section>
 				<?php the_title( '<h1 class="section-title">', '</h1>' ); ?>
-								
+				
+				<?php the_content(); ?>
+				
 				<?php 
 					/* Lets see if we have a category to display */
 					global $post;
@@ -67,14 +69,14 @@ get_header(); ?>
 						);
 						
 						$wp_query= null;
-						$wp_query = new WP_Query();
-						$wp_query->query( $args );
+						$wp_query = new WP_Query( $args );
+//						$wp_query->query( $args );
 							
 						// Output our Query
 						if ( $wp_query->have_posts() ) {
 							while ( $wp_query->have_posts() ) {
 								$wp_query->the_post();
-								get_template_part( 'template-parts/content', 'page' );
+								get_template_part( 'template-parts/content', 'category-page' );
 							}
 						}
 					}	
