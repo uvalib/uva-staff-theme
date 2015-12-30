@@ -670,7 +670,10 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
 }
 
 
-.nav > li:hover > a { background: #F1F1EF; }
+.nav > li:hover > a { 
+  background: #F1F1EF; 
+    color: #002359 !important;
+}
  
 .nav > li:first-child > a {
     border-radius: 3px 0 0 3px;
