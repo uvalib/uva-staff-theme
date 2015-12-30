@@ -15,7 +15,7 @@
 	</div><!-- #content -->
 
 
- <footer class="page-footer orange darken-3">
+ <footer class="page-footer grey lighten-3">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
