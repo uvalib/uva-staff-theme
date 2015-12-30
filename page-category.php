@@ -22,12 +22,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-
-				
-				<?php /*the_post();*/ ?>
-
-				<?php /*get_template_part( 'template-parts/content', 'page' );*/ ?>
-				
+			<section>
+				<?php the_title( '<h1 class="section-title">', '</h1>' ); ?>
+								
 				<?php 
 					/* Lets see if we have a category to display */
 					global $post;
@@ -45,7 +42,7 @@ get_header(); ?>
 					// Do not rely on what the admin entered 
 					$order = $asc ? 'ASC' : 'DESC';
 					if( $meta_cats ) {
-						$categories = array('Staff Events', 'Learning Calendar'); //explode(',', $meta_cats);
+						$categories = explode(',', $meta_cats);
 						foreach ($categories as $meta_cat) {
 							// If we have a meta value is it numeric or a slug, return an id
 							$catids[] = is_numeric( $meta_cat ) ? $meta_cat : get_cat_ID($meta_cat);
@@ -63,10 +60,9 @@ get_header(); ?>
 						$do_not_show_stickies = 1; // 0 to show stickies
 						$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 						$args = array( 
-							'cat' => $catids,
+							'cat' => array(140, 141),
 							'post_type' => array('post'),
 							'order' => $order,
-							'paged' => $paged,
 							'ignore_sticky_posts' => $do_not_show_stickies
 						);
 						
@@ -95,8 +91,8 @@ get_header(); ?>
 						comments_template();
 					endif;
 				?>
-
-	</main><!-- #main -->
+			</section>
+		</main><!-- #main -->
 	</div><!-- #primary -->
 		</div><!--end empty div (is this even needed?)-->
 
