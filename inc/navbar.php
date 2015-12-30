@@ -168,7 +168,7 @@
                         <ul>
                             <li><a href="https://www.library.virginia.edu/report-library-incident/"><h4>Incident Reporting Form</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/inclement-weather-policy/"><h4>Inclement Weather Policy</h3></a></li>
-                            <li><a href=<?php bloginfo('url'); ?>/"emergency-preparedness/library-building-space-emergencies/"><h4>Library Building &amp; Space Emergencies</h3></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/"emergency-preparedness/library-building-space-emergencies/"><h4>Library Building &amp; Space Emergencies</h3></a></li>
                             <li><a href=""><h4>Policies</h3></a></li>
                         </ul>
                     </div>
@@ -186,17 +186,17 @@
 
           </li>
 
-          <li><a href="about">About</a>
+          <li><a href="<?php bloginfo('url'); ?>/about">About</a>
 
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="our-organization">Our Organization</a></li>
-        <li><a href="employee-resources">Employee Resources</a></li>
-        <li><a href="data">Library Data &amp; Statistics</a></li>
-        <li><a href="category/forms/">Forms</a></li>
-        <li><a href="emergency-preparedness">Emergency Preparedness</a></li>
-          <li><a href="about">About</a></li>
+        <li><a href="<?php bloginfo('url'); ?>/our-organization">Our Organization</a></li>
+        <li><a href="<?php bloginfo('url'); ?>/employee-resources">Employee Resources</a></li>
+        <li><a href="<?php bloginfo('url'); ?>/data">Library Data &amp; Statistics</a></li>
+        <li><a href="<?php bloginfo('url'); ?>/category/forms/">Forms</a></li>
+        <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness">Emergency Preparedness</a></li>
+          <li><a href="<?php bloginfo('url'); ?>/about">About</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
