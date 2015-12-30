@@ -174,7 +174,7 @@ get_header(); ?>
               </li>
               <?php endwhile; endif; ?>
             </ul>
-                          <a href="<?php echo esc_url(home_url('/')); ?>staff-events&learning-calendar" class="btn-large waves-effect waves-light  blue darken-4">View more Staff events</a>
+                          <a href="<?php echo esc_url(home_url('/')); ?>staff-events-and-learning-calendar" class="btn-large waves-effect waves-light  blue darken-4">View more Staff events</a>
 
           </div>
         </div>
