@@ -46,9 +46,9 @@ get_header(); ?>
 					if( $meta_cats ) {
 						$categories = explode(',', $meta_cats);
 						foreach ($categories as $meta_cat) {
-							echo $meta_cat;
 							// If we have a meta value is it numeric or a slug, return an id
 							$catids[] = is_numeric( $meta_cat ) ? $meta_cat : get_cat_ID($meta_cat);
+							echo $meta_cat . '=' . get_cat_ID($meta_cat);
 						}
 					}
 					
