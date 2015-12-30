@@ -171,9 +171,11 @@
                             <li><a href=<?php bloginfo('url'); ?>/"emergency-preparedness/library-building-space-emergencies/"><h4>Library Building &amp; Space Emergencies</h3></a></li>
                             <li><a href=""><h4>Policies</h3></a></li>
                         </ul>
-                            <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/emergency-preparedness">See all...</a>
                     </div>
 
+                        <div class="nav-column">
+                                                <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/emergency-preparedness">See all...</a>
+                        </div>
             </div>
 
 
