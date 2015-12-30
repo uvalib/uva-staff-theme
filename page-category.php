@@ -41,10 +41,7 @@ get_header(); ?>
 					
 					// Do we have an order set on the custom fields
 					$asc = get_post_meta($post->ID, 'asc', true);
-					
-					// Do we want to display thumbnail and excerpts list? 
-					$excerpt = get_post_meta($post->ID, 'list', true);
-					
+										
 					// Do not rely on what the admin entered 
 					$order = $asc ? 'ASC' : 'DESC';
 					if( $meta_cats ) {
@@ -64,10 +61,12 @@ get_header(); ?>
 					// If we have a category id we can get the category posts
 					if( count($catids) != 0 ) {
 						$do_not_show_stickies = 1; // 0 to show stickies
+						$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 						$args = array( 
 							'cat' => $catids,
-							'post_type' => array('post', 'page'),
+							'post_type' => array('post'),
 							'order' => $order,
+							'paged' => $paged,
 							'ignore_sticky_posts' => $do_not_show_stickies
 						);
 						
