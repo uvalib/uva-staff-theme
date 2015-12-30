@@ -23,10 +23,11 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<section>
+				<?php the_post(); ?>
 				<?php the_title( '<h1 class="section-title">', '</h1>' ); ?>
 				
 				<div class="page-content">
-				<?php the_content(); ?>
+					<?php the_content(); ?>
 				</div><!-- .page-content -->
 				
 				<?php 
