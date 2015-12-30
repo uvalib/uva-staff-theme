@@ -28,7 +28,6 @@ get_header(); ?>
 				
 				<div class="page-content">
 					<?php the_content(); ?>
-					<?php echo get_post_meta($post->ID, 'categories', true); ?>
 				</div><!-- .page-content -->
 				
 				<?php 
@@ -48,7 +47,6 @@ get_header(); ?>
 						foreach ($categories as $meta_cat) {
 							// If we have a meta value is it numeric or a slug, return an id
 							$catids[] = is_numeric( $meta_cat ) ? $meta_cat : get_cat_ID(trim($meta_cat));
-							echo $meta_cat . '=' . get_cat_ID($meta_cat);
 						}
 					}
 					
@@ -128,15 +126,11 @@ get_header(); ?>
 
             </div>
 
+						<?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?> 
+						<?php the_widget( 'WP_Widget_Tag_Cloud', $instance, $args ); ?> 
+						<?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?> 
 
-
-
-
-		    			<?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?> 
-		    			<?php the_widget( 'WP_Widget_Tag_Cloud', $instance, $args ); ?> 
-		    			<?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?> 
-
-		    		</div>
+					</div>
 		    			
   </div>
   </div>
