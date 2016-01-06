@@ -76,12 +76,6 @@ get_header(); ?>
 
 
 
-
-
-		    			<?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?> 
-		    			<?php the_widget( 'WP_Widget_Tag_Cloud', $instance, $args ); ?> 
-		    			<?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?> 
-
 		    		</div>
 		    			
   </div>
