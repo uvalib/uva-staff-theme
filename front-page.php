@@ -57,7 +57,7 @@ get_header(); ?>
               <div class="card  grey lighten-2">
                 <div class="card-image">
                   <img src="<?php bloginfo('template_directory'); ?>/images/staff_3.png">
-                  <span class="card-title activator black-text">Staff Directory<i class="material-icons right">more_vert</i></span>
+                  <span class="card-title activator black-text">Staff Directory<!--<i class="material-icons right">more_vert</i>--></span>
                 </div>
                 <form method="get" action="http://www.library.virginia.edu/staff/">
                   <div class="card-content black-text">
@@ -72,17 +72,18 @@ get_header(); ?>
                     <button class="btn-large waves-effect waves-light center-align blue darken-4" type="submit" name="action">Search</button>
                   </div>
                 </form>
-                <div class="card-reveal">
+                <!--<div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Staff by Area<i class="material-icons right">close</i></span>
                   <ul>
-                    <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">All Staff</a></li>
+                    <li><a href="#" title="All Staff">All Staff</a></li>
                     <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Administration &amp; Planning Staff</a></li>
-                    <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Library Experience Staff</a></li>
+                    <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Content Stewardship</a></li>
+                    <li><a href="http://www.library.virginia.edu/staff/#!/libteam-ux" title="Posted 2 June 2015 | 3:35 pm">Library Experience Staff</a></li>
                     <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Academic Engagement Staff</a></li>
                     <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Collections, Access &amp; Discovery Staff</a></li>
                     <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Office of the University Librarian</a></li>
                   </ul>
-                </div>
+                </div>-->
               </div>
             </div>
 
