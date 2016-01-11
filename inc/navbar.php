@@ -104,7 +104,7 @@
 
                     </div>
                         <div class="nav-column">   
-                                    <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/data">See all...</a>
+                                    <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/library-data-statistics/ ">See all...</a>
                                     </div> 
 
     </div>
@@ -140,7 +140,7 @@
                     </div>
 
                         <div class="nav-column">
-                            <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/category/forms/">See all...</a>
+                            <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/all-forms/">See all...</a>
                         </div>
     </div>
 
