@@ -201,7 +201,7 @@
         <li><a href="<?php bloginfo('url'); ?>/our-organization">Our Organization</a></li>
         <li><a href="<?php bloginfo('url'); ?>/employee-resources">Employee Resources</a></li>
         <li><a href="<?php bloginfo('url'); ?>/data">Library Data &amp; Statistics</a></li>
-        <li><a href="<?php bloginfo('url'); ?>/category/forms/">Forms</a></li>
+        <li><a href="<?php bloginfo('url'); ?>/all-forms/">Forms</a></li>
         <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness">Emergency Preparedness</a></li>
           <li><a href="<?php bloginfo('url'); ?>/about">About</a></li>
       </ul>
