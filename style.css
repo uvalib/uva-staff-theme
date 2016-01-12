@@ -707,9 +707,8 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
     top: 50px;
     left: 0;
     opacity: 0;
-    visibility: hidden;
+    visibility: visible;
     overflow: hidden;
- 
     background: #F1F1EF;
     border-radius: 0 0 3px 3px;
  
@@ -729,7 +728,7 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
 
 .nav .nav-column {
     float: left;
-    width: 25%;
+    width: 33%;
     padding: 2.5%;
 }
 
@@ -899,8 +898,15 @@ text-rendering: optimizeLegibility !important;
     display: block;
     line-height: 18px;
     font-size: 16px;
-    color: #888888;
+    float:left;
 }
+
+.nav .nav-column li a{
+    color: #002359;
+    float:left;
+    vertical-align: middle;
+}
+
 
 .nav > li > a:hover{
  color:#000;
