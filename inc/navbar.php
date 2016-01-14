@@ -193,7 +193,7 @@
 
           </li>
 
-          <li><a href="about">About</a>
+          <li><a href="/about">About</a>
 
       </ul>
 
