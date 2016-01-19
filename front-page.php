@@ -189,7 +189,7 @@ get_header(); ?>
             <?php include_once ABSPATH.WPINC.'/rss.php';
             define('MAGPIE_CACHE_ON', false);
             $feed = fetch_rss('http://static.lib.virginia.edu/feeds/staffSocial.xml');
-            $items = array_slice($feed->items, 0, 10);
+            $items = array_slice($feed->items, 0, 5);
             foreach ($items as $item):
             ?>
             <div id="<?php echo $item['guid']; ?>" class="<?php echo $item['source']; ?>">
