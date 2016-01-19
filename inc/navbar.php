@@ -2,6 +2,8 @@
     <div class="nav-wrapper container">
       <ul class="hide-on-med-and-down nav">
 
+ <li><a href="<?php bloginfo('url'); ?>/">Home</a>
+
 
  <li><a href="<?php bloginfo('url'); ?>/our-organization">Our Organization</a>
 
