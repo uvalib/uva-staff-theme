@@ -166,9 +166,8 @@ get_header(); ?>
           <div class="icon-block">
             <h5 class="center">Learning Calendar and Staff Events</h5>
             <!--<?php $category_id = get_cat_id('Staff Events'); echo $category_id ?>-->
-            <!--            
             <ul class="collection">
-              <?php query_posts('cat=140,141&showposts=5'); ?>
+              <?php query_posts('cat=92,93&showposts=5'); ?>
               <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
               <li><a href="<?php the_permalink() ?>"><h6><?php the_title(); ?></h6></a>
                 <p class="light truncate"><?php the_excerpt() ?></p>
@@ -176,8 +175,6 @@ get_header(); ?>
               </li>
               <?php endwhile; endif; ?>
             </ul>
-            -->
-            [items type=post cat=calendar order="DESC"]
                           <a href="<?php echo esc_url(home_url('/')); ?>staff-events-and-learning-calendar" class="btn-large waves-effect waves-light  blue darken-4">View more Staff events</a>
 
           </div>
