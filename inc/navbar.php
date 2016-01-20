@@ -135,7 +135,6 @@
                         <div class="nav-column">
                         <ul>
                             <li><a href="http://www.vsp.state.va.us/downloads/SP167.pdf" class="externalLink"><h4>Student Background Check Form</h3></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/forms/student-job-description-form/"><h4>Student Job Description Form </h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/forms/student-personnel-action/"><h4>Student Personnel Action Form</h3></a></li>
                         </ul>
 
@@ -164,7 +163,7 @@
                             <li><a href="<?php bloginfo('url'); ?>/wp-content/uploads/2013/03/Agency_Closing-Manual-Instructions.pdf"><h4>Agency Closing Manual Instructions</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/wp-content/uploads/2012/08/CIP_2012.pdf"><h4>Critical Incident Plan</h3></a></li>
                             <li><a href=<?php bloginfo('url'); ?>/"wp-content/uploads/2012/08/2011cpraed1staid_certs.pdf"><h4>CPR Certified Employees</h3></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/"><h4>Emergency Plans</h3></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/emergency-plans"><h4>Emergency Plans</h3></a></li>
 
                         </ul>
                     </div>
