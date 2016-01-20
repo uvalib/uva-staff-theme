@@ -164,7 +164,7 @@ get_header(); ?>
 
         <div class="col m12 l4">
           <div class="icon-block">
-            <h5 class="center">Learning Calendar and Staff Events</h5>
+            <h5 class="center">Staff Events and Learning Calendar</h5>
             <!--<?php $category_id = get_cat_id('Staff Events'); echo $category_id ?>-->
             <ul class="collection">
               <?php query_posts('cat=92,93&showposts=5'); ?>
