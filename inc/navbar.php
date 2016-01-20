@@ -162,7 +162,7 @@
                         <ul>
                             <li><a href="<?php bloginfo('url'); ?>/wp-content/uploads/2013/03/Agency_Closing-Manual-Instructions.pdf"><h4>Agency Closing Manual Instructions</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/wp-content/uploads/2012/08/CIP_2012.pdf"><h4>Critical Incident Plan</h3></a></li>
-                            <li><a href=<?php bloginfo('url'); ?>/"wp-content/uploads/2012/08/2011cpraed1staid_certs.pdf"><h4>CPR Certified Employees</h3></a></li>
+                            <li><a href="https://www.library.virginia.edu/report-library-incident/"><h4>Incident Reporting Form</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/emergency-plans"><h4>Emergency Plans</h3></a></li>
 
                         </ul>
@@ -173,7 +173,6 @@
 
                         
                         <ul>
-                            <li><a href="https://www.library.virginia.edu/report-library-incident/"><h4>Incident Reporting Form</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/inclement-weather-policy/"><h4>Inclement Weather Policy</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/library-building-space-emergencies/"><h4>Library Building &amp; Space Emergencies</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/policies/"><h4>Policies</h3></a></li>
