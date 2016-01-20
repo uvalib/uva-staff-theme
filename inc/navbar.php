@@ -14,6 +14,7 @@
 
                       <h3 class="noLinkHeader">Library Areas</h3>                  
                         <ul>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/office-of-the-university-librarian/"><h4>Office of the University Librarian</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/academic-engagement/"><h4>Academic Engagement</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/administration-planning/"><h4>Administration &amp; Planning</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/collections-access-discovery/"><h4>Collections, Access, and Discovery</h4></a></li>
