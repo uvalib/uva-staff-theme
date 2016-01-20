@@ -176,10 +176,7 @@
                             <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/inclement-weather-policy/"><h4>Inclement Weather Policy</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/library-building-space-emergencies/"><h4>Library Building &amp; Space Emergencies</h3></a></li>
                         </ul>
-                    </div>
-
-                    <div class="nav-column">
-                            <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/emergency-preparedness">See all...</a>
+                          <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/emergency-preparedness">See all...</a>
                     </div>
 
             </div>
