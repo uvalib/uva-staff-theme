@@ -44,7 +44,7 @@
 		// When the staff information update form is loaded and the employee data request is for a change...
 		if ($('.f-staff-information-update-form').length) {
 			$('.ff-type-of-request input').change(function() {
-				if ($('.ff-type-of-request input[value=Change to current employee]').is(':checked')) {
+				if ($(".ff-type-of-request input[value='Change to current employee']").is(':checked')) {
 					getExistingStaffDirectoryValues('.ff-employee-email-address input', '.ff-employee-official-name input', '.ff-employee-preferred-name input',
 						'.ff-employee-nametag-name input', '.ff-employee-primary-phone-number input', '.ff-employee-job-title input', '.ff-team input',
 						'.ff-office-location input', '.ff-address input', '.ff-job-summary input', '.ff-professional-profile input');

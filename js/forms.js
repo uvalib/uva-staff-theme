@@ -40,8 +40,8 @@ function getExistingStaffDirectoryValues(empEmail,officialName,preferredName,nam
 			$(title).attr('value', empData.title);
 			$(team).attr('value', empData.team[0]);
 			$(officeLocation).attr('value', empData.officeLocation);
-			if ($(address+'[type=radio][value='+empData.address+']')) {
-				$(address+'[type=radio][value='+empData.address+']').prop('checked', true);
+			if ($(address+"[type=radio][value='"+empData.address+"']")) {
+				$(address+"[type=radio][value='"+empData.address+"']").prop('checked', true);
 			} else {
 				$(address+'[type=text]').attr('value', empData.address);
 			}
