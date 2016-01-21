@@ -60,8 +60,8 @@ add_filter('gform_field_value_current_time',
 
 // Staff Purchase Request form: adjust the notification based on rush or not
 // Test server form ID=25
-// Prod server form ID=
-add_filter('gform_notification_25', 'gf_change_purchase_request_notification_email', 10, 2);
+// Prod server form ID=33
+add_filter('gform_notification_33', 'gf_change_purchase_request_notification_email', 10, 2);
 function gf_change_purchase_request_notification_email($notification, $form, $entry){
 	// Check to see if this purchase is rush or not to adjust the subject line.
 	if (isset($_POST['input_60']) and ($_POST['input_60'] == 'Yes')) {
