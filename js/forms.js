@@ -4,7 +4,7 @@ var ldapSearchURL = location.protocol+'//'+document.domain+'/find_uva_person/lda
 // Retrieve employee information from the staff.json file and update form field values to 
 function getExistingStaffDirectoryValues(empEmail,officialName,preferredName,nametagName,phone,title,
 	team,officeLocation,address,jobSummary,professionalProfile) {
-	$.getJSON('http://static.lib.virginia.edu/directory/_data/staff.json', function(staffDir) {
+	$.getJSON('//static.lib.virginia.edu/directory/_data/staff.json', function(staffDir) {
 		// Initialize employee data record as if employee is new/not found.
 		var empData = {
 			'uid':'', 
