@@ -40,7 +40,18 @@
 					'.ff-student-last-name input', '.ff-student-email input', '.ff-student-phone input', '.ff-student-affiliation select', 
 					'.ff-student-department select', '.ff-student-other-department input');
 		});
-			
+
+		// When the staff information update form is loaded and the employee data request is for a change...
+		if ($('.f-staff-information-update-form').length) {
+			$('.ff-type-of-request input').change(function() {
+				if ($('.ff-type-of-request').val() == 'Change to current employee') {
+					getExistingStaffDirectoryValues('.ff-employee-email-address input', '.ff-employee-official-name input', '.ff-employee-preferred-name input',
+						'.ff-employee-nametag-name input', '.ff-employee-primary-phone-number input', '.ff-employee-job-title input', '.ff-team input',
+						'.ff-office-location input', '.ff-address input', '.ff-job-summary input', '.ff-professional-profile input');
+				}
+			});
+		}
+		
 		// Only allow future dates via the calendar for date fields found on forms.
 		// Optional classes can have first day allowed be a week out and not allow for weekend days to be selected.
 		$('.ff-date input').each(function (i){
