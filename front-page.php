@@ -12,35 +12,35 @@ get_header(); ?>
     <div class="slider">
       <ul class="slides">
         <li>
-          <img src="<?php bloginfo('template_directory'); ?>/images/staff_15.png"> <!-- random image -->
+          <img src="<?php bloginfo('template_directory'); ?>/images/staff_15.png" alt=""> <!-- random image -->
           <div class="caption center-align" id="title1">
             <h3>Diversity &amp; Inclusion</h3>
             <h5 class="light grey-text text-lighten-3">Encouraging and celebrating our differences.</h5>
           </div>
         </li>
         <li>
-          <img src="<?php bloginfo('template_directory'); ?>/images/staff_16.png"> <!-- random image -->
+          <img src="<?php bloginfo('template_directory'); ?>/images/staff_16.png" alt=""> <!-- random image -->
           <div class="caption left-align" id="title2">
             <h3>Innovation</h3>
             <h5 class="light grey-text text-lighten-3">Challenging the status quo and rewarding responsible risk taking.</h5>
           </div>
         </li>
         <li>
-          <img src="<?php bloginfo('template_directory'); ?>/images/staff-2.png"> <!-- random image -->
+          <img src="<?php bloginfo('template_directory'); ?>/images/staff-2.png" alt=""> <!-- random image -->
           <div class="caption left-align" id="title3">
               <h3>Integrity</h3>
             <h5 class="light grey-text text-lighten-3">Being honest, open, fair, and trustworthy.</h5>
           </div>
         </li>
         <li>
-          <img src="<?php bloginfo('template_directory'); ?>/images/staff_5.png"> <!-- random image -->
+          <img src="<?php bloginfo('template_directory'); ?>/images/staff_5.png" alt=""> <!-- random image -->
           <div class="caption center-align" id="title4">
             <h3>Collaboration</h3>
             <h5 class="light grey-text text-lighten-3">Seeking out and appreciating all perspectives and contributions.</h5>
           </div>
         </li>
         <li>
-          <img src="<?php bloginfo('template_directory'); ?>/images/staff_starburst.png"> <!-- random image -->
+          <img src="<?php bloginfo('template_directory'); ?>/images/staff_starburst.png" alt=""> <!-- random image -->
           <div class="caption left-align" id="title5">
             <h3>Respect</h3>
             <h5 class="light grey-text text-lighten-3">Recognizing the dignity of everyone in the organization.</h5>
@@ -170,7 +170,7 @@ get_header(); ?>
               <?php query_posts('cat=92,93&showposts=5'); ?>
               <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
               <li><a href="<?php the_permalink() ?>"><h6><?php the_title(); ?></h6></a>
-                <p class="light truncate"><?php the_excerpt() ?></p>
+                <!--<p class="light truncate"><?php the_excerpt() ?></p>-->
                 <a class="right-align" href="<?php the_permalink() ?>">Read more »</a>
               </li>
               <?php endwhile; endif; ?>
