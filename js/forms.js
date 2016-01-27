@@ -38,7 +38,7 @@ function getExistingStaffDirectoryValues(empEmail,officialName,preferredName,nam
 			jQuery(nametagName).attr('value', empData.displayName);
 			jQuery(phone).attr('value', empData.phone);
 			jQuery(title).attr('value', empData.title);
-			jQuery(team).attr('value', empData.team[0]);
+			jQuery(team).attr('value', empData.teams[0]);
 			jQuery(officeLocation).attr('value', empData.officeLocation);
 			if (jQuery(address+"[type=radio][value='"+empData.address+"']")) {
 				jQuery(address+"[type=radio][value='"+empData.address+"']").prop('checked', true);
