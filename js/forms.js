@@ -26,27 +26,27 @@ function getExistingStaffDirectoryValues(empEmail,officialName,preferredName,nam
 		};
 		// get the employee's record by searching for the matching email address
 		for (var compId in staffDir) {
-			if (staffDir[compId].email == empEmail.val()) {
+			if (staffDir[compId].email == jQuery(empEmail).val()) {
 				empData = staffDir[compId];
 				break;
 			}
 		}
 		// Update form field values if the person was found.
-		if (empData.email == empEmail.val()) {
-			$(officialName).attr('value', empData.lastName+', '+empData.firstName+' '+empData.middleName);
-			$(preferredName).attr('value', empData.nickName);
-			$(nametagName).attr('value', empData.displayName);
-			$(phone).attr('value', empData.phone);
-			$(title).attr('value', empData.title);
-			$(team).attr('value', empData.team[0]);
-			$(officeLocation).attr('value', empData.officeLocation);
-			if ($(address+"[type=radio][value='"+empData.address+"']")) {
-				$(address+"[type=radio][value='"+empData.address+"']").prop('checked', true);
+		if (empData.email == jQuery(empEmail).val()) {
+			jQuery(officialName).attr('value', empData.lastName+', '+empData.firstName+' '+empData.middleName);
+			jQuery(preferredName).attr('value', empData.nickName);
+			jQuery(nametagName).attr('value', empData.displayName);
+			jQuery(phone).attr('value', empData.phone);
+			jQuery(title).attr('value', empData.title);
+			jQuery(team).attr('value', empData.team[0]);
+			jQuery(officeLocation).attr('value', empData.officeLocation);
+			if (jQuery(address+"[type=radio][value='"+empData.address+"']")) {
+				jQuery(address+"[type=radio][value='"+empData.address+"']").prop('checked', true);
 			} else {
-				$(address+'[type=text]').attr('value', empData.address);
+				jQuery(address+'[type=text]').attr('value', empData.address);
 			}
-			$(jobSummary).attr('value', empData.jobsummary);
-			$(professionalProfile).attr('value', empData.professionalprofile);
+			jQuery(jobSummary).attr('value', empData.jobsummary);
+			jQuery(professionalProfile).attr('value', empData.professionalprofile);
 		}
 	});
 }
