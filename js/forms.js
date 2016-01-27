@@ -45,8 +45,8 @@ function getExistingStaffDirectoryValues(empEmail,officialName,preferredName,nam
 			} else {
 				jQuery(address+'[type=text]').attr('value', empData.address);
 			}
-			jQuery(jobSummary).attr('value', empData.jobsummary);
-			jQuery(professionalProfile).attr('value', empData.professionalprofile);
+			jQuery(jobSummary).text(empData.jobsummary);
+			jQuery(professionalProfile).text(empData.professionalprofile);
 		}
 	});
 }
