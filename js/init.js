@@ -53,7 +53,7 @@
 				}
 			});
 			$('.ff-fields-to-be-updated').change(function() {
-				if ($(".ff-fields-to-be-updated input[value='Employee's Primary Phone Number']").is(':checked')) {
+				if ($(".ff-fields-to-be-updated input[value='Employee\'s Primary Phone Number']").is(':checked')) {
 					$('.ff-employee-primary-phone-number input').val(employee.phone);
 				}
 				if ($(".ff-fields-to-be-updated input[value='Professional Profile']").is(':checked')) {
