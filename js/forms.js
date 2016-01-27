@@ -41,8 +41,7 @@ function getExistingStaffDirectoryValues(empEmail,officialName,preferredName,nam
 			jQuery(team).attr('value', empData.teams[0]);
 			jQuery(officeLocation).attr('value', empData.officeLocation);
 			if (jQuery(address+"[type=radio][value='"+empData.address+"']")) {
-				var location = empData.officeLocation.split(' ');
-				jQuery(address+"[type=radio][option='"+location[0]+"'][value='"+empData.address+"']").prop('checked', true);
+				jQuery(address+"[type=radio][value='"+empData.address+"']").prop('checked', true);
 			} else {
 				jQuery(address+'[type=text]').attr('value', empData.address);
 			}

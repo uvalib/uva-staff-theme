@@ -47,7 +47,7 @@
 				if ($(".ff-type-of-request input[value='Change to current employee']").is(':checked')) {
 					getExistingStaffDirectoryValues('.ff-employee-email-address input', '.ff-employee-official-name input', '.ff-employee-preferred-name input',
 						'.ff-employee-nametag-name input', '.ff-employee-primary-phone-number input', '.ff-employee-job-title input', '.ff-team-name input',
-						'.ff-primary-office-location input', '.ff-address input', '.ff-job-summary input', '.ff-professional-profile input');
+						'.ff-primary-office-location input', '.ff-address input', '.ff-job-summary textarea', '.ff-professional-profile textarea');
 				}
 			});
 		}
