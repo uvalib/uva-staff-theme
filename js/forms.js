@@ -2,28 +2,29 @@
 var ldapSearchURL = location.protocol+'//'+document.domain+'/find_uva_person/ldap.php';
 
 // Retrieve employee information from the staff.json file and update form field values to 
-function getExistingStaffDirectoryValues(empEmail,officialName,preferredName,nametagName,phone,title,
-	team,officeLocation,address,jobSummary,professionalProfile) {
+function getExistingStaffDirectoryValues(empEmail) {
+//,officialName,preferredName,nametagName,phone,title,
+//	team,officeLocation,address,jobSummary,professionalProfile) {
+	// Initialize employee data record as if employee is new/not found.
+	var empData = {
+		'uid':'', 
+		'teams':[''], 
+		'libraries':[''], 
+		'displayName':'', 
+		'nickName':'', 
+		'firstName':'', 
+		'middleName':'', 
+		'lastName':'', 
+		'title':'', 
+		'email':'', 
+		'phone':'', 
+		'library':'', 
+		'officeLocation':'', 
+		'address':'', 
+		'jobsummary':'', 
+		'professionalprofile':''
+	};
 	$.getJSON('//static.lib.virginia.edu/directory/_data/staff.json', function(staffDir) {
-		// Initialize employee data record as if employee is new/not found.
-		var empData = {
-			'uid':'', 
-			'teams':[''], 
-			'libraries':[''], 
-			'displayName':'', 
-			'nickName':'', 
-			'firstName':'', 
-			'middleName':'', 
-			'lastName':'', 
-			'title':'', 
-			'email':'', 
-			'phone':'', 
-			'library':'', 
-			'officeLocation':'', 
-			'address':'', 
-			'jobsummary':'', 
-			'professionalprofile':''
-		};
 		// get the employee's record by searching for the matching email address
 		for (var compId in staffDir) {
 			if (staffDir[compId].email == jQuery(empEmail).val()) {
@@ -31,8 +32,9 @@ function getExistingStaffDirectoryValues(empEmail,officialName,preferredName,nam
 				break;
 			}
 		}
-		// Update form field values if the person was found.
-		if (empData.email == jQuery(empEmail).val()) {
+		return false;
+	});
+/*		if (empData.email == jQuery(empEmail).val()) {
 			jQuery(officialName).attr('value', empData.lastName+', '+empData.firstName+' '+empData.middleName);
 			jQuery(preferredName).attr('value', empData.nickName);
 			jQuery(nametagName).attr('value', empData.displayName);
@@ -47,8 +49,8 @@ function getExistingStaffDirectoryValues(empEmail,officialName,preferredName,nam
 			}
 			jQuery(jobSummary).text(empData.jobsummary);
 			jQuery(professionalProfile).text(empData.professionalprofile);
-		}
-	});
+		}*/
+	return empData;
 }
 
 // Loop through the department form field selection options to determine 

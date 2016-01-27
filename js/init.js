@@ -42,14 +42,37 @@
 		});
 
 		// When the staff information update form is loaded and the employee data request is for a change...
+		var employee;
 		if ($('.f-staff-information-update-form').length) {
 			$('.ff-type-of-request input').change(function() {
 				if ($(".ff-type-of-request input[value='Change to current employee']").is(':checked')) {
-					getExistingStaffDirectoryValues('.ff-employee-email-address input', '.ff-employee-official-name input', '.ff-employee-preferred-name input',
-						'.ff-employee-nametag-name input', '.ff-employee-primary-phone-number input', '.ff-employee-job-title input', '.ff-team-name input',
-						'.ff-primary-office-location input', '.ff-address input', '.ff-job-summary textarea', '.ff-professional-profile textarea');
+					//getExistingStaffDirectoryValues('.ff-employee-email-address input', '.ff-employee-official-name input', '.ff-employee-preferred-name input',
+					//	'.ff-employee-nametag-name input', '.ff-employee-primary-phone-number input', '.ff-employee-job-title input', '.ff-team-name input',
+					//	'.ff-primary-office-location input', '.ff-address input', '.ff-job-summary textarea', '.ff-professional-profile textarea');
+					employee = getExistingStaffDirectoryValues('.ff-employee-email-address input');
 				}
 			});
+			$('.ff-fields-to-be-updated').change(function() {
+				if ($(".ff-fields-to-bo-updated input[value='Professional Profile']").is(':checked')) {
+					$('.ff-professional-profile textarea').text(employee.professionalprofile);
+				}
+			});
+/*		if (empData.email == jQuery(empEmail).val()) {
+			jQuery(officialName).attr('value', empData.lastName+', '+empData.firstName+' '+empData.middleName);
+			jQuery(preferredName).attr('value', empData.nickName);
+			jQuery(nametagName).attr('value', empData.displayName);
+			jQuery(phone).attr('value', empData.phone);
+			jQuery(title).attr('value', empData.title);
+			jQuery(team).attr('value', empData.teams[0]);
+			jQuery(officeLocation).attr('value', empData.officeLocation);
+			if (jQuery(address+"[type=radio][value='"+empData.address+"']")) {
+				jQuery(address+"[type=radio][value='"+empData.address+"']").prop('checked', true);
+			} else {
+				jQuery(address+'[type=text]').attr('value', empData.address);
+			}
+			jQuery(jobSummary).text(empData.jobsummary);
+			jQuery(professionalProfile).text(empData.professionalprofile);
+		}*/
 		}
 		
 		// Only allow future dates via the calendar for date fields found on forms.
