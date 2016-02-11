@@ -2,7 +2,7 @@
 var ldapSearchURL = location.protocol+'//'+document.domain+'/find_uva_person/ldap.php';
 
 // Retrieve employee information from the staff.json file and update form field values to 
-function getExistingStaffDirectoryValues(empEmail) {
+function getExistingStaffDirectoryInfo(empEmail) {
 //,officialName,preferredName,nametagName,phone,title,
 //	team,officeLocation,address,jobSummary,professionalProfile) {
 	// Initialize employee data record as if employee is new/not found.
@@ -24,6 +24,7 @@ function getExistingStaffDirectoryValues(empEmail) {
 		'jobsummary':'', 
 		'professionalprofile':''
 	};
+	var htmlOutput = '';
 	$.getJSON('//static.lib.virginia.edu/directory/_data/staff.json', function(staffDir) {
 		// get the employee's record by searching for the matching email address
 		for (var compId in staffDir) {
@@ -34,9 +35,9 @@ function getExistingStaffDirectoryValues(empEmail) {
 		}
 		return false;
 	});
-/*		if (empData.email == jQuery(empEmail).val()) {
-			jQuery(officialName).attr('value', empData.lastName+', '+empData.firstName+' '+empData.middleName);
-			jQuery(preferredName).attr('value', empData.nickName);
+		if (empData.email == jQuery(empEmail).val()) {
+			htmlOutput += '<strong>Official Name:</strong>'+empData.lastName+', '+empData.firstName+' '+empData.middleName;
+/*			jQuery(preferredName).attr('value', empData.nickName);
 			jQuery(nametagName).attr('value', empData.displayName);
 			jQuery(phone).attr('value', empData.phone);
 			jQuery(title).attr('value', empData.title);
@@ -49,8 +50,14 @@ function getExistingStaffDirectoryValues(empEmail) {
 			}
 			jQuery(jobSummary).text(empData.jobsummary);
 			jQuery(professionalProfile).text(empData.professionalprofile);
-		}*/
-	return empData;
+*/		}
+	return htmlOutput;
+}
+
+// Show existing staff directory info for an employee
+function showStaffInfo(divID,empEmail) {
+	var htmlStr = getExistingStaffDirectoryInfo(empEmail);
+	jQuery(divID).text(htmlStr).show();	
 }
 
 // Loop through the department form field selection options to determine 
