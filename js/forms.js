@@ -57,7 +57,8 @@ function getExistingStaffDirectoryInfo(empEmail) {
 // Show existing staff directory info for an employee
 function showStaffInfo(divID,empEmail) {
 	var htmlStr = getExistingStaffDirectoryInfo(empEmail);
-	jQuery(divID).text(htmlStr).show();	
+	jQuery(divID).append(htmlStr);	
+	jQuery(divID).show();	
 }
 
 // Loop through the department form field selection options to determine 
