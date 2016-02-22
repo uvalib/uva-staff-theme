@@ -42,7 +42,7 @@ function showStaffInfo(divID,empEmail) {
 			htmlOutput += '<em>Job Summary:</em> '+empData.jobsummary+'<br/>';
 			htmlOutput += '<em>Professional Profile:</em> '+empData.professionalprofile+'<br/>';
 		}
-		jQuery(divID).append(htmlOutput);	
+		jQuery(divID).empty().append(htmlOutput);	
 	});
 }
 
