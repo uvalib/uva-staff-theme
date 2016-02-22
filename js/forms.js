@@ -25,18 +25,17 @@ function getExistingStaffDirectoryInfo(empEmail) {
 		'professionalprofile':''
 	};
 	var htmlOutput = '';
-	$.getJSON('//static.lib.virginia.edu/directory/_data/staff.json', function(staffDir) {
+	jQuery.getJSON('//static.lib.virginia.edu/directory/_data/staff.json', function(data) {
 		// get the employee's record by searching for the matching email address
-		for (var compId in staffDir) {
-			if (staffDir[compId].email == jQuery(empEmail).val()) {
+		for (var compId in data) {
+			if (data[compId].email == jQuery(empEmail).val()) {
 				empData = staffDir[compId];
 				break;
 			}
 		}
-		return false;
 	});
-		if (empData.email == jQuery(empEmail).val()) {
-			htmlOutput += '<strong>Official Name:</strong>'+empData.lastName+', '+empData.firstName+' '+empData.middleName;
+	if (empData.email == jQuery(empEmail).val()) {
+			htmlOutput += '<strong>Official Name:</strong>'+empData.lastName+', '+empData.firstName+' '+empData.middleName+'<br/>';
 /*			jQuery(preferredName).attr('value', empData.nickName);
 			jQuery(nametagName).attr('value', empData.displayName);
 			jQuery(phone).attr('value', empData.phone);
@@ -56,9 +55,62 @@ function getExistingStaffDirectoryInfo(empEmail) {
 
 // Show existing staff directory info for an employee
 function showStaffInfo(divID,empEmail) {
+	var empData = {
+		'uid':'', 
+		'teams':[''], 
+		'libraries':[''], 
+		'displayName':'', 
+		'nickName':'', 
+		'firstName':'', 
+		'middleName':'', 
+		'lastName':'', 
+		'title':'', 
+		'email':'', 
+		'phone':'', 
+		'library':'', 
+		'officeLocation':'', 
+		'address':'', 
+		'jobsummary':'', 
+		'professionalprofile':''
+	};
+	var htmlOutput = '';
+	jQuery.getJSON('//static.lib.virginia.edu/directory/_data/staff.json', function(data) {
+		// get the employee's record by searching for the matching email address
+		for (var compId in data) {
+			if (data[compId].email == jQuery(empEmail).val()) {
+				empData = staffDir[compId];
+				break;
+			}
+		}
+	});
+	if (empData.email == jQuery(empEmail).val()) {
+		htmlOutput += '<strong>Official Name:</strong>'+empData.lastName+', '+empData.firstName+' '+empData.middleName+'<br/>';
+		htmlOutput += '<strong>Preferred Name:</strong>'+empData.nickName+'<br/>';
+		htmlOutput += '<strong>Nametag Name:</strong>'+empData.displayName+'<br/>';
+		htmlOutput += '<strong>Phone Number:</strong>'+empData.phone+'<br/>';
+		htmlOutput += '<strong>Title:</strong>'+empData.title+'<br/>';
+		htmlOutput += '<strong>Team:</strong>'+empData.teams[0]+'<br/>';
+		htmlOutput += '<strong>Office Location:</strong>'+empData.officeLocation+'<br/>';
+		htmlOutput += '<strong>Address:</strong>'+empData.address+'<br/>';
+		htmlOutput += '<strong>Job Summary:</strong>'+empData.jobsummary+'<br/>';
+		htmlOutput += '<strong>Professional Profile:</strong>'+empData.professionalprofile+'<br/>';
+/*			jQuery(preferredName).attr('value', empData.nickName);
+			jQuery(nametagName).attr('value', empData.displayName);
+			jQuery(phone).attr('value', empData.phone);
+			jQuery(title).attr('value', empData.title);
+			jQuery(team).attr('value', empData.teams[0]);
+			jQuery(officeLocation).attr('value', empData.officeLocation);
+			if (jQuery(address+"[type=radio][value='"+empData.address+"']")) {
+				jQuery(address+"[type=radio][value='"+empData.address+"']").prop('checked', true);
+			} else {
+				jQuery(address+'[type=text]').attr('value', empData.address);
+			}
+			jQuery(jobSummary).text(empData.jobsummary);
+			jQuery(professionalProfile).text(empData.professionalprofile);
+*/
+	}
+	jQuery(divID).append(htmlOutput);	
 	alert("Testing");
-	var htmlStr = getExistingStaffDirectoryInfo(empEmail);
-	jQuery(divID).append(htmlStr);	
 }
 
 // Loop through the department form field selection options to determine 
