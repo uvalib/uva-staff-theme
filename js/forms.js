@@ -78,7 +78,7 @@ function showStaffInfo(divID,empEmail) {
 		// get the employee's record by searching for the matching email address
 		for (var compId in data) {
 			if (data[compId].email == jQuery(empEmail).val()) {
-				empData = staffDir[compId];
+				empData = data[compId];
 				break;
 			}
 		}
