@@ -82,35 +82,35 @@ function showStaffInfo(divID,empEmail) {
 				break;
 			}
 		}
+		if (empData.email == jQuery(empEmail).val()) {
+			htmlOutput += '<strong>Official Name:</strong>'+empData.lastName+', '+empData.firstName+' '+empData.middleName+'<br/>';
+			htmlOutput += '<strong>Preferred Name:</strong>'+empData.nickName+'<br/>';
+			htmlOutput += '<strong>Nametag Name:</strong>'+empData.displayName+'<br/>';
+			htmlOutput += '<strong>Phone Number:</strong>'+empData.phone+'<br/>';
+			htmlOutput += '<strong>Title:</strong>'+empData.title+'<br/>';
+			htmlOutput += '<strong>Team:</strong>'+empData.teams[0]+'<br/>';
+			htmlOutput += '<strong>Office Location:</strong>'+empData.officeLocation+'<br/>';
+			htmlOutput += '<strong>Address:</strong>'+empData.address+'<br/>';
+			htmlOutput += '<strong>Job Summary:</strong>'+empData.jobsummary+'<br/>';
+			htmlOutput += '<strong>Professional Profile:</strong>'+empData.professionalprofile+'<br/>';
+			alert("Output:"+htmlOutput);
+	/*			jQuery(preferredName).attr('value', empData.nickName);
+				jQuery(nametagName).attr('value', empData.displayName);
+				jQuery(phone).attr('value', empData.phone);
+				jQuery(title).attr('value', empData.title);
+				jQuery(team).attr('value', empData.teams[0]);
+				jQuery(officeLocation).attr('value', empData.officeLocation);
+				if (jQuery(address+"[type=radio][value='"+empData.address+"']")) {
+					jQuery(address+"[type=radio][value='"+empData.address+"']").prop('checked', true);
+				} else {
+					jQuery(address+'[type=text]').attr('value', empData.address);
+				}
+				jQuery(jobSummary).text(empData.jobsummary);
+				jQuery(professionalProfile).text(empData.professionalprofile);
+	*/
+		}
+		jQuery(divID).append(htmlOutput);	
 	});
-	if (empData.email == jQuery(empEmail).val()) {
-		htmlOutput += '<strong>Official Name:</strong>'+empData.lastName+', '+empData.firstName+' '+empData.middleName+'<br/>';
-		htmlOutput += '<strong>Preferred Name:</strong>'+empData.nickName+'<br/>';
-		htmlOutput += '<strong>Nametag Name:</strong>'+empData.displayName+'<br/>';
-		htmlOutput += '<strong>Phone Number:</strong>'+empData.phone+'<br/>';
-		htmlOutput += '<strong>Title:</strong>'+empData.title+'<br/>';
-		htmlOutput += '<strong>Team:</strong>'+empData.teams[0]+'<br/>';
-		htmlOutput += '<strong>Office Location:</strong>'+empData.officeLocation+'<br/>';
-		htmlOutput += '<strong>Address:</strong>'+empData.address+'<br/>';
-		htmlOutput += '<strong>Job Summary:</strong>'+empData.jobsummary+'<br/>';
-		htmlOutput += '<strong>Professional Profile:</strong>'+empData.professionalprofile+'<br/>';
-		alert("Output:"+htmlOutput);
-/*			jQuery(preferredName).attr('value', empData.nickName);
-			jQuery(nametagName).attr('value', empData.displayName);
-			jQuery(phone).attr('value', empData.phone);
-			jQuery(title).attr('value', empData.title);
-			jQuery(team).attr('value', empData.teams[0]);
-			jQuery(officeLocation).attr('value', empData.officeLocation);
-			if (jQuery(address+"[type=radio][value='"+empData.address+"']")) {
-				jQuery(address+"[type=radio][value='"+empData.address+"']").prop('checked', true);
-			} else {
-				jQuery(address+'[type=text]').attr('value', empData.address);
-			}
-			jQuery(jobSummary).text(empData.jobsummary);
-			jQuery(professionalProfile).text(empData.professionalprofile);
-*/
-	}
-	jQuery(divID).append(htmlOutput);	
 	alert("Testing");
 }
 
