@@ -94,6 +94,7 @@ function showStaffInfo(divID,empEmail) {
 		htmlOutput += '<strong>Address:</strong>'+empData.address+'<br/>';
 		htmlOutput += '<strong>Job Summary:</strong>'+empData.jobsummary+'<br/>';
 		htmlOutput += '<strong>Professional Profile:</strong>'+empData.professionalprofile+'<br/>';
+		alert("Output:"+htmlOutput);
 /*			jQuery(preferredName).attr('value', empData.nickName);
 			jQuery(nametagName).attr('value', empData.displayName);
 			jQuery(phone).attr('value', empData.phone);
