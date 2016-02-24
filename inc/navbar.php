@@ -20,6 +20,7 @@
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/collections-access-discovery/"><h4>Collections, Access, and Discovery</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/content-stewardship/"><h4>Content Stewardship</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/library-experience/"><h4>Library Experience</h4></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/special-collections/"><h4>Special Collections</h4></a></li>
                         </ul>
                     </div>
 
@@ -40,7 +41,7 @@
                         <ul>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/expert-testers/"><h4>Expert Testers Group</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/our-organization/all-cross-area-groups/"><h4>All Cross-Area Groups</h4></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/colleague-connection/"><h4>Colleague Connection</h4></a></li>
                         </ul>
                                                 <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/our-organization">See all...</a>
                      </div>
@@ -193,6 +194,14 @@
           </li>
 
           <li><a href="<?php bloginfo('url'); ?>/about">About</a>
+          
+              <div class="dropdown">
+
+              <div class="nav-column">
+                  <ul>
+                      <li><a href="<?php bloginfo('url'); ?>/about/faqs-for-editing-staff-website/"><h4>FAQs for Editing the Staff Website</h3></a></li>
+                  </ul>
+              </div>
 
       </ul>
 

@@ -1,11 +1,8 @@
 // Customization for AJAX using Gravity Forms.
 var ldapSearchURL = location.protocol+'//'+document.domain+'/find_uva_person/ldap.php';
 
-// Retrieve employee information from the staff.json file and update form field values to 
-function getExistingStaffDirectoryValues(empEmail) {
-//,officialName,preferredName,nametagName,phone,title,
-//	team,officeLocation,address,jobSummary,professionalProfile) {
-	// Initialize employee data record as if employee is new/not found.
+// Show existing staff directory info for an employee
+function showStaffInfo(divID,empEmail) {
 	var empData = {
 		'uid':'', 
 		'teams':[''], 
@@ -24,33 +21,29 @@ function getExistingStaffDirectoryValues(empEmail) {
 		'jobsummary':'', 
 		'professionalprofile':''
 	};
-	$.getJSON('//static.lib.virginia.edu/directory/_data/staff.json', function(staffDir) {
+	var htmlOutput = '';
+	jQuery.getJSON('//static.lib.virginia.edu/directory/_data/staff.json', function(data) {
 		// get the employee's record by searching for the matching email address
-		for (var compId in staffDir) {
-			if (staffDir[compId].email == jQuery(empEmail).val()) {
-				empData = staffDir[compId];
+		for (var compId in data) {
+			if (data[compId].email == jQuery(empEmail).val()) {
+				empData = data[compId];
 				break;
 			}
 		}
-		return false;
+		if (empData.email == jQuery(empEmail).val()) {
+			htmlOutput += '<em>Official Name:</em> '+empData.lastName+', '+empData.firstName+' '+empData.middleName+'<br/>';
+			htmlOutput += '<em>Preferred Name:</em> '+empData.nickName+'<br/>';
+			htmlOutput += '<em>Nametag Name:</em> '+empData.displayName+'<br/>';
+			htmlOutput += '<em>Phone Number:</em> '+empData.phone+'<br/>';
+			htmlOutput += '<em>Title:</em> '+empData.title+'<br/>';
+			htmlOutput += '<em>Team:</em> '+empData.teams[0]+'<br/>';
+			htmlOutput += '<em>Office Location:</em> '+empData.officeLocation+'<br/>';
+			htmlOutput += '<em>Address:</em> '+empData.address+'<br/>';
+			htmlOutput += '<em>Job Summary:</em> '+empData.jobsummary+'<br/>';
+			htmlOutput += '<em>Professional Profile:</em> '+empData.professionalprofile+'<br/>';
+		}
+		jQuery(divID).empty().append(htmlOutput);	
 	});
-/*		if (empData.email == jQuery(empEmail).val()) {
-			jQuery(officialName).attr('value', empData.lastName+', '+empData.firstName+' '+empData.middleName);
-			jQuery(preferredName).attr('value', empData.nickName);
-			jQuery(nametagName).attr('value', empData.displayName);
-			jQuery(phone).attr('value', empData.phone);
-			jQuery(title).attr('value', empData.title);
-			jQuery(team).attr('value', empData.teams[0]);
-			jQuery(officeLocation).attr('value', empData.officeLocation);
-			if (jQuery(address+"[type=radio][value='"+empData.address+"']")) {
-				jQuery(address+"[type=radio][value='"+empData.address+"']").prop('checked', true);
-			} else {
-				jQuery(address+'[type=text]').attr('value', empData.address);
-			}
-			jQuery(jobSummary).text(empData.jobsummary);
-			jQuery(professionalProfile).text(empData.professionalprofile);
-		}*/
-	return empData;
 }
 
 // Loop through the department form field selection options to determine 
