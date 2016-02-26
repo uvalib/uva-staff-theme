@@ -33,7 +33,7 @@ function showStaffInfo(divID,empEmail) {
 		if (empData.email == jQuery(empEmail).val()) {
 			htmlOutput += '<em>Official Name:</em> '+empData.lastName+', '+empData.firstName+' '+empData.middleName+'<br/>';
 			htmlOutput += '<em>Preferred Name:</em> '+empData.nickName+'<br/>';
-			htmlOutput += '<em>Nametag Name:</em> '+empData.displayName+'<br/>';
+			//htmlOutput += '<em>Nametag Name:</em> '+empData.displayName+'<br/>';
 			htmlOutput += '<em>Phone Number:</em> '+empData.phone+'<br/>';
 			htmlOutput += '<em>Title:</em> '+empData.title+'<br/>';
 			htmlOutput += '<em>Team:</em> '+empData.teams[0]+'<br/>';
