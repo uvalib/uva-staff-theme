@@ -33,6 +33,7 @@
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/staff-resources-for-organizational-change/"><h4>Staff Resources for Organizational Change</h4></a></li>
                             <li><a href="http://leadership.library.virginia.edu" class="externalLink"><h4>Library Leadership Notes</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/news"><h4>Library News and Updates</h4></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/staff-senate/"><h4>Staff Senate</h4></a></li>
                         </ul>
                     </div>
 
@@ -42,7 +43,7 @@
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/expert-testers/"><h4>Expert Testers Group</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/colleague-connection/"><h4>Colleague Connection</h4></a></li>
-                            <li><a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/our-organization">See all...</a></li>
+                            <li><a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/our-organization/all-cross-area-groups/">See all...</a></li>
                         </ul>
 
                      </div>
