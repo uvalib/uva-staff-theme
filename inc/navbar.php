@@ -17,10 +17,10 @@
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/office-of-the-university-librarian/"><h4>Office of the University Librarian</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/academic-engagement/"><h4>Academic Engagement</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/administration-planning/"><h4>Administration &amp; Planning</h4></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/our-organization/collections-access-discovery/"><h4>Collections, Access, and Discovery</h4></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/collections-access-discovery/"><h4>Collections Access &amp; Discovery</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/content-stewardship/"><h4>Content Stewardship</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/library-experience/"><h4>Library Experience</h4></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/our-organization/special-collections/"><h4>Special Collections</h4></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/special-collections/"><h4>Harrison-Small Research Center</h4></a></li>
                         </ul>
                     </div>
 
