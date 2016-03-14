@@ -197,6 +197,13 @@ a
 	display: block;
 }
 
+
+.nav-column .btn-large{
+  padding-left:2em;
+  padding-right:2em;
+}
+
+
 .hentry {
 
     border-bottom: 1px solid #ddd;
@@ -709,10 +716,8 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
     opacity: 0;
     visibility: hidden;
     overflow: hidden;
- 
     background: #F1F1EF;
     border-radius: 0 0 3px 3px;
- 
     -webkit-transition: all .3s ease .15s;
     -moz-transition: all .3s ease .15s;
     -o-transition: all .3s ease .15s;
@@ -1319,4 +1324,10 @@ margin:0;
   }
 
 
+}
+
+
+@media only screen and (max-width: 1296px)
+.hide-on-med-and-down {
+    /*display: none !important;*/
 }
