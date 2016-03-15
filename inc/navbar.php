@@ -129,16 +129,16 @@
                         
                         <ul>
                             <li><a href="http://staff.lib.virginia.edu/systems/libsys/help-request.php"><h4>LTS Help Ticket</h3></a></li>
+                            <li><a href="http://staff.lib.virginia.edu/systems/facilities/facilities-help-request.php"><h4>Library Facilities Help Request</h3></a></li>
                             <li><a href="https://www.library.virginia.edu/services/cataloging-request/" class="externalLink"><h4>VIRGO Cataloging Request Form</h3></a></li>
                             <li><a href="http://www.virginia.edu/uvaprint/pcshelp/" class="externalLink"><h4>PCS Help Ticket</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/forms/presformpage1/"><h4>Preservation Assessment Form</h3></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/forms/reward-and-recognition-award-form/"><h4>Reward &amp; Recognition Form </h3></a></li>
-
                         </ul>
                     </div>
 
                         <div class="nav-column">
                         <ul>
+                            <li><a href="<?php bloginfo('url'); ?>/forms/reward-and-recognition-award-form/"><h4>Reward &amp; Recognition Form </h3></a></li>
                             <li><a href="http://www.vsp.state.va.us/downloads/SP167.pdf" class="externalLink"><h4>Student Background Check Form</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/forms/student-personnel-action/"><h4>Student Personnel Action Form</h3></a></li>
                         </ul>
