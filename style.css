@@ -460,7 +460,7 @@ clear:right;
 width:703px; height:236px;
 text-indent: 100%;
 white-space: nowrap;
-overflow: hidden; 
+overflow: hidden;
 z-index:9995;
   }
 
@@ -536,7 +536,7 @@ text-decoration: none
 }
 
 .newsColumns{
-    -webkit-column-count: 2;  Chrome, Safari, Opera 
+    -webkit-column-count: 2;  Chrome, Safari, Opera
     -moz-column-count: 2; Firefox
     column-count: 2;
 }
@@ -565,7 +565,7 @@ clear:none;
 
 }
 
-.dropdown, #mega-menu{ 
+.dropdown, #mega-menu{
 
 -webkit-box-shadow: 16px 16px 31px -15px rgba(13,30,45,1);
 -moz-box-shadow: 16px 16px 31px -15px rgba(13,30,45,1);
@@ -609,9 +609,9 @@ http://designmodo.com/create-css3-mega-menu/
     border: none;
     outline: none;
 }
- 
+
 .nav a { text-decoration: none; }
- 
+
 
 
 /*Then we will add some basic styles to the menu container and float the list items to the left in order to show them on the same line.*/
@@ -622,7 +622,7 @@ http://designmodo.com/create-css3-mega-menu/
     cursor: default;
     z-index: 9998;
 }
- 
+
 .nav > li {
     display: block;
     float: left;
@@ -677,11 +677,11 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
 }
 
 
-.nav > li:hover > a { 
-  background: #F1F1EF; 
+.nav > li:hover > a {
+  background: #F1F1EF;
     color: #002359 !important;
 }
- 
+
 .nav > li:first-child > a {
     border-radius: 3px 0 0 3px;
     border-left: none;
@@ -742,7 +742,7 @@ input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly
 .nav .nav-column li {
   clear: both;
   }
- 
+
 .nav .nav-column h3 {
     margin: 20px 0 10px 0;
     line-height: 18px;
@@ -897,7 +897,7 @@ color:#002359;
 text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
   }
- 
+
 
 
 .nav .nav-column li a, .nav .nav-column h5{
@@ -915,10 +915,10 @@ text-rendering: optimizeLegibility !important;
 .nav .nav-column li a:hover { color: #666666; }
 
 
- 
-.nav > li a { 
+
+.nav > li a {
   font-family: "franklin-gothic-urw",sans-serif;
-  color: #666666; 
+  color: #666666;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
@@ -952,7 +952,7 @@ text-rendering: optimizeLegibility !important;
  .slider, .slider .slides {
   height: 474px;
  }
- 
+
 
 .noLinkHeader, .card-title{
 
@@ -983,7 +983,7 @@ a{
   color: #002359;
 }
 
-body{  
+body{
 font-family: "franklin-gothic-urw",sans-serif;
 }
 
@@ -1025,8 +1025,10 @@ text-rendering: optimizeLegibility !important;
   color:#fff;
 }
 
-
-
+@media screen and (min-width: 1295px) {
+	#nav-collapse {
+		display: none;
+	}
 
 p {
   line-height: 2rem;
@@ -1091,7 +1093,7 @@ strong, b {
 }
 
 
-#sideNav, .collapsible-header::before { 
+#sideNav, .collapsible-header::before {
    font-family: FontAwesome;
    content: "\f152";
    display: inline-block;
@@ -1100,7 +1102,7 @@ strong, b {
 }
 
 
-.externalLink::after { 
+.externalLink::after {
    font-family: FontAwesome;
    content: "\f08e";
    display: inline-block;
@@ -1128,7 +1130,7 @@ strong, b {
 }
 
 
-#sideNav, .collapsible-header.active::before { 
+#sideNav, .collapsible-header.active::before {
    font-family: FontAwesome;
    content: "\f150";
    display: inline-block;
@@ -1139,7 +1141,7 @@ strong, b {
 
 
 
-.icon-block .facebook::before { 
+.icon-block .facebook::before {
 
    content: url(images/facebook.png);
    display: inline-block;
@@ -1148,7 +1150,7 @@ strong, b {
    vertical-align: middle;
 }
 
-.icon-block .twitter::before { 
+.icon-block .twitter::before {
 
    content: url(images/twitter.png);
    display: inline-block;
@@ -1186,7 +1188,7 @@ color:#E57200;
 .collapsible{
   border:none;
   box-shadow: 0 0 0 0;
-} 
+}
 
 
 .content #primary{
@@ -1201,7 +1203,7 @@ text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
 }
- 
+
 
  .collapsible-header{
   background-color:#666;
@@ -1248,7 +1250,7 @@ padding-bottom:.3em;
     }
 
 
- 
+
 /*---------This is the code that was in the Library Experience page ------------*/
 
 .secondary-img {
@@ -1337,6 +1339,3 @@ margin:0;
 
 
 }
-
-
-

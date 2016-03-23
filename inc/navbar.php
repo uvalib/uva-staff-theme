@@ -12,7 +12,7 @@
 
                      <div class="nav-column">
 
-                      <h3 class="noLinkHeader">Library Areas</h3>                  
+                      <h3 class="noLinkHeader">Library Areas</h3>
                         <ul>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/office-of-the-university-librarian/"><h4>Office of the University Librarian</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/academic-engagement/"><h4>Academic Engagement</h4></a></li>
@@ -27,7 +27,7 @@
 
                      <div class="nav-column">
 
-                      <h3 class="noLinkHeader">General</h3>                   
+                      <h3 class="noLinkHeader">General</h3>
                         <ul>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/organizational-values/"><h4>Organizational Values</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/staff-resources-for-organizational-change/"><h4>Staff Resources for Organizational Change</h4></a></li>
@@ -50,7 +50,7 @@
 
 
         </li>
-      
+
         <li><a href="<?php bloginfo('url'); ?>/employee-resources">Employee Resources</a>
             <div class="dropdown">
                     <div class="nav-column">
@@ -69,7 +69,7 @@
                                 <li><a href="<?php bloginfo('url'); ?>/employee-resources/staff-computing-technology/"><h4>Staff Computing &amp; Technology</h4></a></li>
                         </ul>
                     </div>
-                     
+
                     <div class="nav-column">
                         <h3 class="noLinkHeader">Library Human Resources</h3>
                         <ul>
@@ -92,7 +92,7 @@
                         </ul>
                         <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/employee-resources">See all...</a>
                     </div>
-                 
+
                 </div>
         </li>
 
@@ -110,23 +110,23 @@
                         </ul>
 
                     </div>
-                        <div class="nav-column">   
+                        <div class="nav-column">
                                     <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/library-data-statistics/ ">See all...</a>
-                                    </div> 
+                                    </div>
 
     </div>
 
-        
+
 
         </li>
-       
+
         <li><a href="<?php bloginfo('url'); ?>/all-forms/">Forms</a>
 
 <div class="dropdown">
 
                     <div class="nav-column">
 
-                        
+
                         <ul>
                             <li><a href="http://staff.lib.virginia.edu/systems/libsys/help-request.php"><h4>LTS Help Ticket</h3></a></li>
                             <li><a href="http://staff.lib.virginia.edu/systems/facilities/facilities-help-request.php"><h4>Library Facilities Help Request</h3></a></li>
@@ -150,7 +150,7 @@
                         </div>
     </div>
 
-        
+
 
         </li>
 
@@ -163,7 +163,7 @@
 
                     <div class="nav-column">
 
-                        
+
                         <ul>
                             <li><a href="<?php bloginfo('url'); ?>/wp-content/uploads/2013/03/Agency_Closing-Manual-Instructions.pdf"><h4>Agency Closing Manual Instructions</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/wp-content/uploads/2012/08/CIP_2012.pdf"><h4>Critical Incident Plan</h3></a></li>
@@ -176,7 +176,7 @@
 
                         <div class="nav-column">
 
-                        
+
                         <ul>
                             <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/inclement-weather-policy/"><h4>Inclement Weather Policy</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness/library-building-space-emergencies/"><h4>Library Building &amp; Space Emergencies</h3></a></li>
@@ -195,7 +195,7 @@
           </li>
 
           <li><a href="<?php bloginfo('url'); ?>/about">About</a>
-          
+
               <div class="dropdown">
 
               <div class="nav-column">
@@ -214,17 +214,6 @@
         <li><a href="<?php bloginfo('url'); ?>/emergency-preparedness">Emergency Preparedness</a></li>
           <li><a href="<?php bloginfo('url'); ?>/about">About</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <a id="nav-collapse" href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
   </nav>
-
-
-
-
-
-
-
-
-
-
-
