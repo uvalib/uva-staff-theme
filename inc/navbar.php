@@ -2,7 +2,6 @@
     <div class="nav-wrapper container">
       <ul class="hide-on-med-and-down nav">
 
- <li><a href="<?php bloginfo('url'); ?>/">Home</a>
 
 
  <li><a href="<?php bloginfo('url'); ?>/our-organization">Our Organization</a>
@@ -51,7 +50,7 @@
 
         </li>
 
-        <li><a href="<?php bloginfo('url'); ?>/employee-resources">Staff Resources</a>
+        <li><a href="<?php bloginfo('url'); ?>/employee-resources">Resources</a>
             <div class="dropdown">
                     <div class="nav-column">
                         <h3 class="noLinkHeader">Computing</h3>
