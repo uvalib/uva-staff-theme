@@ -28,6 +28,14 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 
+			<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+    <?php if(function_exists('bcn_display'))
+    {
+        bcn_display();
+    }?>
+</div>
+
+
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
