@@ -1339,3 +1339,7 @@ margin:0;
 
 
 }
+
+.ui-datepicker-header {
+	color: #383838 !important;
+}
