@@ -60,6 +60,7 @@
                                     <li><a href="https://libguides.com/login.php?iid=216" class="externalLink"><h5>LibGuides</h5></a></li>
                                     <li><a href="https://virginia.libanalytics.com/" class="externalLink"><h5>LibAnalytics</h5></a></li>
                                     <li><a href="https://virginia.libapps.com" class="externalLink"><h5>LibApps</h5></a></li>
+                                    <li><a href="https://confluence.lib.virginia.edu" class="externalLink"><h5>Confluence</h5></a></li>
                                     <li><a href="http://lb-mssql.eservices.virginia.edu/directorsstation/" class="externalLink"><h5>Director's Station</h5></a></li>
                                     <li><a href="http://analytics.lib.virginia.edu" class="externalLink"><h5>Piwik</h5></a></li>
                                 </ul>
