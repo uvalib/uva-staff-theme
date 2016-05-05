@@ -33,6 +33,7 @@
                             <li><a href="http://leadership.library.virginia.edu" class="externalLink"><h4>Library Leadership Notes</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/news"><h4>Library News and Updates</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/staff-senate/"><h4>Staff Senate</h4></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/university-librarys-action-team-framework/"><h4>Action Team Framework</h4></a></li>
                         </ul>
                     </div>
 
