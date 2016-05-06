@@ -71,7 +71,7 @@
                     </div>
 
                     <div class="nav-column">
-                        <h3 class="noLinkHeader">Employment Resources</h3>
+                        <h3 class="noLinkHeader">Staff Employment Resources</h3>
                         <ul>
                            <li><a href="<?php bloginfo('url'); ?>/our-organization/staff-senate/"><h4>Staff Senate</h4></a></li>
                             <li><a href="http://www.hr.virginia.edu/hr-for-you/classified-staff/classified-staff-policies-procedures/" class="externalLink"><h4>Classified Staff Policies</h4></a></li>
