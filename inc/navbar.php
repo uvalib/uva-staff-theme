@@ -39,9 +39,7 @@
                      <div class="nav-column">
                         <h3 class="noLinkHeader">Cross-Area Groups</h3>
                         <ul>
-                            <li><a href="<?php bloginfo('url'); ?>/our-organization/expert-testers/"><h4>Expert Testers Group</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/our-organization/colleague-connection/"><h4>Colleague Connection</h4></a></li>
                         </ul>
                             <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/our-organization/all-cross-area-groups/">See all...</a>
                      </div>
