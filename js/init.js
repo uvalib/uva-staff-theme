@@ -22,10 +22,10 @@
 				$('li.current-menu-item > ul.collapsible-body').css('display','block');
 			}
 		}
-		
+
 		// Standard staff information form fields can be prepopulated via LDAP using the computing ID
 		$('.ff-staff-computing-id input').on('change', function() {
-			uvaComputingIdChanged('.ff-staff-computing-id input', '.ff-staff-name input', '.ff-staff-email input', 
+			uvaComputingIdChanged('.ff-staff-computing-id input', '.ff-staff-name input', '.ff-staff-email input',
 					'.ff-staff-phone input', '.ff-staff-affiliation select', '.ff-staff-department select', '.ff-staff-other-department input');
 		});
 		// If computing id not empty on page load then populate other staff fields
@@ -33,14 +33,14 @@
 			uvaComputingIdChanged('.ff-staff-computing-id input', '.ff-staff-name input', '.ff-staff-email input',
 					'.ff-staff-phone input', '.ff-staff-affiliation select', '.ff-staff-department select', '.ff-staff-other-department input');
 		}
-		
+
 		// Standard student information form fields can be prepopulated via LDAP using their computing ID
 		$('.ff-student-computing-id input').change(function() {
 			uvaStudentComputingIdChanged('.ff-student-computing-id input', '.ff-student-first-name input', '.ff-student-nick-name input',
-					'.ff-student-last-name input', '.ff-student-email input', '.ff-student-phone input', '.ff-student-affiliation select', 
+					'.ff-student-last-name input', '.ff-student-email input', '.ff-student-phone input', '.ff-student-affiliation select',
 					'.ff-student-department select', '.ff-student-other-department input');
 		});
-		
+
 		// Only allow future dates via the calendar for date fields found on forms.
 		// Optional classes can have first day allowed be a week out and not allow for weekend days to be selected.
 		$('.ff-date input').each(function (i){
@@ -52,7 +52,13 @@
 		$('.ff-date.no-weekend input').each(function (i){
 			$(this).datepicker('option', 'beforeShowDay', $.datepicker.noWeekends).datepicker('refresh');
 		});
-		
+
+    // Student Personnel Action Form - add some CSS to the page content so that if the print
+    // feature is selected only the important form data is displayed on the output.
+    if ($('.student-personnel-action-form').length) {
+    	$('<style media="print">#main article > * {position: static; overflow: visible;} #masthead, #mega-menu, div.breadcrumbs, #comments, #sideNav, footer {display: none;}</style>').appendTo('head');
+    }
+
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
-
