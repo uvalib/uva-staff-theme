@@ -56,7 +56,7 @@
     // Student Personnel Action Form - add some CSS to the page content so that if the print
     // feature is selected only the important form data is displayed on the output.
     if ($('.student-personnel-action-form').length) {
-    	$('<style media="print">#main article > * {position: static; overflow: visible;} #masthead, #mega-menu, div.breadcrumbs, #comments, #sideNav, footer {display: none;}</style>').appendTo('head');
+    	$('<style media="print">#main article > * {position: static; overflow: visible; margin: 0} #masthead, #mega-menu, div.breadcrumbs, #comments, #sideNav, footer {display: none;}</style>').appendTo('head');
     }
 
 
