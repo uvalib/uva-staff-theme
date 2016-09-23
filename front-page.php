@@ -90,7 +90,7 @@ get_header(); ?>
             <div class="col m12 l4">
               <div class="icon-block">
                 <h5><a href="<?php echo esc_url(home_url('/')); ?>news"">Library News &amp; Updates</a></h5>
-              
+
               <ul class="collection">
                 <?php
                 $args=array(
@@ -113,7 +113,7 @@ get_header(); ?>
             <div class="col m12 l4">
               <div class="icon-block">
                 <h5><a href="http://leadership.library.virginia.edu">Library Leadership Blog</a></h5>
-              
+
                 <?php
                 wprss_display_feed_items( $args = array(
                     'links_before' => '<ul class="collection">',
@@ -151,7 +151,7 @@ get_header(); ?>
             $my_query = new WP_Query($args);
             if( $my_query->have_posts() ) {
               while ($my_query->have_posts()) : $my_query->the_post(); ?>
-                <p><small><?php the_time('d.m.y') ?></small> <a href="<?php the_permalink() ?>" rel="bookmark" title="Odkaz na <?php the_title_attribute(); ?>"><?php the_title(); ?></a></p>
+                <p><small><?php the_time('d.m.y') ?></small> <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></p>
                 <?php
               endwhile;
             }
@@ -202,7 +202,7 @@ get_header(); ?>
     </main><!-- #main -->
   </div><!-- #primary -->
 
-<!-- 
+<!--
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
