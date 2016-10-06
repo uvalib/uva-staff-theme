@@ -8,7 +8,7 @@
     "wget": "latest"
   },
   "scripts": {
-    "deploy-theme": "rsync -avh --delete ../uva-staff-theme $SERVER:/usr/share/wordpress/wp-content/themes/uva-staff-theme",
+    "deploy-theme": "rsync -avh --delete ../uva-staff-theme/ $SERVER:/usr/share/wordpress/wp-content/themes/uva-staff-theme",
     "switch-latest-release": "git tag | grep '^v.*' | sort -V | tail -n1 | xargs git checkout",
     "deploy-dev": "export SERVER=finch.lib.virginia.edu && npm run deploy-theme",
     "deploy-prod": "npm run switch-latest-release && export SERVER=staffweb.lib.virginia.edu && npm run deploy-theme",
