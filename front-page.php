@@ -89,7 +89,7 @@ get_header(); ?>
 
             <div class="col m12 l4">
               <div class="icon-block">
-                <h5><a href="<?php echo esc_url(home_url('/')); ?>news"">Library News &amp; Updates</a></h5>
+                <h5><a href="/news">Library News &amp; Updates</a></h5>
 
               <ul class="collection">
                 <?php
