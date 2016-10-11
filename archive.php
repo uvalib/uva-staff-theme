@@ -15,7 +15,7 @@ get_header(); ?>
     <div class="section">
  <div class="row">
 
-      <div class="col l8 m12"> 
+      <div class="col l8 m12">
         <div>
 
 
@@ -41,7 +41,7 @@ get_header(); ?>
 					 * If you want to override this in a child theme, then include a file
 					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 					 */
-					get_template_part( 'template-parts/content', get_post_format() );
+					get_template_part( 'template-parts/content-category-page', get_post_format() );
 				?>
 
 			<?php endwhile; ?>
@@ -90,12 +90,12 @@ get_header(); ?>
 
 
 
-		    			<?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?> 
-		    			<?php the_widget( 'WP_Widget_Tag_Cloud', $instance, $args ); ?> 
-		    			<?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?> 
+		    			<?php the_widget( 'WP_Widget_Categories', $instance, $args ); ?>
+		    			<?php the_widget( 'WP_Widget_Tag_Cloud', $instance, $args ); ?>
+		    			<?php the_widget( 'WP_Widget_Archives', $instance, $args ); ?>
 
 		    		</div>
-		    			
+
   </div>
   </div>
 </div>
