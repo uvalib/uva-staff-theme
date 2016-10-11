@@ -1025,9 +1025,9 @@ text-rendering: optimizeLegibility !important;
   color:#fff;
 }
 
-@media screen and (min-width: 1295px) {
+@media screen and (min-width: 895px) {
 	#nav-collapse {
-		display: none;
+		//display: none;
 	}
 
 p {
@@ -1287,18 +1287,18 @@ margin:0;
 
 @media only screen and (max-width : 1296px) {
 
-.nav{
+/*.nav{
   visibility:hidden;
-}
+}*/
 
 
 
 }
 
 @media only screen and (max-width: 1296px){
-.hide-on-med-and-down {
+/*.hide-on-med-and-down {
     display: none !important;
-}
+}*/
 }
 
 
