@@ -628,7 +628,9 @@ http://designmodo.com/create-css3-mega-menu/
     float: left;
 }
 
-
+#nav-mobile{
+  background-color: #E57200;
+}
 
 .icon-block li{
 margin-bottom: 1em;
@@ -1226,12 +1228,6 @@ margin:0;
 text-rendering: optimizeLegibility !important;
 -webkit-font-smoothing: antialiased !important;
  }
-
-
-
-#nav-mobile{
-  background-color: #E57200;
-}
 
 
 .icon-block h5, .widget .widgettitle{
