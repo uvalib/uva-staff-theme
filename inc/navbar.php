@@ -72,9 +72,10 @@
                         <h3 class="noLinkHeader">Staff Employment Resources</h3>
                         <ul>
                            <li><a href="<?php bloginfo('url'); ?>/our-organization/staff-senate/"><h4>Staff Senate</h4></a></li>
+                           <li><a href="<?php bloginfo('url'); ?>/our-organization/library-staff-council/"><h4>Library Staff Council</h4></a></li>
                             <li><a href="http://www.hr.virginia.edu/hr-for-you/classified-staff/classified-staff-policies-procedures/" class="externalLink"><h4>Classified Staff Policies</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/faculty-promotion-guidelines/"><h4>Faculty promotion guidelines &amp; review</h4></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/employee-resources/open-positions-and-selections/"><h4>Open Positions &amp; Selections</h4></a></li></li>
+                            <li><a href="<?php bloginfo('url'); ?>/employee-resources/open-positions-and-selections/"><h4>Open Positions &amp; Selections</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/employee-resources/resources-for-managers-and-supervisors/"><h4>Resources for Managers &amp; Supervisors</h4></a></li>
                             <li><a href="http://www.hr.virginia.edu/other-hr-services/payroll-information/payroll-policies-and-procedures/payroll-taxes1/" class="externalLink"><h4>UHR Tax Information</h4></a></li>
                             <li><a href="http://provost.virginia.edu/faculty-resources/policies" class="externalLink"><h4>University Faculty Policies</h4></a></li>
