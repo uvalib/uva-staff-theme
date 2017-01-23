@@ -97,7 +97,7 @@
         </li>
 
 
-<li><a href="<?php bloginfo('url'); ?>/library-data-statistics/">Data &amp; Statistics</a>
+<li><a href="<?php bloginfo('url'); ?>/library-data-statistics/libanalytics/">Data &amp; Statistics</a>
 
 <div class="dropdown">
 
