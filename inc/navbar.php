@@ -106,7 +106,7 @@
                         <ul>
                             <li><a href="http://assessment.library.virginia.edu/statistics/" class="externalLink"><h4>Statistics</h4></a></li>
                             <li><a href="http://assessment.library.virginia.edu/surveys-and-reports/" class="externalLink"><h4>User Survey</h4></a></li>
-                            <li><a href="/library-data-statistics/libanalytics/"><h4>LibAnalytics</h4></a></li>
+                            <li><a href="/library-data-statistics/libanalytics/"><h4>LibInsight</h4></a></li>
                         </ul>
 
                     </div>
