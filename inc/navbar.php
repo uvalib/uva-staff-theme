@@ -80,6 +80,7 @@
                             <li><a href="http://www.hr.virginia.edu/other-hr-services/payroll-information/payroll-policies-and-procedures/payroll-taxes1/" class="externalLink"><h4>UHR Tax Information</h4></a></li>
                             <li><a href="http://provost.virginia.edu/faculty-resources/policies" class="externalLink"><h4>University Faculty Policies</h4></a></li>
                             <li><a href="http://www.hr.virginia.edu/hr-for-you/university-staff/university-staff-policies-and-procedures/" class="externalLink"><h4>University Staff Policies</h4></a></li>
+                            <li><a href="http://cal.lib.virginia.edu/calendar/libstaff/" class="externalLink"><h4>Staff Calendar</h4></a></li>
                         </ul>
                     </div>
                      <div class="nav-column">
