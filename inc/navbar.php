@@ -14,12 +14,13 @@
                       <h3 class="noLinkHeader">Library Areas</h3>
                         <ul>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/office-of-the-university-librarian/"><h4>Office of the University Librarian</h4></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/our-organization/academic-engagement/"><h4>Academic Engagement</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/administration-planning/"><h4>Administration &amp; Planning</h4></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/our-organization/collections-access-discovery/"><h4>Collections Access &amp; Discovery</h4></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/our-organization/content-stewardship/"><h4>Content Stewardship</h4></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/our-organization/library-experience/"><h4>Library Experience</h4></a></li>
-                            <li><a href="<?php bloginfo('url'); ?>/our-organization/harrison-small-research-center/"><h4>Harrison-Small Research Center</h4></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/harrison-small-research-center/"><h4>Archives &amp; Special Collections</h4></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/content-stewardship/"><h4>Content Stewardship &amp; Scholarly Communication</h4></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/library-experience/"><h4>Library Information Technology</h4></a></li>
+                            <li><a href="<?php bloginfo('url'); ?>/our-organization/academic-engagement/"><h4>Library Space &amp; Services</h4></a></li>
+					        <li><a href="<?php bloginfo('url'); ?>/our-organization/collections-access-discovery/"><h4>Scholarly Resources &amp; Content Strategy</h4></a></li>
+
                         </ul>
                     </div>
 
