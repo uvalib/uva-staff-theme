@@ -46,7 +46,7 @@
             <li><a href="http://hr.virginia.edu">U.Va. Human Resources</a></li>
             <li><a href="http://library.virginia.edu">U.Va. Library Home</a></li>
             <li><a href="http://www.library.virginia.edu/staff/">Staff Directory</a></li>
-            <li><a href="https://e1prdw2.admin.virginia.edu:8090/OA_HTML/AppsLocalLogin.jsp">SSTL</a></li>
+            <li><a href="https://is.admin.virginia.edu/OA_HTML/OA.jsp?OAFunc=OAHOMEPAGE">SSTL</a></li>
             <li><a href="https://benefits.sites.virginia.edu/Home">Benefits@U.Va.</a></li>
             <li><a href="https://portal3.sumtotalsystems.com/sites/100090/">Lead@U.Va.</a></li>
           </ul>
@@ -59,7 +59,7 @@
       </div>
     </div>
   </footer>
-  
+
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
@@ -77,7 +77,7 @@
 <!-- End Piwik Code -->
 
 
-            
+
 
 
 
@@ -91,4 +91,3 @@
 
 </body>
 </html>
-
