@@ -29,8 +29,8 @@ function populate_usermeta($meta_key){
 // populate the field with "uva_computing_id" as the population parameter with the "login" of the current user
 add_filter('gform_field_value_uva_computing_id', 
     create_function('', 
-        '$value = (isset($_SERVER["REDIRECT_REMOTE_USER"])) ? $_SERVER["REDIRECT_REMOTE_USER"] : populate_usermeta(\'user_login\'); 
-        return $value;' 
+        '$value = (isset($_SERVER["REMOTE_USER"])) ? $_SERVER["REMOTE_USER"] : populate_usermeta(\'user_login\'); 
+        return $value;'
     )
 );
 
