@@ -81,13 +81,13 @@
                             <li><a href="http://www.hr.virginia.edu/other-hr-services/payroll-information/payroll-policies-and-procedures/payroll-taxes1/" class="externalLink"><h4>UHR Tax Information</h4></a></li>
                             <li><a href="http://provost.virginia.edu/faculty-resources/policies" class="externalLink"><h4>University Faculty Policies</h4></a></li>
                             <li><a href="http://www.hr.virginia.edu/hr-for-you/university-staff/university-staff-policies-and-procedures/" class="externalLink"><h4>University Staff Policies</h4></a></li>
-                            <li><a href="http://cal.lib.virginia.edu/calendar/libstaff/" class="externalLink"><h4>Staff Calendar</h4></a></li>
+                            <!--<li><a href="http://cal.lib.virginia.edu/calendar/libstaff/" class="externalLink"><h4>Staff Calendar</h4></a></li>-->
                         </ul>
                     </div>
                      <div class="nav-column">
                         <h3 class="noLinkHeader">Professional Development</h3>
                         <ul>
-                            <li><a href="http://staff.lib.virginia.edu/HR/training/calendar.html" class="externalLink"><h4>Learning Calendar</h4></a></i></li>
+                            <li><a href="http://cal.lib.virginia.edu/calendar/libstaff/?cid=5794&t=m&d=0000-00-00&cal%5B%5D=5794" class="externalLink"><h4>Staff Calendar</h4></a></i></li>
                             <li><a href="<?php bloginfo('url'); ?>/employee-resources/professional-development-funding-program/"><h4>Professional Development Funding Program</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/employee-resources/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/employee-resources/training-professional-development/"><h4>Training and professional development opportunities</h4></a></li>
