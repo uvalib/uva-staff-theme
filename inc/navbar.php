@@ -31,7 +31,7 @@
                         <ul>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/organizational-values/"><h4>Organizational Values</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/staff-resources-for-organizational-change/"><h4>Staff Resources for Organizational Change</h4></a></li>
-                            <li><a href="http://leadership.library.virginia.edu" class="externalLink"><h4>Library Leadership Notes</h4></a></li>
+                            <li><a href="https://leadership.library.virginia.edu" class="externalLink"><h4>Library Leadership Notes</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/news"><h4>Library News and Updates</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/university-librarys-action-team-framework/"><h4>Action Team Framework</h4></a></li>
                         </ul>
