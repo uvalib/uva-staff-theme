@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 	<?php wp_head(); ?>
 
-  <script src="http://static.lib.virginia.edu/js/controllers/staffweb.js"></script>
+  <script src="//static.lib.virginia.edu/js/controllers/staffweb.js"></script>
   <script src="https://use.typekit.net/cwp8apd.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
