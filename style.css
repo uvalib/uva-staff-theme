@@ -173,7 +173,7 @@ a
 }
 
 /* Added to support implementation of https://github.com/paypal/skipto */
-skipToMenu {
+#skipToMenu {
 	z-index: 10000;
 }
 
