@@ -172,6 +172,11 @@ a
 	z-index: 100000; /* Above WP toolbar. */
 }
 
+/* Added to support implementation of https://github.com/paypal/skipto */
+skipToMenu {
+	z-index: 10000;
+}
+
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
