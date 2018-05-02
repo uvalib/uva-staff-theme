@@ -15,7 +15,7 @@
       </ul>
     </div>
   </nav>
-        
+
 
         <!-- Dropdown Structure -->
 
@@ -23,7 +23,7 @@
       <div class="row">
       <div class="col s4">
 
-            <h3 class="noLinkHeader">Library Areas</h3>  
+            <h3 class="noLinkHeader">Library Areas</h3>
 <ul>
 
           <li><a href="<?php bloginfo(''); ?>/organizational-design/academic-engagement/"><h4>Academic Engagement</h4></a></li>
@@ -32,13 +32,13 @@
           <li><a href="<?php bloginfo(''); ?>/organizational-design/content-stewardship/"><h4>Content Stewardship</h4></a></li>
           <li><a href="<?php bloginfo(''); ?>/organizational-design/library-experience/"><h4>Library Experience</h4></a></li>
 </ul>
-        
+
 
       </div>
       <div class="col s4">
 
 
-                             <h3 class="noLinkHeader">General</h3>                   
+                             <h3 class="noLinkHeader">General</h3>
                         <ul>
                             <li><a href="<?php bloginfo(''); ?>/category/library-leadership-notes/"><h4>Library Leadership Notes</h3></a></li>
                             <li><a href="<?php bloginfo(''); ?>/library_strategy/"><h4>Library Strategy</h4></a></li>
@@ -77,7 +77,7 @@
                             <li><a href="<?php bloginfo(''); ?>/"><h4>Logins</h4></a>
                                 <ul>
                                     <li><a href="<?php bloginfo(''); ?>/"><h5>Director's Station</h5></a></li>
-                                    <li><a href="http://analytics.lib.virginia.edu"><h5>Piwik</h5></a></li>
+                                    <li><a href="https://analytics.lib.virginia.edu"><h5>Piwik</h5></a></li>
                                     <li><a href="https://ref.lib.virginia.edu"><h5>LibGuides (or LibApps)</h5></a></li>
                                 </ul>
                                     </li>
@@ -85,7 +85,7 @@
                                 <li><a href="<?php bloginfo(''); ?>/category/staff-computing-technology/"><h4>Staff Computing &amp; Technology</h4></a></li>
                         </ul>
                     </div>
-                     
+
                     <div class="col s4">
                         <h3 class="noLinkHeader">Library Human Resources</h3>
                         <ul>
@@ -110,16 +110,10 @@
                             <li><a href="<?php bloginfo(''); ?>/hr-budget-grants/training-professional-development/"><h4>Training and professional development opportunities</h4></a></li>
                         </ul>
                     </div>
-        
+
 
       </div>
-    
+
 
 
 </div>
-
-
-
-
-
- 

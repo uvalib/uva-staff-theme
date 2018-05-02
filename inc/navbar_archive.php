@@ -30,7 +30,7 @@
 
                              <h3 class="noLinkHeader">General</h3>
                         <ul>
-                            <li><a href="http://leadership.library.virginia.edu" class="externalLink"><h4>Library Leadership Notes</h4></a></li>
+                            <li><a href="https://leadership.library.virginia.edu" class="externalLink"><h4>Library Leadership Notes</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/library_strategy/"><h4>Library Strategy</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/organizational-design/organizational-values/"><h4>Organizational Values</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/organizational-design/staff-resources-for-organizational-change/"><h4>Staff Resources for Organizational Change</h4></a></li>
@@ -73,7 +73,7 @@
                             <li><a href="<?php bloginfo('url'); ?>/"><h4>Logins</h4></a>
                                 <ul>
                                     <li><a href="<?php bloginfo('url'); ?>/"><h5>Director's Station</h5></a></li>
-                                    <li><a href="http://analytics.lib.virginia.edu" class="externalLink"><h5>Piwik</h5></a></li>
+                                    <li><a href="https://analytics.lib.virginia.edu" class="externalLink"><h5>Piwik</h5></a></li>
                                     <li><a href="https://ref.lib.virginia.edu" class="externalLink"><h5>LibGuides (or LibApps)</h5></a></li>
                                 </ul>
                                     </li>
@@ -85,20 +85,20 @@
                     <div class="nav-column">
                         <h3 class="noLinkHeader">Library Human Resources</h3>
                         <ul>
-                            <li><a href="http://www.hr.virginia.edu/hr-for-you/classified-staff/classified-staff-policies-procedures/" class="externalLink"><h4>Classified Staff Policies</h4></a></li>
+                            <li><a href="https://www.hr.virginia.edu/hr-for-you/classified-staff/classified-staff-policies-procedures/" class="externalLink"><h4>Classified Staff Policies</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/"><h4>Faculty promotion guidelines &amp; review</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/category/open-positions-selections/"><h4>Open Positions</h4></a></li></li>
                             <li><a href="<?php bloginfo('url'); ?>/hr-budget-grants/resources-for-managers-and-supervisors/"><h4>Resources for Managers &amp; Supervisors</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/"><h4>Tax Forms</h4></a></li>
-                            <li><a href="http://provost.virginia.edu/faculty-resources/policies" class="externalLink"><h4>University Faculty Policies</h4></a></li>
-                            <li><a href="<http://www.hr.virginia.edu/hr-for-you/university-staff/university-staff-policies-and-procedures/" class="externalLink"><h4>University Staff Policies</h4></a></li>
+                            <li><a href="https://provost.virginia.edu/faculty-resources/policies" class="externalLink"><h4>University Faculty Policies</h4></a></li>
+                            <li><a href="<https://www.hr.virginia.edu/hr-for-you/university-staff/university-staff-policies-and-procedures/" class="externalLink"><h4>University Staff Policies</h4></a></li>
                         </ul>
                     </div>
                      <div class="nav-column">
                         <h3 class="noLinkHeader">Professional Development</h3>
                         <ul>
                             <li><a href="<?php bloginfo('url'); ?>/hr-budget-grants/leadership-programs-for-academic-librarians/"><h4>Leadership programs for librarians</h4></a></li>
-                            <li><a href="http://staff.lib.virginia.edu/HR/training/calendar.html" class="externalLink"><h4>Learning Calendar</h4></a></i></li>
+                            <li><a href="https://staff.lib.virginia.edu/HR/training/calendar.html" class="externalLink"><h4>Learning Calendar</h4></a></i></li>
                             <li><a href="<?php bloginfo('url'); ?>/"><h4>Professional development Working Group</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/policies/professional-development-funding-program/"><h4>Professional Development Funding Program</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
@@ -123,8 +123,8 @@
                     <div class="nav-column">
 
                         <ul>
-                            <li><a href="http://assessment.library.virginia.edu/statistics/" class="externalLink"><h4>Statistics</h3></a></li>
-                            <li><a href="http://assessment.library.virginia.edu/surveys-and-reports/" class="externalLink"><h4>User Survey</h3></a></li>
+                            <li><a href="https://assessment.library.virginia.edu/statistics/" class="externalLink"><h4>Statistics</h3></a></li>
+                            <li><a href="https://assessment.library.virginia.edu/surveys-and-reports/" class="externalLink"><h4>User Survey</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/web-analytics-dashboard/"><h4>Web Analytics Dashboard</h3></a></li>
                         </ul>
                     </div>
@@ -143,9 +143,9 @@
 
 
                         <ul>
-                            <li><a href="http://staff.lib.virginia.edu/systems/libsys/help-request.php"><h4>LTS Help Ticket</h3></a></li>
+                            <li><a href="https://staff.lib.virginia.edu/systems/libsys/help-request.php"><h4>LTS Help Ticket</h3></a></li>
                             <li><a href="#"><h4>Metadata Management Services Assessment Form </h3></a></li>
-                            <li><a href="http://www.virginia.edu/uvaprint/pcshelp/" class="externalLink"><h4>PCS Help Ticket</h3></a></li>
+                            <li><a href="https://www.virginia.edu/uvaprint/pcshelp/" class="externalLink"><h4>PCS Help Ticket</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/presformpage1/"><h4>Preservation Assessment Form</h3></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/forms/reward-recognition-award-form/"><h4>Reward &amp; Recognition Form </h3></a></li>
 
@@ -154,8 +154,8 @@
 
                         <div class="nav-column">
                         <ul>
-                            <li><a href="http://www.vsp.state.va.us/downloads/SP167.pdf" class="externalLink"><h4>Student Background Check Form</h3></a></li>
-                            <li><a href="http://staff.lib.virginia.edu/systems/facilities/facilities-help-request.php"><h4>Student Permission Form </h3></a></li>
+                            <li><a href="https://www.vsp.state.va.us/downloads/SP167.pdf" class="externalLink"><h4>Student Background Check Form</h3></a></li>
+                            <li><a href="https://staff.lib.virginia.edu/systems/facilities/facilities-help-request.php"><h4>Student Permission Form </h3></a></li>
                             <li><a href="https://staffweb.lib.virginia.edu/forms/student-personnel-action/"><h4>Student Personnel Action Form</h3></a></li>
                             <li><a href="#"><h4>User Education Instruction Statistics Collection Form</h3></a></li>
                         </ul>

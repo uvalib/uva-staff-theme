@@ -59,7 +59,7 @@ get_header(); ?>
                   <img src="<?php bloginfo('template_directory'); ?>/images/staff_3.png">
                   <span class="card-title activator black-text">Staff Directory<!--<i class="material-icons right">more_vert</i>--></span>
                 </div>
-                <form method="get" action="http://www.library.virginia.edu/staff/">
+                <form method="get" action="https://www.library.virginia.edu/staff/">
                   <div class="card-content black-text">
                     <ul>
                       <li>
@@ -78,7 +78,7 @@ get_header(); ?>
                     <li><a href="#" title="All Staff">All Staff</a></li>
                     <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Administration &amp; Planning Staff</a></li>
                     <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Content Stewardship</a></li>
-                    <li><a href="http://www.library.virginia.edu/staff/#!/libteam-ux" title="Posted 2 June 2015 | 3:35 pm">Library Experience Staff</a></li>
+                    <li><a href="https://www.library.virginia.edu/staff/#!/libteam-ux" title="Posted 2 June 2015 | 3:35 pm">Library Experience Staff</a></li>
                     <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Academic Engagement Staff</a></li>
                     <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Collections, Access &amp; Discovery Staff</a></li>
                     <li><a href="#" title="Posted 2 June 2015 | 3:35 pm">Office of the University Librarian</a></li>
@@ -112,7 +112,7 @@ get_header(); ?>
 
             <div class="col m12 l4">
               <div class="icon-block">
-                <h5><a href="http://leadership.library.virginia.edu">Library Leadership Blog</a></h5>
+                <h5><a href="https://leadership.library.virginia.edu">Library Leadership Blog</a></h5>
 
                 <?php
                 wprss_display_feed_items( $args = array(
@@ -124,7 +124,7 @@ get_header(); ?>
                     'source' => '8543'
                     ));
                 ?>
-              <a class="btn-large waves-effect waves-light center-align blue darken-4" href="http://leadership.library.virginia.edu">Read More</a>
+              <a class="btn-large waves-effect waves-light center-align blue darken-4" href="https://leadership.library.virginia.edu">Read More</a>
 
             </div>
             </div>
@@ -188,7 +188,7 @@ get_header(); ?>
             <h5 class="center">Library Social Media Feeds</h5>
             <?php include_once ABSPATH.WPINC.'/rss.php';
             define('MAGPIE_CACHE_ON', false);
-            $feed = fetch_rss('http://static.lib.virginia.edu/feeds/staffSocial.xml');
+            $feed = fetch_rss('https://static.lib.virginia.edu/feeds/staffSocial.xml');
             $items = array_slice($feed->items, 0, 5);
             foreach ($items as $item):
             ?>

@@ -42,10 +42,10 @@
         <div class="col l3 s12">
           <h5>Helpful Links</h5>
           <ul>
-            <li><a href="http://www.virginia.edu">U.Va. Home</a></li>
-            <li><a href="http://hr.virginia.edu">U.Va. Human Resources</a></li>
-            <li><a href="http://library.virginia.edu">U.Va. Library Home</a></li>
-            <li><a href="http://www.library.virginia.edu/staff/">Staff Directory</a></li>
+            <li><a href="https://www.virginia.edu">U.Va. Home</a></li>
+            <li><a href="https://hr.virginia.edu">U.Va. Human Resources</a></li>
+            <li><a href="https://library.virginia.edu">U.Va. Library Home</a></li>
+            <li><a href="https://www.library.virginia.edu/staff/">Staff Directory</a></li>
             <li><a href="https://is.admin.virginia.edu/OA_HTML/OA.jsp?OAFunc=OAHOMEPAGE">SSTL</a></li>
             <li><a href="https://benefits.sites.virginia.edu/Home">Benefits@U.Va.</a></li>
             <li><a href="https://portal3.sumtotalsystems.com/sites/100090/">Lead@U.Va.</a></li>
@@ -55,7 +55,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="brown-text text-lighten-3" href="https://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>

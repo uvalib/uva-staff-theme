@@ -20,7 +20,7 @@ get_header(); ?>
     <div class="section">
  <div class="row">
 
-      <div class="col l8 m12"> 
+      <div class="col l8 m12">
         <div>
 
 
@@ -28,7 +28,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 
-			<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+			<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
     <?php if(function_exists('bcn_display'))
     {
         bcn_display();
@@ -64,7 +64,7 @@ get_header(); ?>
 
 
 		    		</div>
-		    			
+
   </div>
   </div>
 </div>

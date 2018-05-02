@@ -61,7 +61,7 @@
                                     <li><a href="https://virginia.libapps.com" class="externalLink"><h5>LibApps</h5></a></li>
                                     <li><a href="https://confluence.lib.virginia.edu" class="externalLink"><h5>Confluence</h5></a></li>
                                     <li><a href="http://ds.lib.virginia.edu/directorsstation/" class="externalLink"><h5>Director's Station</h5></a></li>
-                                    <li><a href="http://analytics.lib.virginia.edu" class="externalLink"><h5>Piwik</h5></a></li>
+                                    <li><a href="https://analytics.lib.virginia.edu" class="externalLink"><h5>Piwik</h5></a></li>
                                 </ul>
                                     </li>
                             <li><a href="https://ref.lib.virginia.edu" class="externalLink"><h4>Public Services Wiki</h4></a></li>
@@ -87,7 +87,7 @@
                      <div class="nav-column">
                         <h3 class="noLinkHeader">Professional Development</h3>
                         <ul>
-                            <li><a href="http://cal.lib.virginia.edu/calendar/libstaff/?cid=5794&t=m&d=0000-00-00&cal%5B%5D=5794" class="externalLink"><h4>Staff Calendar</h4></a></i></li>
+                            <li><a href="https://cal.lib.virginia.edu/calendar/libstaff/?cid=5794&t=m&d=0000-00-00&cal%5B%5D=5794" class="externalLink"><h4>Staff Calendar</h4></a></i></li>
                             <li><a href="<?php bloginfo('url'); ?>/employee-resources/professional-development-funding-program/"><h4>Professional Development Funding Program</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/employee-resources/professional-interests-committee/"><h4>Professional Interests Committee (PIC)</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/employee-resources/training-professional-development/"><h4>Training and professional development opportunities</h4></a></li>
@@ -106,8 +106,8 @@
                     <div class="nav-column">
 
                         <ul>
-                            <li><a href="http://assessment.library.virginia.edu/statistics/" class="externalLink"><h4>Statistics</h4></a></li>
-                            <li><a href="http://assessment.library.virginia.edu/surveys-and-reports/" class="externalLink"><h4>User Survey</h4></a></li>
+                            <li><a href="https://assessment.library.virginia.edu/statistics/" class="externalLink"><h4>Statistics</h4></a></li>
+                            <li><a href="https://assessment.library.virginia.edu/surveys-and-reports/" class="externalLink"><h4>User Survey</h4></a></li>
                             <li><a href="/library-data-statistics/libanalytics/"><h4>LibInsight</h4></a></li>
                         </ul>
 
@@ -131,21 +131,21 @@
                         <ul>
                             <li><a href="https://www.library.virginia.edu/services/cataloging-request/" class="externalLink"><h4>Cataloging Request Form</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/our-organization/administration-planning/library-budget-team/grants/libgrants-pre-approval-form/"><h4>Grant Pre-Approval Form</h4></a></li>
-                            <li><a href="http://www.newi9.com/" class="externalLink"><h4>I-9 form</h4></a></li>
+                            <li><a href="https://www.newi9.com/" class="externalLink"><h4>I-9 form</h4></a></li>
                             <li><a href="https://www.library.virginia.edu/report-library-incident/" class="externalLink"><h4>Incident Report Form</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/forms/internal-request-for-library-classroom/"><h4>Internal Classroom Request Form</h4></a></li>
-                        
+
                         </ul>
                     </div>
 
 					<div class="nav-column">
                         <ul>
-                            <li><a href="http://staff.lib.virginia.edu/systems/facilities/facilities-help-request.php" class="externalLink"><h4>Library Facilities Help Request</h4></a></li>
-                            <li><a href="http://staff.lib.virginia.edu/systems/libsys/help-request.php" class="externalLink"><h4>LTS Help Ticket</h4></a></li>
+                            <li><a href="https://staff.lib.virginia.edu/systems/facilities/facilities-help-request.php" class="externalLink"><h4>Library Facilities Help Request</h4></a></li>
+                            <li><a href="https://staff.lib.virginia.edu/systems/libsys/help-request.php" class="externalLink"><h4>LTS Help Ticket</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/all-forms/promotion-help-request/"><h4>Promotion Help Request</h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/all-forms/reward-recognition-award-form/"><h4>Reward &amp; Recognition Form </h4></a></li>
                             <li><a href="<?php bloginfo('url'); ?>/all-forms/staff-information-form/"><h4>Staff Directory/Nametag Form</h4></a></li>
-                        
+
                         </ul>
 					</div>
 
@@ -157,7 +157,7 @@
                             <li><a href="<?php bloginfo('url'); ?>/libx-user-experience-team-help-request-form/"><h4>UX Help Request Form</h4></a></li>
 	                        <a class="btn-large waves-effect waves-light blue darken-4" href="<?php bloginfo('url'); ?>/all-forms/">See all...</a>
                         </ul>
-					</div>       
+					</div>
     </div>
 
 
