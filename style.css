@@ -127,6 +127,13 @@ textarea {
 	width: 100%;
 }
 
+label {
+	color: rgba(0,0,0,0.87);
+}
+
+.gform_wrapper label.gfield_label {
+	font-weight: normal;
+}
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
